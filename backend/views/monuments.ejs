@@ -1,0 +1,17 @@
+<%- include('partials/header', { title: 'Monuments — GEM' }) %>
+  <h1>Monuments</h1>
+  <div class="grid">
+    <% monuments.forEach(m => { %>
+      <div class="card">
+        <% if (m.cover_image) { %>
+          <img src="<%= m.cover_image %>" alt="<%= m.name %>">
+        <% } %>
+        <h2><a href="/monuments/<%= m.id %>"><%= m.name %></a></h2>
+        <p><%= m.era || '' %></p>
+      </div>
+    <% }) %>
+  </div>
+  <% if (monuments.length === 0) { %>
+    <p>No monuments found.</p>
+  <% } %>
+<%- include('partials/footer') %>

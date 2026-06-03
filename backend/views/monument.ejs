@@ -1,0 +1,31 @@
+<%- include('partials/header', { title: monument.name + ' — GEM' }) %>
+  <h1><%= monument.name %></h1>
+  <% if (monument.cover_image) { %>
+    <img src="<%= monument.cover_image %>" alt="<%= monument.name %>" style="max-width:600px">
+  <% } %>
+  <p><%= monument.description || 'No description available.' %></p>
+  <% if (monument.era) { %><p><strong>Era:</strong> <%= monument.era %></p><% } %>
+  <% if (monument.latitude && monument.longitude) { %>
+    <p><strong>Location:</strong> <%= monument.latitude %>, <%= monument.longitude %></p>
+  <% } %>
+  <% if (monument.fun_facts && monument.fun_facts.length > 0) { %>
+    <h3>Fun Facts</h3>
+    <ul>
+      <% monument.fun_facts.forEach(f => { %>
+        <li><%= f %></li>
+      <% }) %>
+    </ul>
+  <% } %>
+  <% if (monument.images && monument.images.length > 0) { %>
+    <h3>Gallery</h3>
+    <div class="grid">
+      <% monument.images.forEach(img => { %>
+        <div class="card">
+          <img src="<%= img.image_url %>" alt="<%= img.caption || monument.name %>">
+          <% if (img.caption) { %><p><%= img.caption %></p><% } %>
+        </div>
+      <% }) %>
+    </div>
+  <% } %>
+  <a href="/monuments" class="btn">Back to all monuments</a>
+<%- include('partials/footer') %>

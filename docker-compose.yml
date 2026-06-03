@@ -1,0 +1,116 @@
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: gem_museum
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d gem_museum"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: gem_museum
+      DB_USER: postgres
+      DB_PASS: 1234
+      JWT_SECRET: change_me_in_docker
+      AI_SERVICE_URL: http://cv-recognition:8000
+      RAG_SERVICE_URL: http://chatbot-llm:8001
+      RAG_SERVICE_TIMEOUT_MS: 180000
+      CORS_ORIGIN: http://localhost:5173,http://127.0.0.1:5173
+      EMAIL_HOST: ""
+      EMAIL_PORT: ""
+      EMAIL_SECURE: "false"
+      EMAIL_USER: ""
+      EMAIL_PASS: ""
+      EMAIL_FROM: "Grand Egyptian Museum Tourist Guide <no-reply@gem-guide.com>"
+    volumes:
+      - backend_uploads:/app/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+      cv-recognition:
+        condition: service_healthy
+      chatbot-llm:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000', r => process.exit(r.statusCode < 500 ? 0 : 1)).on('error', () => process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  cv-recognition:
+    build:
+      context: ./ai_services/CV_Recognition
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5).read()"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  chatbot-llm:
+    build:
+      context: ./ai_services/chatbot_LLM
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+    environment:
+      PYTHONUNBUFFERED: "1"
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      ANONYMIZED_TELEMETRY: "False"
+      RAG_EMBEDDING_MODEL: sentence-transformers/all-MiniLM-L6-v2
+      RAG_RERANKER_MODEL: cross-encoder/ms-marco-MiniLM-L-6-v2
+      RAG_COLLECTION_NAME: egyptian_knowledge_minilm
+      RAG_TOP_K: 3
+      RAG_MAX_TOKENS: 150
+    volumes:
+      - chatbot_models:/app/models
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health', timeout=5).read()"]
+      interval: 30s
+      timeout: 15s
+      retries: 10
+      start_period: 600s
+
+  frontend:
+    build:
+      context: ./frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_BASE_URL: http://localhost:3000/api
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:5173', r => process.exit(r.statusCode < 500 ? 0 : 1)).on('error', () => process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  pgdata:
+  backend_uploads:
+  chatbot_models:
