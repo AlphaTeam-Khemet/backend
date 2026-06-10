@@ -1,0 +1,26 @@
+{
+  "ai_label": "Bent_Pyramid_Senefru",
+  "latitude": 29.7903,
+  "longitude": 31.2094,
+  "era": "Old Kingdom — 4th Dynasty",
+  "category": "Pyramid",
+  "cover_image": "/uploads/monuments/Bent_Pyramid_Senefru.jpg",
+  "names": {
+    "en": "Bent Pyramid of Sneferu",
+    "ar": "الهرم المنحني لسنفرو",
+    "ru": "Ломаная пирамида Снеферу",
+    "de": "Knickpyramide des Snofru",
+    "fr": "Pyramide rhomboïdale de Snéfrou",
+    "es": "Pirámide acodada de Seneferu",
+    "zh": "斯尼夫鲁弯曲金字塔"
+  },
+  "descriptions": {
+    "en": "The Bent Pyramid is an ancient Egyptian pyramid located at the royal necropolis of Dahshur, approximately 40 kilometres (25 mi) south of Cairo, built under the Old Kingdom Pharaoh Sneferu. A unique example of early pyramid development in Egypt, this was the second of four pyramids built by Sneferu.",
+    "ar": "الهرم المنحني هو هرم مصري قديم يقع في جبانة دهشور الملكية، على بعد حوالي 40 كيلومترًا (25 ميلًا) جنوب القاهرة، وقد بُني في عهد الفرعون سنفرو من الدولة القديمة. يُعد هذا الهرم مثالًا فريدًا على التطور المبكر للأهرامات في مصر، وكان ثاني أهرامات سنفرو الأربعة.",
+    "ru": "Ломаная пирамида — древнеегипетская пирамида, расположенная в царском некрополе Дахшур, примерно в 40 километрах к югу от Каира, построенная при фараоне Снеферу из Древнего царства. Это уникальный пример раннего развития пирамид в Египте, вторая из четырех пирамид, построенных Снеферу.",
+    "de": "Die Knickpyramide ist eine altägyptische Pyramide in der königlichen Nekropole von Dahschur, etwa 40 Kilometer südlich von Kairo. Sie wurde unter dem Pharao Snofru des Alten Reiches erbaut. Als einzigartiges Beispiel für die frühe Pyramidenentwicklung in Ägypten war sie die zweite von vier Pyramiden, die Snofru errichten ließ.",
+    "fr": "La pyramide rhomboïdale est une ancienne pyramide égyptienne située dans la nécropole royale de Dahchour, à environ 40 kilomètres au sud du Caire. Elle fut construite sous le règne du pharaon Snéfrou de l’Ancien Empire. Exemple unique du développement précoce des pyramides en Égypte, elle fut la deuxième des quatre pyramides édifiées par Snéfrou.",
+    "es": "La pirámide acodada es una antigua pirámide egipcia situada en la necrópolis real de Dahshur, a unos 40 kilómetros al sur de El Cairo. Fue construida durante el reinado del faraón Seneferu del Imperio Antiguo. Es un ejemplo único del desarrollo temprano de las pirámides en Egipto y fue la segunda de las cuatro pirámides construidas por Seneferu.",
+    "zh": "弯曲金字塔是一座古埃及金字塔，位于开罗以南约40公里的达舒尔皇家墓地，由古王国时期的法老斯尼夫鲁建造。它是埃及早期金字塔发展中的独特实例，也是斯尼夫鲁建造的四座金字塔中的第二座。"
+  }
+}
