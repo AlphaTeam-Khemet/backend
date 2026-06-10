@@ -1,9 +1,1109 @@
-const router = require('express').Router();
-const auth = require('../middleware/auth');
-const ctrl = require('../controllers/favoriteController');
+# Grand Egyptian Museum Tourist Guide
 
-router.get('/', auth, ctrl.getAll);
-router.post('/', auth, ctrl.add);
-router.delete('/:id', auth, ctrl.remove);
+# Complete Project Documentation
 
-module.exports = router;
+---
+
+# 1. Project Overview
+
+## Project Name
+
+Grand Egyptian Museum Tourist Guide
+
+## Project Type
+
+AI-Powered Full-Stack Museum Guide Platform
+
+## Main Goal
+
+The project is designed to provide tourists and museum visitors with an intelligent digital assistant for exploring ancient Egyptian monuments and artifacts.
+
+The platform combines:
+
+* Computer Vision
+* Retrieval-Augmented Generation (RAG)
+* REST APIs
+* Microservices Architecture
+* Multilingual Museum Content
+* AI-Powered Historical Assistance
+
+The system allows users to:
+
+* Scan Egyptian artifacts using AI image recognition
+* Receive monument information in multiple languages
+* Ask AI questions about ancient Egyptian history
+* Generate monument descriptions using AI
+* Save scans and gallery items
+* Manage user profiles
+* Add monument reviews
+* Access personalized scan history
+
+---
+
+# 2. System Architecture
+
+```text
+Frontend Web App / Flutter Mobile App
+                ↓
+        Node.js Backend API
+         ↙              ↘
+  AI Recognition       RAG AI Guide
+    Service              Service
+ (FastAPI + TF)    (Qwen + ChromaDB)
+         ↓                ↓
+    PostgreSQL       Vector Database
+```
+
+---
+
+# 3. Main Technologies
+
+## Backend Technologies
+
+* Node.js
+* Express.js
+* PostgreSQL
+* Sequelize ORM
+* JWT Authentication
+* Multer
+* Axios
+* MVC Architecture
+
+## AI Technologies
+
+* FastAPI
+* TensorFlow
+* PyTorch
+* Qwen 2.5 LLM
+* ChromaDB
+* Sentence Transformers
+* Semantic Search
+* Vector Embeddings
+
+## Frontend Technologies
+
+* React
+* Vite
+* Axios
+* React Router
+
+## Mobile Technologies
+
+* Flutter
+* Dart
+* Dio / HTTP
+* Provider / Riverpod
+
+## DevOps & Infrastructure
+
+* Docker
+* Docker Compose
+* Environment Variables
+* Microservices Architecture
+
+---
+
+# 4. Project Structure
+
+```text
+project-root/
+│
+├── backend/
+├── ai-service/
+├── rag-service/
+├── frontend/
+└── mobile_app/
+```
+
+---
+
+# 5. Backend Service
+
+## Description
+
+The backend is the central service responsible for:
+
+* Authentication
+* User management
+* Monument APIs
+* Scan workflows
+* Gallery system
+* Reviews system
+* Communication with AI services
+* RAG integration
+* Business logic
+
+## Backend Architecture
+
+The backend follows:
+
+* MVC Architecture
+* RESTful API principles
+* Service-based communication
+
+## Backend Technologies
+
+* Node.js
+* Express.js
+* PostgreSQL
+* Sequelize
+* JWT
+* Multer
+* Axios
+
+---
+
+# 6. AI Recognition Service
+
+## Description
+
+The AI recognition service is responsible for artifact image recognition.
+
+## Technologies
+
+* FastAPI
+* TensorFlow
+* Python
+
+## Responsibilities
+
+* Receive uploaded images
+* Predict artifact classes
+* Return confidence scores
+* Support monument recognition workflows
+
+## Main Endpoint
+
+```http
+POST /predict
+```
+
+## AI Flow
+
+```text
+Image Upload
+    ↓
+Backend
+    ↓
+ai-service /predict
+    ↓
+TensorFlow model inference
+    ↓
+class_name + confidence
+    ↓
+Backend monument mapping
+```
+
+---
+
+# 7. RAG AI Guide Service
+
+## Description
+
+The RAG service provides historical question answering and AI-generated monument descriptions.
+
+## Technologies
+
+* FastAPI
+* Qwen 2.5 LLM
+* ChromaDB
+* PyTorch
+* Sentence Transformers
+* Semantic Search
+
+## Responsibilities
+
+* Historical Q&A
+* Monument descriptions
+* Semantic retrieval
+* AI-generated explanations
+
+## RAG Workflow
+
+```text
+Question
+   ↓
+Vector Search (ChromaDB)
+   ↓
+Relevant Chunks Retrieved
+   ↓
+Qwen 2.5 LLM
+   ↓
+Generated Historical Answer
+```
+
+## Main Endpoints
+
+```http
+GET  /health
+POST /ask
+POST /describe
+POST /identify
+```
+
+---
+
+# 8. Database
+
+## Database System
+
+PostgreSQL
+
+## ORM
+
+Sequelize
+
+## Main Tables
+
+* users
+* monuments
+* monument_translations
+* reviews
+* scan_sessions
+* gallery_items
+* refresh_tokens
+
+## User Password Reset Fields
+
+* reset_password_otp_hash
+* reset_password_otp_expires_at
+
+---
+
+# 9. Authentication System
+
+## Features
+
+* Register
+* Login
+* Logout
+* Refresh Tokens
+* Forgot Password
+* OTP Verification
+* Reset Password
+
+## Authentication Flow
+
+```text
+Register/Login
+      ↓
+JWT Access Token
+      ↓
+Protected APIs
+      ↓
+Refresh Token Flow
+```
+
+## Security Features
+
+* JWT Authentication
+* Password Hashing
+* OTP Hashing
+* OTP Expiration
+* Refresh Token Invalidation
+* Rate Limiting
+
+---
+
+# 10. Environment Variables
+
+## Backend .env
+
+```env
+PORT=3000
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=gem_museum
+DB_USER=postgres
+DB_PASS=1234
+JWT_SECRET=change_me_in_production
+AI_SERVICE_URL=http://localhost:8000
+RAG_SERVICE_URL=http://localhost:8001
+EMAIL_HOST=
+EMAIL_PORT=
+EMAIL_SECURE=false
+EMAIL_USER=
+EMAIL_PASS=
+EMAIL_FROM="Grand Egyptian Museum Tourist Guide <no-reply@gem-guide.com>"
+```
+
+---
+
+# 11. Frontend Pages
+
+# Public Pages
+
+## 1. Home Page
+
+### Purpose
+
+Main landing page for the platform.
+
+### Features
+
+* Project introduction
+* Navigation
+* Main features overview
+* AI feature cards
+
+### APIs Used
+
+```http
+GET /api/monuments
+GET /api/ai-guide/health
+```
+
+---
+
+## 2. Login Page
+
+### Purpose
+
+Authenticate users.
+
+### Features
+
+* Email/password login
+* Forgot password
+* Token storage
+
+### APIs Used
+
+```http
+POST /api/auth/login
+POST /api/auth/refresh
+```
+
+---
+
+## 3. Register Page
+
+### Purpose
+
+Create new accounts.
+
+### Features
+
+* User registration
+* Preferred language selection
+
+### APIs Used
+
+```http
+POST /api/auth/register
+```
+
+---
+
+## 4. Forgot Password Page
+
+### Purpose
+
+Allow users to reset passwords.
+
+### Features
+
+* Send OTP
+* Verify OTP
+* Reset password
+
+### APIs Used
+
+```http
+POST /api/auth/forgot-password
+POST /api/auth/verify-reset-otp
+POST /api/auth/reset-password
+```
+
+---
+
+# Protected Pages
+
+## 5. Monuments Page
+
+### Purpose
+
+Display all monuments.
+
+### Features
+
+* Monument listing
+* Language filtering
+* Search
+* Cards layout
+
+### APIs Used
+
+```http
+GET /api/monuments
+GET /api/monuments?lang=en
+GET /api/monuments?lang=ar
+GET /api/monuments?lang=ru
+GET /api/monuments?lang=de
+```
+
+---
+
+## 6. Monument Details Page
+
+### Purpose
+
+Display detailed monument information.
+
+### Features
+
+* Monument details
+* Images
+* Historical information
+* Reviews
+* AI descriptions
+
+### APIs Used
+
+```http
+GET /api/monuments/:id
+GET /api/reviews/monument/:monumentId
+POST /api/reviews
+DELETE /api/reviews/:id
+POST /api/ai-guide/describe
+```
+
+---
+
+## 7. Artifact Scan Page
+
+### Purpose
+
+Upload artifact images for AI recognition.
+
+### Features
+
+* Image upload
+* Camera/gallery support
+* AI recognition
+* Confidence display
+* AI guide descriptions
+
+### APIs Used
+
+```http
+POST /api/scan/artifact
+POST /api/scan/translate
+```
+
+### Request Format
+
+```http
+Content-Type: multipart/form-data
+```
+
+### Form Field
+
+```text
+image
+```
+
+### Expected Response
+
+```json
+{
+  "session": {},
+  "ai_result": {
+    "class_name": "Mask_of_Tutankhamun",
+    "confidence": 0.94
+  },
+  "mapped_monument_name": "Mask of Tutankhamun",
+  "monument": {},
+  "ai_guide_description": "..."
+}
+```
+
+---
+
+## 8. AI Guide Page
+
+### Purpose
+
+Allow users to ask AI historical questions.
+
+### Features
+
+* Chat-like interface
+* Historical Q&A
+* Topic filtering
+* AI responses
+* Source display
+
+### APIs Used
+
+```http
+GET  /api/ai-guide/health
+POST /api/ai-guide/ask
+POST /api/ai-guide/describe
+POST /api/ai-guide/identify
+```
+
+### Ask Request Example
+
+```json
+{
+  "question": "Who was Akhenaten?",
+  "topic": "pharaoh"
+}
+```
+
+---
+
+## 9. Gallery Page
+
+### Purpose
+
+Display user saved items.
+
+### Features
+
+* Saved artifacts
+* Gallery management
+* Delete items
+
+### APIs Used
+
+```http
+GET /api/gallery
+POST /api/gallery
+DELETE /api/gallery/:id
+```
+
+---
+
+## 10. Scan History Page
+
+### Purpose
+
+Display user scan history.
+
+### Features
+
+* Previous scans
+* Confidence display
+* Scan timestamps
+* Monument matching
+
+### APIs Used
+
+```http
+GET /api/scan/history
+```
+
+---
+
+## 11. Profile Page
+
+### Purpose
+
+Manage user profiles.
+
+### Features
+
+* Edit user data
+* Preferred language
+* Profile updates
+
+### APIs Used
+
+```http
+GET /api/users/profile
+PUT /api/users/profile
+```
+
+---
+
+# 12. Full Backend APIs Documentation
+
+# Authentication APIs
+
+## Register
+
+```http
+POST /api/auth/register
+```
+
+### Body
+
+```json
+{
+  "full_name": "Test User",
+  "email": "test@example.com",
+  "password": "123456",
+  "preferred_language": 1
+}
+```
+
+---
+
+## Login
+
+```http
+POST /api/auth/login
+```
+
+### Body
+
+```json
+{
+  "email": "test@example.com",
+  "password": "123456"
+}
+```
+
+---
+
+## Refresh Token
+
+```http
+POST /api/auth/refresh
+```
+
+---
+
+## Logout
+
+```http
+POST /api/auth/logout
+```
+
+---
+
+## Forgot Password
+
+```http
+POST /api/auth/forgot-password
+```
+
+---
+
+## Verify Reset OTP
+
+```http
+POST /api/auth/verify-reset-otp
+```
+
+---
+
+## Reset Password
+
+```http
+POST /api/auth/reset-password
+```
+
+---
+
+# User APIs
+
+## Get Profile
+
+```http
+GET /api/users/profile
+```
+
+## Update Profile
+
+```http
+PUT /api/users/profile
+```
+
+---
+
+# Monument APIs
+
+## Get All Monuments
+
+```http
+GET /api/monuments
+```
+
+## Get Monument By ID
+
+```http
+GET /api/monuments/:id
+```
+
+## Multilingual Monument Requests
+
+```http
+GET /api/monuments?lang=en
+GET /api/monuments?lang=ar
+GET /api/monuments?lang=ru
+GET /api/monuments?lang=de
+```
+
+---
+
+# Scan APIs
+
+## Scan Artifact
+
+```http
+POST /api/scan/artifact
+```
+
+## Translate Hieroglyphics
+
+```http
+POST /api/scan/translate
+```
+
+## Scan History
+
+```http
+GET /api/scan/history
+```
+
+---
+
+# AI Guide APIs
+
+## Health
+
+```http
+GET /api/ai-guide/health
+```
+
+## Ask
+
+```http
+POST /api/ai-guide/ask
+```
+
+## Describe
+
+```http
+POST /api/ai-guide/describe
+```
+
+## Identify
+
+```http
+POST /api/ai-guide/identify
+```
+
+---
+
+# Gallery APIs
+
+## Get Gallery
+
+```http
+GET /api/gallery
+```
+
+## Add Gallery Item
+
+```http
+POST /api/gallery
+```
+
+## Delete Gallery Item
+
+```http
+DELETE /api/gallery/:id
+```
+
+---
+
+# Review APIs
+
+## Get Monument Reviews
+
+```http
+GET /api/reviews/monument/:monumentId
+```
+
+## Add Review
+
+```http
+POST /api/reviews
+```
+
+## Delete Review
+
+```http
+DELETE /api/reviews/:id
+```
+
+---
+
+# 13. Frontend Flow
+
+## User Journey
+
+```text
+Open Website/App
+        ↓
+Register/Login
+        ↓
+Browse Monuments
+        ↓
+Scan Artifact
+        ↓
+AI Recognition
+        ↓
+Receive AI Description
+        ↓
+Ask Historical Questions
+        ↓
+Save to Gallery
+        ↓
+View Scan History
+```
+
+---
+
+# 14. Artifact Recognition Detailed Flow
+
+```text
+User uploads image
+        ↓
+Frontend sends multipart request
+        ↓
+Backend receives image
+        ↓
+Multer processes upload
+        ↓
+Backend forwards image to ai-service
+        ↓
+TensorFlow predicts class
+        ↓
+Backend maps AI class to monument
+        ↓
+Scan session saved in PostgreSQL
+        ↓
+Backend calls RAG /describe
+        ↓
+AI historical description generated
+        ↓
+Complete response returned
+```
+
+---
+
+# 15. RAG Historical Q&A Flow
+
+```text
+User asks question
+        ↓
+Frontend sends question to backend
+        ↓
+Backend forwards request to rag-service
+        ↓
+ChromaDB semantic retrieval
+        ↓
+Relevant chunks retrieved
+        ↓
+Qwen 2.5 generates answer
+        ↓
+Backend returns response
+        ↓
+Frontend displays answer
+```
+
+---
+
+# 16. Forgot Password Flow
+
+```text
+User enters email
+        ↓
+Backend generates OTP
+        ↓
+OTP hashed and stored
+        ↓
+OTP sent by email
+        ↓
+User enters OTP
+        ↓
+Backend verifies OTP
+        ↓
+User enters new password
+        ↓
+Password updated
+        ↓
+OTP cleared
+```
+
+---
+
+# 17. Frontend API Adapter Features
+
+The frontend API adapter handles:
+
+* Authorization headers
+* Refresh token flow
+* Error handling
+* API normalization
+* Image URL normalization
+* AI Guide requests
+* Gallery requests
+* Reviews requests
+* Scan uploads
+* Token storage
+
+---
+
+# 18. AI Classes Mapping
+
+AI class names are mapped from:
+
+```text
+ai-service/model/class_names.json
+```
+
+The backend mapping file:
+
+```text
+backend/utils/classMapping.js
+```
+
+Known unmapped class:
+
+```text
+Amenhotep_III_Tiye
+```
+
+If predicted, backend returns:
+
+```text
+not_found
+```
+
+---
+
+# 19. Docker Support
+
+## Docker Compose Services
+
+* postgres
+* ai-service
+* rag-service
+
+## Docker Command
+
+```bash
+docker compose up -d postgres ai-service rag-service
+```
+
+---
+
+# 20. Running the Project
+
+# Terminal 1 — AI Service
+
+```powershell
+cd D:\Graduation\ai-service
+.\.venv\Scripts\Activate.ps1
+uvicorn api.main:app --reload --port 8000
+```
+
+---
+
+# Terminal 2 — RAG Service
+
+```powershell
+cd D:\Graduation\rag-service
+.\.venv\Scripts\Activate.ps1
+uvicorn main:app --reload --port 8001
+```
+
+---
+
+# Terminal 3 — Backend
+
+```powershell
+cd D:\Graduation\backend
+npm run dev
+```
+
+---
+
+# Terminal 4 — Frontend
+
+```powershell
+cd D:\Graduation\frontend
+npm run dev
+```
+
+---
+
+# 21. Mobile Application
+
+## Technologies
+
+* Flutter
+* Dart
+* Dio
+* Provider
+
+## Mobile Features
+
+* Authentication
+* Artifact scanning
+* AI Guide chat
+* Monument browsing
+* Gallery
+* Scan history
+* Reviews
+* Profile management
+
+---
+
+# 22. Project Strengths
+
+## Technical Strengths
+
+* Microservices architecture
+* AI integration
+* Computer Vision workflows
+* RAG implementation
+* Secure authentication
+* Multilingual support
+* RESTful APIs
+* Scalable backend architecture
+* Vector database integration
+* Semantic search
+* Docker support
+
+---
+
+# 23. Future Improvements
+
+* Better AI model accuracy
+* Production cloud deployment
+* Voice assistant support
+* GPS museum navigation
+* AI recommendation system
+* Real-time chat memory
+* Admin dashboard
+* Analytics system
+* OCR hieroglyphic translation
+* Push notifications
+
+---
+
+# 24. Final Summary
+
+Grand Egyptian Museum Tourist Guide is a full-stack AI-powered platform combining backend engineering, computer vision, Retrieval-Augmented Generation (RAG), vector databases, and modern REST API architecture.
+
+The system demonstrates:
+
+* Backend development
+* AI service integration
+* Microservices communication
+* JWT authentication
+* PostgreSQL database engineering
+* TensorFlow artifact recognition
+* Qwen-powered historical AI assistance
+* ChromaDB semantic retrieval
+* Flutter and React integration
+* Production-style architecture
+
+The project was designed as a graduation project demonstrating advanced backend engineering and AI integration skills.
