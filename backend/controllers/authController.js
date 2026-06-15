@@ -4,6 +4,7 @@ const crypto = require('crypto');
 const { User, RefreshToken } = require('../models');
 const { generateOtp, getOtpExpiry, hashOtp, verifyOtp } = require('../utils/otp');
 const { sendPasswordResetOtp } = require('../utils/emailClient');
+const logger = require('../utils/logger');
 
 const RESET_SAFE_MESSAGE = 'If this email exists, a password reset code has been sent.';
 const RESET_INVALID_MESSAGE = 'Invalid or expired password reset code';
@@ -24,7 +25,7 @@ async function verifyUserResetOtp(user, otp) {
   return verifyOtp(otp, user.reset_password_otp_hash);
 }
 
-exports.register = async (req, res) => {
+exports.register = async (req, res, next) => {
   try {
     const { full_name, email, password, preferred_language } = req.body;
     const exists = await User.findOne({ where: { email } });
@@ -47,11 +48,11 @@ exports.register = async (req, res) => {
       user: { id: user.id, full_name: user.full_name, email: user.email },
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.login = async (req, res) => {
+exports.login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
     const user = await User.findOne({ where: { email } });
@@ -74,11 +75,11 @@ exports.login = async (req, res) => {
       user: { id: user.id, full_name: user.full_name, email: user.email },
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.refresh = async (req, res) => {
+exports.refresh = async (req, res, next) => {
   try {
     const { refresh_token } = req.body;
     if (!refresh_token) return res.status(400).json({ error: 'Refresh token required' });
@@ -92,21 +93,21 @@ exports.refresh = async (req, res) => {
     const accessToken = jwt.sign({ id: stored.user_id }, process.env.JWT_SECRET, { expiresIn: '15m' });
     res.json({ access_token: accessToken });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.logout = async (req, res) => {
+exports.logout = async (req, res, next) => {
   try {
     const { refresh_token } = req.body;
     if (refresh_token) await RefreshToken.destroy({ where: { token: refresh_token } });
     res.json({ message: 'Logged out' });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.forgotPassword = async (req, res) => {
+exports.forgotPassword = async (req, res, next) => {
   try {
     const { email } = req.body;
     const user = await User.findOne({ where: { email } });
@@ -122,17 +123,17 @@ exports.forgotPassword = async (req, res) => {
       try {
         await sendPasswordResetOtp({ to: user.email, otp });
       } catch (error) {
-        console.error('Password reset email failed:', error.message);
+        logger.warn('Password reset email failed', { error: error.message });
       }
     }
 
     res.json({ message: RESET_SAFE_MESSAGE });
-  } catch {
-    res.status(500).json({ error: 'Unable to process password reset request' });
+  } catch (err) {
+    next(err);
   }
 };
 
-exports.verifyResetOtp = async (req, res) => {
+exports.verifyResetOtp = async (req, res, next) => {
   try {
     const { email, otp } = req.body;
     const user = await User.findOne({ where: { email } });
@@ -141,12 +142,12 @@ exports.verifyResetOtp = async (req, res) => {
     if (!valid) return res.status(400).json({ error: RESET_INVALID_MESSAGE });
 
     res.json({ message: 'Password reset code verified' });
-  } catch {
-    res.status(500).json({ error: 'Unable to verify password reset code' });
+  } catch (err) {
+    next(err);
   }
 };
 
-exports.resetPassword = async (req, res) => {
+exports.resetPassword = async (req, res, next) => {
   try {
     const { email, otp, new_password } = req.body;
     const user = await User.findOne({ where: { email } });
@@ -164,7 +165,7 @@ exports.resetPassword = async (req, res) => {
     await RefreshToken.destroy({ where: { user_id: user.id } });
 
     res.json({ message: 'Password has been reset successfully' });
-  } catch {
-    res.status(500).json({ error: 'Unable to reset password' });
+  } catch (err) {
+    next(err);
   }
 };

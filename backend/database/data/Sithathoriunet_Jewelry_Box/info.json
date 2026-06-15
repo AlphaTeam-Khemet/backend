@@ -1,0 +1,21 @@
+{
+  "ai_label": "Sithathoriunet_Jewelry_Box",
+  "names": {
+    "en": "Jewelry Box of Princess Sithathoriunet",
+    "ar": "صندوق مجوهرات الأميرة سات حتحور يونت",
+    "ru": "Шкатулка для драгоценностей принцессы Ситхаториунет",
+    "de": "Schmuckkästchen der Prinzessin Sithathoriunet"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Sithathoriunet_Jewelry_Box.png",
+  "descriptions": {
+    "en": "An exquisite jewelry box belonging to Princess Sithathoriunet, daughter of Senusret II, containing her precious ornaments.",
+    "ar": "صندوق مجوهرات رائع يعود للأميرة سات حتحور يونت، ابنة سنوسرت الثاني، يحتوي على حليها الثمينة.",
+    "ru": "Изысканная шкатулка для драгоценностей, принадлежавшая принцессе Ситхаториунет.",
+    "de": "Ein exquisites Schmuckkästchen, das der Prinzessin Sithathoriunet gehörte."
+  },
+  "priority": "110"
+}

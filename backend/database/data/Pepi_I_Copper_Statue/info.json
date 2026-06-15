@@ -1,0 +1,21 @@
+{
+  "ai_label": "Pepi_I_Copper_Statue",
+  "names": {
+    "en": "Copper Statue of Pepi I",
+    "ar": "تمثال الملك بيبى الأول المصنوع من النحاس",
+    "ru": "Медная статуя Пепи I",
+    "de": "Kupferstatue des Pepi I."
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Pepi_I_Copper_Statue.png",
+  "descriptions": {
+    "en": "A rare copper statue of King Pepi I, one of the earliest known metal statues of an Egyptian pharaoh, showcasing advanced metallurgical skills.",
+    "ar": "تمثال نادر من النحاس للملك بيبى الأول، أحد أقدم التماثيل المعدنية المعروفة لفرعون مصري، يُظهر مهارات معدنية متقدمة.",
+    "ru": "Редкая медная статуя царя Пепи I, одна из самых ранних известных металлических статуй египетского фараона.",
+    "de": "Eine seltene Kupferstatue des Königs Pepi I., eine der frühesten bekannten Metallstatuen eines ägyptischen Pharaos."
+  },
+  "priority": "40"
+}

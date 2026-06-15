@@ -1,0 +1,21 @@
+{
+  "ai_label": "Isis_Nursing_Horus_Statue",
+  "names": {
+    "en": "Statue of Isis nursing Horus",
+    "ar": "تمثال برونزي للإلهة إيزيس ترضع طفلها حورس",
+    "ru": "Статуя Исиды, кормящей грудью Гора",
+    "de": "Statue der Isis, die Horus stillt"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Isis_Nursing_Horus_Statue.png",
+  "descriptions": {
+    "en": "A bronze statue of the goddess Isis nursing her son Horus, a powerful image of divine motherhood that later influenced Christian iconography of the Madonna and Child.",
+    "ar": "تمثال برونزي للإلهة إيزيس ترضع ابنها حورس، صورة قوية للأمومة الإلهية التي أثرت لاحقاً في الأيقونية المسيحية للعذراء والطفل.",
+    "ru": "Бронзовая статуя богини Исиды, кормящей грудью своего сына Гора.",
+    "de": "Eine Bronzestatue der Göttin Isis, die ihren Sohn Horus stillt."
+  },
+  "priority": "52"
+}

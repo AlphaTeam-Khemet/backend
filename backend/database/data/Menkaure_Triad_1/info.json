@@ -1,0 +1,21 @@
+{
+  "ai_label": "Menkaure_Triad_1",
+  "names": {
+    "en": "Greywacke Triad of Menkaure (1)",
+    "ar": "ثلاثية الملك منكاورع الأولى",
+    "ru": "Триада Менкаура из грейвака (1)",
+    "de": "Grauwacke-Triade des Mykerinos (1)"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Menkaure_Triad_1.png",
+  "descriptions": {
+    "en": "The first triad statue of King Menkaure with the goddess Hathor and a nome deity, carved from greywacke.",
+    "ar": "التمثال الثلاثي الأول للملك منكاورع مع الإلهة حتحور وإله إقليم، منحوت من حجر الغريفاك.",
+    "ru": "Первая триадная статуя царя Менкаура с богиней Хатхор и божеством нома.",
+    "de": "Die erste Triadenstatue des Königs Mykerinos mit der Göttin Hathor und einem Gau-Gott."
+  },
+  "priority": "106"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Alabaster_Wishing_Cup",
+  "names": {
+    "en": "Alabaster Wishing Cup",
+    "ar": "كأس الأمنيات المصنوع من الألباستر",
+    "ru": "Алебастровый чаш желаний",
+    "de": "Alabasterner Wunschbecher"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Alabaster_Wishing_Cup.png",
+  "descriptions": {
+    "en": "A beautiful alabaster cup inscribed with wishes for the king's eternal life and prosperity in the afterlife.",
+    "ar": "كأس ألباستر جميل محفور عليه أمنيات لحياة الملك الأبدية والرخاء في الحياة الآخرة.",
+    "ru": "Красивая алебастровая чаша с надписями, содержащими пожелания вечной жизни царя.",
+    "de": "Ein schöner Alabasterbecher mit Inschriften, die Wünsche für das ewige Leben des Königs enthalten."
+  },
+  "priority": "84"
+}

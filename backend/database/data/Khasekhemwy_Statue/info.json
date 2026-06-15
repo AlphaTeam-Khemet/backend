@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khasekhemwy_Statue",
+  "names": {
+    "en": "Statue of King Khasekhemwy",
+    "ar": "تمثال الملك خع سخموي من الشست",
+    "ru": "Статуя царя Хасехемви",
+    "de": "Statue des Königs Chasechemui"
+  },
+  "era": "Early Dynastic",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khasekhemwy_Statue.png",
+  "descriptions": {
+    "en": "A schist statue of the last king of the 2nd Dynasty, Khasekhemwy, who reunited Egypt and built the first known stone enclosure wall.",
+    "ar": "تمثال من الشست لآخر ملوك الأسرة الثانية، خع سخموي، الذي أعاد توحيد مصر وبنى أول جدار حجري معروف.",
+    "ru": "Статуя из сланца последнего царя II династии Хасехемви.",
+    "de": "Eine Schieferstatue des letzten Königs der 2. Dynastie, Chasechemui."
+  },
+  "priority": "54"
+}

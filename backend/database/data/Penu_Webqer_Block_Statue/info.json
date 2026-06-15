@@ -1,0 +1,21 @@
+{
+  "ai_label": "Penu_Webqer_Block_Statue",
+  "names": {
+    "en": "Block Statue of Penu-Webqer",
+    "ar": "التمثال المكعب لـ 'بنو وبقر'",
+    "ru": "Блочная статуя Пену-Вебкер",
+    "de": "Blockstatue des Penu-Webqer"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Penu_Webqer_Block_Statue.png",
+  "descriptions": {
+    "en": "A greywacke block statue of Penu-Webqer, an official, with a compact form and detailed hieroglyphic inscriptions covering the surface.",
+    "ar": "تمثال مكعب من حجر الغريفاك لـ بنو وبقر، مسؤول، بشكل مدمج ونقوش هيرoglيفية مفصلة تغطي السطح.",
+    "ru": "Грейваковая блочная статуя Пену-Вебкера, чиновника.",
+    "de": "Eine Grauwacke-Blockstatue des Penu-Webqer, eines Beamten."
+  },
+  "priority": "37"
+}

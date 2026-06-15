@@ -1,0 +1,21 @@
+{
+  "ai_label": "Ramses_II_Pectoral",
+  "names": {
+    "en": "Pectoral of Ramses II",
+    "ar": "صدرية ذهبية مرصعة للملك رمسيس الثاني",
+    "ru": "Пектораль Рамсеса II",
+    "de": "Pectoral des Ramses II."
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Ramses_II_Pectoral.png",
+  "descriptions": {
+    "en": "A magnificent gold pectoral of Ramses II, inlaid with precious stones and depicting the king's cartouche and protective deities.",
+    "ar": "صدرية ذهبية رائعة لرمسيس الثاني، مرصعة بالأحجار الكريمة وتصور خرطوش الملك والآلهة الحامية.",
+    "ru": "Великолепная золотая пектораль Рамсеса II, инкрустированная драгоценными камнями.",
+    "de": "Eine prächtige goldene Pectoral des Ramses II., eingelegt mit Edelsteinen."
+  },
+  "priority": "11"
+}

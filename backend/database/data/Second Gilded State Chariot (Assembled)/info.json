@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Second_Gilded_Chariot",
+  "names": {
+    "en": "Second Gilded State Chariot (Assembled)",
+    "ar": "العجلة الحربية الاحتفالية الثانية المجمعة",
+    "ru": "Вторая позолоченная парадная колесница (собранная)",
+    "de": "Zweite vergoldete Staatswagen (montiert)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Second_Gilded_Chariot.jpg",
+  "descriptions": {
+    "en": "This is the second of six chariots discovered in Tutankhamun's tomb, now fully assembled for display in the Grand Egyptian Museum. Like the first chariot, it features a lightweight wooden construction with gilded decoration and leather fittings. The chariot represents the pinnacle of New Kingdom chariot technology, combining speed, maneuverability, and ceremonial grandeur. The gilded scenes on the body depict the king's divine protection and military prowess, while the intricate joinery demonstrates the sophisticated woodworking skills of ancient Egyptian craftsmen.",
+    "ar": "هذه هي الثانية من بين ست عجلات حربية اكتُشفت في مقبرة توت عنخ آمون، مجمعة الآن بالكامل للعرض في المتحف المصري الكبير. ومثل العجلة الأولى، تتميز ببناء خشبي خفيف الوزن مع زخرفة مذهبة وتركيبات جلدية. تمثل العجلة ذروة تكنولوجيا العجلات الحربية في الدولة الحديثة، تجمع بين السرعة والمناورة والعظمة الاحتفالية. تصور المشاهد المذهبة على الجسم حماية الملك الإلهية وقدراته العسكرية، بينما يُظهر النجارة الدقيقة المهارات المتطورة لنجاري مصر القديمة.",
+    "ru": "Это вторая из шести колесниц, обнаруженных в гробнице Тутанхамона, теперь полностью собранная для выставки в Большом Египетском музее. Как и первая колесница, она имеет легкую деревянную конструкцию с позолоченным украшением и кожаными фитингами. Колесница представляет собой вершину технологии колесниц Нового царства, сочетая скорость, маневренность и церемониальное величие. Позолоченные сцены на корпусе изображают божественную защиту царя и его военное мастерство, а сложная столярная работа демонстрирует изощренные навыки древнеегипетских плотников.",
+    "de": "Dies ist der zweite von sechs Wagen, die im Grab von Tutanchamun entdeckt wurden, jetzt vollständig montiert zur Ausstellung im Großen Ägyptischen Museum. Wie der erste Wagen verfügt er über eine leichte Holzkonstruktion mit vergoldeter Verzierung und Lederbeschlägen. Der Wagen repräsentiert den Höhepunkt der Wagentechnologie des Neuen Reiches und vereint Geschwindigkeit, Manövrierfähigkeit und zeremonielle Pracht. Die vergoldeten Szenen auf dem Körper zeigen die göttliche Schutz des Königs und seine militärische Stärke, während die komplexe Tischlerei die anspruchsvollen Holzbearbeitungsfähigkeiten der altägyptischen Handwerker demonstriert."
+  },
+  "priority": "124"
+}

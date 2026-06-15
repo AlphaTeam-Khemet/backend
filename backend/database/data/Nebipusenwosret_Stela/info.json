@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nebipusenwosret_Stela",
+  "names": {
+    "en": "Stela of Nebipusenwosret",
+    "ar": "لوحة نب إيبو سنوسرت من الحجر الجيري",
+    "ru": "Стела Небипусенвосрета",
+    "de": "Stele des Nebipusenwosret"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Nebipusenwosret_Stela.png",
+  "descriptions": {
+    "en": "A limestone stela of the official Nebipusenwosret, inscribed with prayers and offerings for his eternal well-being.",
+    "ar": "لوحة حجر جيري للمسؤول نب إيبو سنوسرت، محفورة بالصلوات والقرابين لرفاهيته الأبدية.",
+    "ru": "Известняковая стела чиновника Небипусенвосрета.",
+    "de": "Eine Kalksteinstele des Beamten Nebipusenwosret."
+  },
+  "priority": "131"
+}

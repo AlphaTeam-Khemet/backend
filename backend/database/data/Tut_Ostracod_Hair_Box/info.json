@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Ostracod_Hair_Box",
+  "names": {
+    "en": "Ostracod with Shaved Hair Box",
+    "ar": "صندوق حفظ خصلات شعر الملكة تي",
+    "ru": "Сундук с прядями волос королевы Тии",
+    "de": "Haarbox der Königin Teje"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Ostracod_Hair_Box.png",
+  "descriptions": {
+    "en": "A small box containing locks of hair, possibly belonging to Queen Tiye, Tutankhamun's grandmother, symbolizing family bonds.",
+    "ar": "صندوق صغير يحتوي على خصلات شعر، ربما تعود للملكة تي، جدة توت عنخ آمون، ترمز إلى روابط العائلة.",
+    "ru": "Маленькая коробка с прядями волос, возможно, принадлежавшими королеве Тии.",
+    "de": "Eine kleine Box mit Haarlocken, möglicherweise von Königin Teje."
+  },
+  "priority": "118"
+}

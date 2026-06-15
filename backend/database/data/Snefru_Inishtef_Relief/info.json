@@ -1,0 +1,21 @@
+{
+  "ai_label": "Snefru_Inishtef_Relief",
+  "names": {
+    "en": "Limestone Relief of Snefru-Inishtef",
+    "ar": "نقوش جدارية لمقبرة سنيفرو إينشتف",
+    "ru": "Известняковый рельеф Снефру-Инштефа",
+    "de": "Kalksteinrelief des Snefru-Inishtef"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Snefru_Inishtef_Relief.png",
+  "descriptions": {
+    "en": "Painted limestone reliefs from the tomb of Snefru-Inishtef, depicting daily life and offerings in remarkable detail.",
+    "ar": "نقوش حجر جيري ملونة من مقبرة سنيفرو إينشتف، تصور الحياة اليومية والقرابين بتفاصيل رائعة.",
+    "ru": "Расписанные известняковые рельефы из гробницы Снефру-Инштефа.",
+    "de": "Bemalte Kalksteinreliefs aus dem Grab des Snefru-Inishtef."
+  },
+  "priority": "111"
+}

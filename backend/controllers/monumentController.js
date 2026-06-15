@@ -19,7 +19,7 @@ function pickTranslation(translations = [], langCode = 'en') {
   );
 }
 
-exports.getAll = async (req, res) => {
+exports.getAll = async (req, res, next) => {
   try {
     const lang = req.lang || 'en';
     const monuments = await Monument.findAll({
@@ -43,17 +43,18 @@ exports.getAll = async (req, res) => {
         category: m.category,
         cover_image: m.cover_image,
         ai_label: m.ai_label,
+        priority: m.priority || '4',
         images: m.images,
       };
     });
 
     res.json(data);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.getOne = async (req, res) => {
+exports.getOne = async (req, res, next) => {
   try {
     const lang = req.lang || 'en';
     const monument = await Monument.findByPk(req.params.id, {
@@ -77,10 +78,11 @@ exports.getOne = async (req, res) => {
       category: monument.category,
       cover_image: monument.cover_image,
       ai_label: monument.ai_label,
+      priority: monument.priority || '4',
       images: monument.images,
       reviews: monument.reviews,
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };

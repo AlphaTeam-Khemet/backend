@@ -1,0 +1,21 @@
+{
+  "ai_label": "Shepseskaf_Alabaster_Table",
+  "names": {
+    "en": "Alabaster Offering Table of Shepseskaf",
+    "ar": "مائدة قرابين من الألباستر للملك شبسسكاف",
+    "ru": "Алебастровый стол подношений Шепсескафа",
+    "de": "Alabasterner Opfertisch des Schepseskaf"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Shepseskaf_Alabaster_Table.png",
+  "descriptions": {
+    "en": "An alabaster offering table from the tomb of King Shepseskaf, inscribed with offerings for the king's eternal sustenance.",
+    "ar": "مائدة قرابين من الألباستر من مقبرة الملك شبسسكاف، محفورة بقرابين لإدام الملك الأبدي.",
+    "ru": "Алебастровый стол подношений из гробницы царя Шепсескафа.",
+    "de": "Ein Alabaster-Opfertisch aus dem Grab des Königs Schepseskaf."
+  },
+  "priority": "82"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Bakenkhonsu_Block_Statue",
+  "names": {
+    "en": "Block Statue of Bakenkhonsu",
+    "ar": "التمثال المكعب للكاهن الأكبر باكنخنسو",
+    "ru": "Блочная статуя Бакенхонсу",
+    "de": "Blockstatue des Bakenchonsu"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Bakenkhonsu_Block_Statue.png",
+  "descriptions": {
+    "en": "A granite block statue of the High Priest Bakenkhonsu, showing him seated in a compact cubic form with detailed inscriptions on the base.",
+    "ar": "تمثال مكعب من الجرانيت للكاهن الأكبر باكنخنسو، يُظهره جالساً في شكل مكعب مدمج مع نقوش مفصلة على القاعدة.",
+    "ru": "Гранитная блочная статуя верховного жреца Бакенхонсу.",
+    "de": "Eine Granit-Blockstatue des Oberpriesters Bakenchonsu."
+  },
+  "priority": "36"
+}

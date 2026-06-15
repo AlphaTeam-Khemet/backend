@@ -1,0 +1,21 @@
+{
+  "ai_label": "Merenre_Copper_Statue",
+  "names": {
+    "en": "Copper Statue of Merenre",
+    "ar": "تمثال الأمير مرن رع النحاسي الصغير",
+    "ru": "Медная статуя Меренре",
+    "de": "Kupferstatue des Merenre"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Merenre_Copper_Statue.png",
+  "descriptions": {
+    "en": "A small copper statue of Prince Merenre, demonstrating the use of copper for royal statuary during the Old Kingdom.",
+    "ar": "تمثال صغير من النحاس للأمير مرن رع، يُظهر استخدام النحاس في التماثيل الملكية خلال الدولة القديمة.",
+    "ru": "Маленькая медная статуя принца Меренре, демонстрирующая использование меди.",
+    "de": "Eine kleine Kupferstatue des Prinzen Merenre, die die Verwendung von Kupfer zeigt."
+  },
+  "priority": "39"
+}

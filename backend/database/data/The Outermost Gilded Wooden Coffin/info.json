@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Outermost_Gilded_Coffin",
+  "names": {
+    "en": "The Outermost Gilded Wooden Coffin",
+    "ar": "التابوت الخشبي المذهب الخارجي",
+    "ru": "Внешний позолоченный деревянный гроб",
+    "de": "Der äußerste vergoldete Holzsarg"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Outermost_Gilded_Coffin.png",
+  "descriptions": {
+    "en": "The outermost coffin of Tutankhamun is the largest of the three nested coffins, made of wood covered in gold leaf. It served as the first layer of protection for the king's mummy and the two inner coffins. The coffin depicts the king in the Osirian pose with crossed arms, wearing the nemes headdress and the royal beard. The surface is decorated with scenes from the Book of the Dead and protective symbols, ensuring the king's safe passage to the afterlife. Its massive size and elaborate decoration reflect the extraordinary wealth and craftsmanship of the 18th Dynasty.",
+    "ar": "التابوت الخارجي لتوت عنخ آمون هو الأكبر من بين التوابيت الثلاثة المتداخلة، مصنوع من الخشب المغطى بالورق الذهبي. كان بمثابة الطبقة الأولى من الحماية لمومياء الملك والتوابيت الداخلية. يُصوّر التابوت الملك في وضعية أوزوريس بيدين متقاطعتين، يرتدي غطاء الرأس الملكي (النمس) واللحية الملكية. يزين السطح مشاهد من كتاب الموتى ورموز حماية، لضمان مرور الملك الآمن إلى الحياة الآخرة. يعكس حجمه الضخم وزخرفته المُفصّلة الثروة الاستثنائية والحرفية العالية للأسرة الثامنة عشر.",
+    "ru": "Внешний гроб Тутанхамона — самый большой из трех вложенных друг в друга гробов, изготовленный из дерева, покрытого сусальным золотом. Он служил первым слоем защиты для мумили царя и двух внутренних гробов. Гроб изображает царя в осирической позе со скрещенными руками, в головном уборе немес и с царской бородой. Поверхность украшена сценами из Книги мертвых и защитными символами, обеспечивающими безопасный переход царя в загробную жизнь. Его огромные размеры и сложное украшение отражают чрезвычайное богатство и мастерство XVIII династии.",
+    "de": "Der äußerste Sarg von Tutanchamun ist der größte der drei ineinander verschachtelten Särge, aus Holz mit Blattgold überzogen. Er diente als erste Schutzschicht für die Mumie des Königs und die beiden inneren Särge. Der Sarg stellt den König in der osirianischen Pose mit verschränkten Armen dar, mit dem Nemes-Kopftuch und dem königlichen Bart. Die Oberfläche ist mit Szenen aus dem Totenbuch und Schutzsymbolen verziert, die den sicheren Übergang des Königs ins Jenseits gewährleisten. Seine enorme Größe und aufwendige Verzierung spiegeln den außergewöhnlichen Reichtum und die Handwerkskunst der 18. Dynastie wider."
+  },
+  "priority": "149"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khufu_Original_Hemp_Ropes",
+  "names": {
+    "en": "Original Hemp Ropes of Khufu's Fleet",
+    "ar": "الحبال والأربطة العضوية الأصلية",
+    "ru": "Оригинальные пеньковые веревки флота Хуфу",
+    "de": "Original Hanfseile der Flotte des Cheops"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khufu_Original_Hemp_Ropes.png",
+  "descriptions": {
+    "en": "Original hemp ropes and bindings from Khufu's solar boat, miraculously preserved for over 4,500 years, demonstrating ancient Egyptian rope-making technology.",
+    "ar": "حبال وأربطة قنب أصلية من مركب خوفو الشمسي، محفوظة بمعجزة لأكثر من 4500 عام، تُظهر تكنولوجيا صناعة الحبال المصرية القديمة.",
+    "ru": "Оригинальные пеньковые веревки и связки из солнечной ладьи Хуфу, чудесным образом сохранившиеся более 4500 лет.",
+    "de": "Original Hanfseile und Bindungen aus dem Sonnenschiff des Cheops, die über 4500 Jahre erhalten blieben."
+  },
+  "priority": "117"
+}

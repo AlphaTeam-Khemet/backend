@@ -1,0 +1,21 @@
+{
+  "ai_label": "Hatshepsut_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Hatshepsut_Sarcophagus.png",
+  "names": {
+    "en": "Quartzite Sarcophagus of Hatshepsut",
+    "ar": "تابوت الكوارتزيت للملكة حتشبسوت",
+    "ru": "Кварцитовый саркофаг Хатшепсут",
+    "de": "Quarzitkophag der Hatschepsut"
+  },
+  "descriptions": {
+    "en": "This sarcophagus is one of three made for Queen Hatshepsut, the powerful female pharaoh of the 18th Dynasty. Carved from red quartzite — a hard stone associated with the solar cult — its surfaces are perfectly polished and decorated with finely incised religious scenes. At the foot end, the goddess Isis is depicted kneeling on the nub hieroglyph (symbolising gold), her hands resting on a shen ring (symbolising protection). Hieroglyphic inscriptions record the protective words of the goddess. One of the three sarcophagi was later reused for the burial of Thutmose I and is now in Boston.",
+    "ar": "يُعدُّ هذا التابوت واحدًا من ثلاثة توابيت صُنعت للملكة حتشبسوت، الفرعون المرأة القوية من الأسرة الثامنة عشرة. نُحت من الكوارتزيت الأحمر — وهو حجر صلب مرتبط بالعقيدة الشمسية — وتتميز أسطحه بالصقل التام وزخارف دينية دقيقة الحفر. عند طرفه السفلي تظهر الإلهة إيزيس جاثية على رمز الذهب (نب)، بيداها تستقران على رمز الحماية (شن). تُسجِّل النقوش الهيروغليفية الكلمات الحمائية للإلهة. وقد أُعيد استخدام أحد التوابيت الثلاثة لاحقًا لدفن تحتمس الأول، ويوجد الآن في بوسطن.",
+    "ru": "Этот саркофаг является одним из трёх, изготовленных для царицы Хатшепсут — могущественного фараона-женщины 18-й династии. Вырезанный из красного кварцита — твёрдого камня, связанного с солнечным культом, — он имеет идеально отполированные поверхности и украшен тонко выгравированными религиозными сценами. У ножного конца изображена богиня Исида, стоящая на коленях на иероглифе нуб (символ золота), её руки покоятся на кольце шен (символ защиты). Иероглифические надписи фиксируют защитные слова богини.",
+    "de": "Dieser Sarkophag ist einer von drei, die für Königin Hatschepsut, die mächtige weibliche Pharaonin der 18. Dynastie, angefertigt wurden. Aus rotem Quarzit geschnitzt — einem harten Stein, der mit dem Sonnenkult assoziiert wird — sind seine Oberflächen perfekt poliert und mit fein eingravierten religiösen Szenen verziert. Am Fußende ist die Göttin Isis kniend auf dem Nub-Hieroglyphen (Symbol für Gold) abgebildet, ihre Hände ruhen auf einem Schen-Ring (Symbol des Schutzes). Hieroglyphische Inschriften verzeichnen die Schutzworte der Göttin."
+  },
+  "priority": "6"
+}

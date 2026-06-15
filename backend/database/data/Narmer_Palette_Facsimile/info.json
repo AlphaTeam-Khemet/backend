@@ -1,0 +1,21 @@
+{
+  "ai_label": "Narmer_Palette_Facsimile",
+  "names": {
+    "en": "Facsimile of Narmer Palette",
+    "ar": "لوحة نارمر لتوحيد القطرين",
+    "ru": "Факсимиле палитры Нармера",
+    "de": "Faksimile der Narmer-Palette"
+  },
+  "era": "Early Dynastic",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Narmer_Palette_Facsimile.png",
+  "descriptions": {
+    "en": "The famous Narmer Palette commemorating the unification of Upper and Lower Egypt, one of the most important artifacts in Egyptian history.",
+    "ar": "لوحة نارمر الشهيرة التي تحتفل بتوحيد مصر العليا والسفلى، واحدة من أهم القطع الأثرية في التاريخ المصري.",
+    "ru": "Знаменитая палитра Нармера, посвященная объединению Верхнего и Нижнего Египта.",
+    "de": "Die berühmte Narmer-Palette zur Feier der Vereinigung von Ober- und Unterägypten."
+  },
+  "priority": "15"
+}

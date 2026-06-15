@@ -1,0 +1,21 @@
+{
+  "ai_label": "Colossal_Hapi_Nile_God",
+  "names": {
+    "en": "Colossal Statue of Nile God Hapi",
+    "ar": "تمثال ضخم لإله النيل حابي",
+    "ru": "Колоссальная статуя бога Нила Хапи",
+    "de": "Kolossale Statue des Nilgottes Hapi"
+  },
+  "era": "Ptolemaic",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Colossal_Hapi_Nile_God.png",
+  "descriptions": {
+    "en": "A colossal red granite statue of the Nile god Hapi, discovered submerged in the harbor of Alexandria, symbolizing the abundance and fertility brought by the Nile's annual flood.",
+    "ar": "تمثال ضخم من الجرانيت الأحمر لإله النيل حابي، اكتُشف غارقاً في ميناء الإسكندرية، يرمز إلى الخصوبة والوفرة التي يجلبها فيضان النيل السنوي.",
+    "ru": "Колоссальная статуя бога Нила Хапи из красного гранита, обнаруженная погруженной в гавани Александрии.",
+    "de": "Eine kolossale rote Granitstatue des Nilgottes Hapi, die versunken im Hafen von Alexandria entdeckt wurde."
+  },
+  "priority": "33"
+}

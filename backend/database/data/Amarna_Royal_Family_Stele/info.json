@@ -1,0 +1,21 @@
+{
+  "ai_label": "Amarna_Royal_Family_Stele",
+  "names": {
+    "en": "Limestone Stele of Amarna Royal Family",
+    "ar": "لوحة العائلة الملكية بالعمارنة",
+    "ru": "Известняковая стела царской семьи Амарны",
+    "de": "Kalkstein-Stele der königlichen Familie von Amarna"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Amarna_Royal_Family_Stele.png",
+  "descriptions": {
+    "en": "A limestone stele depicting Akhenaten, Nefertiti, and their daughters worshipping the sun disk Aten, showcasing the Amarna artistic style.",
+    "ar": "لوحة حجر جيري تصور إخناتون ونفرتيتي وبناتهن يعبدون قرص الشمس آتون، تُظهر الأسلوب الفني العمارني.",
+    "ru": "Известняковая стела, изображающая Эхнатона, Нефертити и их дочерей, поклоняющихся солнечному диску Атону.",
+    "de": "Eine Kalkstein-Stele, die Echnaton, Nofretete und ihre Töchter zeigt, die der Sonnenscheibe Aton huldigen."
+  },
+  "priority": "113"
+}

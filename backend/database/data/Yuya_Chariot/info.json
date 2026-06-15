@@ -1,0 +1,21 @@
+{
+  "ai_label": "Yuya_Chariot",
+  "names": {
+    "en": "Chariot of Yuya",
+    "ar": "عجلة يويا الحربية الكاملة والمجمعة",
+    "ru": "Колесница Юйи",
+    "de": "Der Wagen des Yuya"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Yuya_Chariot.png",
+  "descriptions": {
+    "en": "A complete and assembled war chariot belonging to Yuya, father-in-law of Amenhotep III, demonstrating the military technology of the 18th Dynasty.",
+    "ar": "عجلة حربية كاملة ومجمعة تخص يويا، حمو أمنحتب الثالث، تُظهر التكنولوجيا العسكرية للأسرة الثامنة عشر.",
+    "ru": "Полная и собранная боевая колесница, принадлежавшая Юйи, тестю Аменхотепа III.",
+    "de": "Ein kompletter und montierter Kriegswagen, der dem Yuya, dem Schwiegervater von Amenhotep III, gehörte."
+  },
+  "priority": "86"
+}

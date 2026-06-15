@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Travel_Folding_Bed",
+  "names": {
+    "en": "The Travel Bed (Folding Bed)",
+    "ar": "السرير الملكي القابل للطي",
+    "ru": "Походная кровать (складная)",
+    "de": "Das Reisebett (Klapbett)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Travel_Folding_Bed.png",
+  "descriptions": {
+    "en": "A practical folding bed designed for travel, demonstrating the advanced carpentry skills of ancient Egyptian craftsmen.",
+    "ar": "سرير قابل للطي عملي مصمم للسفر، يُظهر المهارات المتقدمة في النجارة لدى الحرفيين المصريين القدماء.",
+    "ru": "Практическая складная кровать для путешествий, демонстрирующая передовые столярные навыки.",
+    "de": "Ein praktisches Klapbett für Reisen, das die fortgeschrittenen Tischlerfähigkeiten zeigt."
+  },
+  "priority": "152"
+}

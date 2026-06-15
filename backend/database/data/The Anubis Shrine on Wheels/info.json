@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Anubis_Shrine_Wheels",
+  "names": {
+    "en": "The Anubis Shrine on Wheels",
+    "ar": "مقصورة الإله أنوبيس فوق قاعدة النقل",
+    "ru": "Святилище Анубиса на колесной платформе",
+    "de": "Das Anubis-Heiligtum auf Rädern"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Anubis_Shrine_Wheels.jpg",
+  "descriptions": {
+    "en": "This extraordinary shrine features a recumbent figure of Anubis, the jackal-headed god of mummification and the afterlife, resting atop a gilded wooden chest. The entire assembly is mounted on a wheeled platform, suggesting it was used in funeral processions. The black-painted jackal figure is adorned with gold details, including a collar and ears. The shrine was found guarding the entrance to the Treasury chamber of Tutankhamun's tomb, symbolizing the god's protective role over the king's treasures.",
+    "ar": "تتميز هذه المقصورة الاستثنائية بتمثال مستلقٍ للإله أنوبيس، إله التحنيط والحياة الآخرة ذو الرأس الصعلوكي، مستقراً فوق صندوق خشبي مذهب. يُركّب المجمع كله على منصة ذات عجلات، مما يُشير إلى استخدامه في مواكب الجنازات. التمثال الأسود اللون مُزين بتفاصيل ذهبية، بما في ذلك طوق وأذنين. عُثر على المقصورة تحرس مدخل حجرة الخزانة في مقبرة توت عنخ آمون، رمزاً لدور الإله الحامي على كنوز الملك.",
+    "ru": "Это необычное святилище представляет собой фигуру лежащего Анубиса, бога бальзамирования и загробной жизни с головой шакала, покоящегося на позолоченном деревянном сундуке. Вся конструкция установлена на колесной платформе, что указывает на ее использование в похоронных процессиях. Черная фигура шакала украшена золотыми деталями, включая ошейник и уши. Святилище было найдено у входа в сокровищницу гробницы Тутанхамона, символизируя защитную роль бога над сокровищами царя.",
+    "de": "Dieses außergewöhnliche Heiligtum zeigt eine liegende Figur des Anubis, des Gottes der Mumifizierung und des Jenseits mit Schakalkopf, die auf einer vergoldeten Holztruhe ruht. Die gesamte Anordnung ist auf einer fahrbaren Plattform montiert, was darauf hindeutet, dass sie bei Bestattungsprozessionen verwendet wurde. Die schwarz bemalte Schakalfigur ist mit goldenen Details verziert, darunter ein Halsband und Ohren. Das Heiligtum wurde am Eingang zur Schatzkammer des Grabes von Tutanchamun gefunden und symbolisiert die schützende Rolle des Gottes über den Schätzen des Königs."
+  },
+  "priority": "134"
+}

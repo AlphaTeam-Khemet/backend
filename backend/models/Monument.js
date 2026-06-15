@@ -9,6 +9,7 @@ const Monument = sequelize.define('Monument', {
   category: { type: DataTypes.STRING(100) },
   cover_image: { type: DataTypes.TEXT },
   ai_label: { type: DataTypes.STRING(150) },
+  priority: { type: DataTypes.STRING(20), defaultValue: 'mid' },
 }, {
   tableName: 'monuments',
   underscored: true,

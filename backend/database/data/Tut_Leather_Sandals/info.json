@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Leather_Sandals",
+  "names": {
+    "en": "The King's Leather Sandals",
+    "ar": "صندل الملك المصنوع من الجلد المزين بالأعداء",
+    "ru": "Кожаные сандалии царя",
+    "de": "Die Leder-Sandalen des Königs"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Leather_Sandals.png",
+  "descriptions": {
+    "en": "Leather sandals decorated with depictions of Egypt's enemies, symbolizing the king's triumph over foreign powers.",
+    "ar": "صنادل جلدية مزينة برسومات لأعداء مصر، ترمز إلى انتصار الملك على القوى الأجنبية.",
+    "ru": "Кожаные сандалии, украшенные изображениями врагов Египта.",
+    "de": "Lederne Sandalen, verziert mit Darstellungen der Feinde Ägyptens."
+  },
+  "priority": "146"
+}

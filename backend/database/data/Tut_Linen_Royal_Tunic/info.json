@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Linen_Royal_Tunic",
+  "names": {
+    "en": "Linen Royal Tunic",
+    "ar": "التونيك (الرداء) الملكي المصنوع من الكتان",
+    "ru": "Льняная королевская туника",
+    "de": "Leinene königliche Tunika"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Linen_Royal_Tunic.png",
+  "descriptions": {
+    "en": "A finely woven linen tunic worn by the king, demonstrating the advanced textile craftsmanship of ancient Egypt.",
+    "ar": "تونيك كتان منسوج بإتقان ارتداه الملك، يُظهر الحرفية المتقدمة في النسيج في مصر القديمة.",
+    "ru": "Изысканно сотканная льняная туника, носившаяся царем.",
+    "de": "Eine fein gewebte Leinentunika, die vom König getragen wurde."
+  },
+  "priority": "114"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khufu_Ivory_Micro_Statue",
+  "names": {
+    "en": "Ivory Micro-Statue of Khufu",
+    "ar": "تمثال الملك خوفو الصغير العاجي",
+    "ru": "Слоновокостяная микро-статуя Хуфу",
+    "de": "Elfenbein-Mikrostatue des Cheops"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khufu_Ivory_Micro_Statue.png",
+  "descriptions": {
+    "en": "The only known three-dimensional representation of King Khufu, builder of the Great Pyramid, carved from ivory.",
+    "ar": "التمثيل ثلاثي الأبعاد الوحيد المعروف للملك خوفو، باني الهرم الأكبر، منحوت من العاج.",
+    "ru": "Единственное известное трехмерное изображение царя Хуфу, строителя Великой пирамиды.",
+    "de": "Die einzige bekannte dreidimensionale Darstellung von König Cheops, Erbauer der Großen Pyramide."
+  },
+  "priority": "46"
+}

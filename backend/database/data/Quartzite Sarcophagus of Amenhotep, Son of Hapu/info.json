@@ -1,0 +1,21 @@
+{
+  "ai_label": "Amenhotep_son_of_Hapu_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Amenhotep_son_of_Hapu_Sarcophagus.png",
+  "names": {
+    "en": "Quartzite Sarcophagus of Amenhotep, Son of Hapu",
+    "ar": "تابوت أمنحتب بن حابو",
+    "ru": "Кварцитовый саркофаг Аменхотепа, сына Хапу",
+    "de": "Quarzitkophag des Amenhotep, Sohn des Hapu"
+  },
+  "descriptions": {
+    "en": "Amenhotep, Son of Hapu, was one of the most celebrated officials in ancient Egyptian history. Born around 1430 BCE, he served under Pharaoh Amenhotep III as royal architect, scribe, military overseer, and chief steward of the pharaoh's daughter. He supervised construction of Amenhotep III's mortuary temple at Thebes — of which only the Colossi of Memnon remain today. Unusually for a non-royal, Amenhotep III granted him a funerary temple adjacent to his own. He was later deified as a god of wisdom and healing. His quartzite sarcophagus, now fragmented across several world museums, reflects the exceptional honour accorded to this revered sage.",
+    "ar": "أمنحتب بن حابو من أبرز الشخصيات في تاريخ مصر القديمة. وُلد نحو 1430 ق.م.، وخدم في عهد الفرعون أمنحتب الثالث مهندسًا ملكيًا وكاتبًا ومشرفًا عسكريًا وكبيرًا للخدَم في قصر ابنة الفرعون. أشرف على بناء معبد الجنازة الخاص بأمنحتب الثالث في طيبة — الذي لم يتبقَّ منه سوى تمثالَي ممنون العملاقين حتى اليوم. وفي أمر غير مألوف لغير الملوك، خصص له أمنحتب الثالث معبدًا جنائزيًا ملاصقًا لمعبده. وقد أُلِّه لاحقًا إلهًا للحكمة والشفاء. تابوته الكوارتزيتي، المشتَّت اليوم بين متاحف عالمية عدة، يعكس التكريم الاستثنائي الذي حظي به هذا الحكيم الموقَّر.",
+    "ru": "Аменхотеп, сын Хапу, — одна из наиболее прославленных личностей в истории Древнего Египта. Родившийся около 1430 до н. э., он служил при фараоне Аменхотепе III в должностях царского архитектора, писца, военного надзирателя и главного управляющего дочери фараона. Он руководил строительством заупокойного храма Аменхотепа III в Фивах — от которого сегодня остались только Колоссы Мемнона. В знак исключительной почести Аменхотеп III даровал ему заупокойный храм рядом со своим собственным. Впоследствии он был обожествлён как бог мудрости и исцеления.",
+    "de": "Amenhotep, Sohn des Hapu, war eine der berühmtesten Persönlichkeiten der altägyptischen Geschichte. Um 1430 v. Chr. geboren, diente er unter Pharao Amenhotep III. als königlicher Architekt, Schreiber, Militäraufseher und Chefverwalter der Pharaonentocher. Er beaufsichtigte den Bau des Totentempels Amenhoteps III. in Theben — von dem heute nur noch die Kolosse von Memnon übrig sind. Amenhotep III. schenkte ihm ausnahmsweise einen Totentempel neben seinem eigenen. Er wurde später als Gott der Weisheit und Heilung vergöttlicht."
+  },
+  "priority": "19"
+}

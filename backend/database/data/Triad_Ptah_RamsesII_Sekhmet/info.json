@@ -1,0 +1,21 @@
+{
+  "ai_label": "Triad_Ptah_RamsesII_Sekhmet",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Triad_Ptah_RamsesII_Sekhmet..jpg",
+  "names": {
+    "en": "Triad of Ptah, Ramses II and Sekhmet",
+    "ar": "تمثال ثلاثي لبتاح ورمسيس الثاني وسخمت",
+    "ru": "Триада Птаха, Рамсеса II и Сехмет",
+    "de": "Triade von Ptah, Ramses II und Sachmet"
+  },
+  "descriptions": {
+    "en": "This red granite triad shows the creator god Ptah, King Ramesses II, and the lion-headed goddess Sekhmet. The composition symbolizes divine protection, royal legitimacy, and the close relationship between the king and the gods.",
+    "ar": "يجسد هذا التمثال الثلاثي المصنوع من الجرانيت الأحمر الإله بتاح والملك رمسيس الثاني والإلهة سخمت ذات رأس اللبؤة. ويرمز التكوين إلى الحماية الإلهية والشرعية الملكية والعلاقة الوثيقة بين الملك والآلهة.",
+    "ru": "Триада изображает бога Птаха, фараона Рамсеса II и богиню Сехмет. Композиция символизирует божественную защиту и законность царской власти.",
+    "de": "Die Triade zeigt den Gott Ptah, König Ramses II und die löwenköpfige Göttin Sachmet. Sie symbolisiert göttlichen Schutz und königliche Legitimität."
+  },
+  "priority": "12"
+}

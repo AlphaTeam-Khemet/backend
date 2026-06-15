@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Flabellum",
+  "names": {
+    "en": "Gilded Flabellum (Ostrich Fan)",
+    "ar": "مروحة ريش النعام بمقبض ذهبي",
+    "ru": "Позолоченный флабеллум (веер из страусиных перьев)",
+    "de": "Vergoldetes Flabellum (Straußenfächer)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Flabellum.png",
+  "descriptions": {
+    "en": "A ceremonial fan with ostrich feathers and a gilded handle, used to cool and honor the king during ceremonies.",
+    "ar": "مروحة احتفالية بريش النعام ومقبض مذهب، تُستخدم لتبريد الملك وتكريمه خلال الاحتفالات.",
+    "ru": "Церемониальный веер со страусиными перьями и позолоченной ручкой.",
+    "de": "Ein zeremonieller Fächer mit Straußenfedern und vergoldetem Griff."
+  },
+  "priority": "102"
+}

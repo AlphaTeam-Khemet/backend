@@ -1,0 +1,21 @@
+{
+  "ai_label": "Senusret_II_Pectoral",
+  "names": {
+    "en": "Pectoral of Senusret II",
+    "ar": "دلاية الصدر الذهبية للملك سنوسرت الثاني",
+    "ru": "Пектораль Сенусерта II",
+    "de": "Pectoral des Sesostris II."
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Senusret_II_Pectoral.png",
+  "descriptions": {
+    "en": "A magnificent gold pectoral with cloisonne work, depicting the king's name and protective deities, found in the princess's tomb.",
+    "ar": "دلاية صدر رائعة من الذهب بعملية الكلوزونيه، تصور اسم الملك والآلهة الحامية، عُثر عليها في مقبرة الأميرة.",
+    "ru": "Великолепная золотая пектораль с перегородчатой эмалью.",
+    "de": "Eine prächtige goldene Pectoral mit Cloisonné-Arbeit."
+  },
+  "priority": "21"
+}

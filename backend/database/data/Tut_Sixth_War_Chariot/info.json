@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Sixth_War_Chariot",
+  "names": {
+    "en": "Sixth War Chariot",
+    "ar": "العجلة الحربية السادسة",
+    "ru": "Шестая военная колесница",
+    "de": "Sechster Kriegswagen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Sixth_War_Chariot.png",
+  "descriptions": {
+    "en": "The sixth and final chariot from Tutankhamun's tomb, another war chariot with robust construction.",
+    "ar": "العجلة السادسة والأخيرة من مقبرة توت عنخ آمون، عجلة حربية أخرى ببناء قوي.",
+    "ru": "Шестая и последняя колесница из гробницы Тутанхамона.",
+    "de": "Der sechste und letzte Wagen aus dem Grab von Tutanchamun."
+  },
+  "priority": "128"
+}

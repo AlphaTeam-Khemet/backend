@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Middle_Gilded_Coffin",
+  "names": {
+    "en": "The Middle Gilded Wooden Coffin",
+    "ar": "التابوت الخشبي المذهب الأوسط",
+    "ru": "Средний позолоченный деревянный гроб",
+    "de": "Der mittlere vergoldete Holzsarg"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Middle_Gilded_Coffin.jpg",
+  "descriptions": {
+    "en": "The middle coffin of Tutankhamun is made of wood covered in gold leaf, positioned between the outer gilded coffin and the innermost solid gold coffin. It depicts the king in the traditional Osirian pose with crossed arms, wearing the nemes headdress and the divine false beard. The coffin is decorated with intricate scenes and hieroglyphic inscriptions from the Book of the Dead, providing spiritual protection for the king's journey. The gilded surface and detailed craftsmanship demonstrate the extraordinary resources devoted to the young pharaoh's burial.",
+    "ar": "التابوت الأوسط لتوت عنخ آمون مصنوع من الخشب المغطى بالورق الذهبي، موضوع بين التابوت الخارجي المذهب والتابوت الداخلي الخالص من الذهب. يُصوّر الملك في الوضعية التقليدية لأوزوريس بيدين متقاطعتين، يرتدي غطاء الرأس الملكي (النمس) واللحية الصناعية الإلهية. يزين التابوت مشاهد معقدة ونقوش هيرoglيفية من كتاب الموتى، توفر الحماية الروحية لرحلة الملك. يُظهر السطح المذهب والحرفية المُفصّلة الموارد الاستثنائية المُخصصة لدفن الفرعون الشاب.",
+    "ru": "Средний гроб Тутанхамона изготовлен из дерева, покрытого сусальным золотом, и расположен между внешним позолоченным гробом и внутренним гробом из чистого золота. Он изображает царя в традиционной осирической позе со скрещенными руками, в головном уборе немес и с божественной ложной бородой. Гроб украшен сложными сценами и иероглифическими надписями из Книги мертвых, обеспечивающими духовную защиту для путешествия царя. Позолоченная поверхность и детальное мастерство демонстрируют чрезвычайные ресурсы, выделенные для погребения молодого фараона.",
+    "de": "Der mittlere Sarg von Tutanchamun besteht aus Holz mit Blattgold überzogen und liegt zwischen dem äußeren vergoldeten Sarg und dem innersten Sarg aus massivem Gold. Er stellt den König in der traditionellen osirianischen Pose mit verschränkten Armen dar, mit dem Nemes-Kopftuch und dem göttlichen falschen Bart. Der Sarg ist mit komplexen Szenen und hieroglyphischen Inschriften aus dem Totenbuch verziert, die spirituellen Schutz für die Reise des Königs bieten. Die vergoldete Oberfläche und die detaillierte Handwerkskunst zeigen die außergewöhnlichen Ressourcen, die für die Bestattung des jungen Pharaos aufgewendet wurden."
+  },
+  "priority": "148"
+}

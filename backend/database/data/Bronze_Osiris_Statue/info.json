@@ -1,0 +1,21 @@
+{
+  "ai_label": "Bronze_Osiris_Statue",
+  "names": {
+    "en": "Bronze Statue of Osiris",
+    "ar": "تمثال برونزي للإله أوزيريس مرصع بالذهب",
+    "ru": "Бронзовая статуя Осириса",
+    "de": "Bronzestatue des Osiris"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Bronze_Osiris_Statue.png",
+  "descriptions": {
+    "en": "A bronze statue of Osiris, lord of the afterlife, inlaid with gold details and wearing the atef crown, symbolizing resurrection and eternal life.",
+    "ar": "تمثال برونزي لأوزوريس، إله الحياة الآخرة، مرصع بتفاصيل ذهبية ويرتدي التاج الأتف، يرمز إلى البعث والحياة الأبدية.",
+    "ru": "Бронзовая статуя Осириса, владыки загробной жизни, инкрустированная золотыми деталями.",
+    "de": "Eine Bronzestatue des Osiris, Herrn des Jenseits, mit goldenen Details eingelegt."
+  },
+  "priority": "38"
+}

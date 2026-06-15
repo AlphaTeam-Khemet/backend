@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Anubis_Shrine_Wheels",
+  "names": {
+    "en": "The Anubis Shrine on Wheels",
+    "ar": "مقصورة الإله أنوبيس فوق قاعدة النقل",
+    "ru": "Святилище Анубиса на колесной платформе",
+    "de": "Das Anubis-Heiligtum auf Rädern"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Anubis_Shrine_Wheels.png",
+  "descriptions": {
+    "en": "This extraordinary shrine features a recumbent figure of Anubis resting atop a gilded wooden chest on a wheeled platform. The black-painted jackal figure is adorned with gold details.",
+    "ar": "تتميز هذه المقصورة الاستثنائية بتمثال مستلقٍ للإله أنوبيس مستقراً فوق صندوق خشبي مذهب على منصة ذات عجلات.",
+    "ru": "Это необычное святилище представляет собой фигуру лежащего Анубиса, покоящегося на позолоченном деревянном сундуке на колесной платформе.",
+    "de": "Dieses außergewöhnliche Heiligtum zeigt eine liegende Figur des Anubis, die auf einer vergoldeten Holztruhe auf einer fahrbaren Plattform ruht."
+  },
+  "priority": "135"
+}

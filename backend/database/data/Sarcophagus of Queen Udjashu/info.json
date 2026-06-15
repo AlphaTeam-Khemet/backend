@@ -1,0 +1,21 @@
+{
+  "ai_label": "Udjashu_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Late Period — 26th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Udjashu_Sarcophagus.png",
+  "names": {
+    "en": "Sarcophagus of Queen Udjashu",
+    "ar": "تابوت الملكة أودجاشو",
+    "ru": "Саркофаг царицы Уджашу",
+    "de": "Sarkophag der Königin Udjashu"
+  },
+  "descriptions": {
+    "en": "This anthropoid sarcophagus of Queen Udjashu is crafted from greywacke, a dense dark stone quarried in the Wadi Hammamat in the eastern desert, prized by ancient Egyptian craftsmen for its fine grain and dark green hue. Greywacke was reserved for the most prestigious funerary objects during the Late Period, and its use reflects the queen's high status. The sarcophagus is decorated with protective deities and hieroglyphic texts drawn from the funerary literature, ensuring the queen's safe passage into the afterlife.",
+    "ar": "صُنع هذا التابوت الآدمي الشكل للملكة أودجاشو من حجر الجراوك (الحجر الرسوبي الداكن)، وهو حجر كثيف داكن اللون يُستخرج من وادي الحمامات في الصحراء الشرقية، كان محل تقدير كبير لدى الحرفيين المصريين القدماء لتجانس حبيباته ولونه الأخضر الداكن. كان الجراوك مخصصًا لأرفع التحف الجنائزية في عصر الانحطاط، واستخدامه يعكس المكانة الرفيعة للملكة. يُزيِّن التابوتَ آلهةٌ حامية ونصوص هيروغليفية مستقاة من الأدب الجنائزي، لضمان عبور الملكة بسلام إلى الحياة الآخرة.",
+    "ru": "Этот антропоидный саркофаг царицы Уджашу изготовлен из граувакки — плотного тёмного камня, добывавшегося в Вади Хаммамат в восточной пустыне, высоко ценившегося древнеегипетскими мастерами за мелкозернистость и тёмно-зелёный оттенок. Граувакка использовалась для самых престижных погребальных предметов в Поздний период, и её применение отражает высокий статус царицы. Саркофаг украшен защитными божествами и иероглифическими текстами из погребальной литературы.",
+    "de": "Dieser anthropoide Sarkophag der Königin Udjashu ist aus Grauwacke gefertigt — einem dichten dunklen Stein aus dem Wadi Hammamat in der östlichen Wüste, der von altägyptischen Handwerkern für seine feine Körnung und dunkelgrüne Tönung geschätzt wurde. Grauwacke war in der Spätzeit den prestigeträchtigsten Grabbeigaben vorbehalten, und ihre Verwendung spiegelt den hohen Status der Königin wider. Der Sarkophag ist mit Schutzgottheiten und hieroglyphischen Texten aus der Funeralliteratur verziert."
+  },
+  "priority": "71"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nakht_Mummy_Mask",
+  "names": {
+    "en": "Mummy Mask of Chancellor Nakht",
+    "ar": "قناع المومياء الملون للمستشار نخت",
+    "ru": "Маска мумии канцлера Нахта",
+    "de": "Mumienmaske des Kanzlers Nakht"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Nakht_Mummy_Mask.png",
+  "descriptions": {
+    "en": "A painted cartonnage mummy mask of Chancellor Nakht, with vivid colors and protective symbols ensuring safe passage to the afterlife.",
+    "ar": "قناع مومياء من الكرتوناج الملون للمستشار نخت، بألوان حية ورموز حماية تضمن مروراً آمناً إلى الحياة الآخرة.",
+    "ru": "Расписанная картонажная маска мумии канцлера Нахта.",
+    "de": "Eine bemalte Kartonage-Mumienmaske des Kanzlers Nakht."
+  },
+  "priority": "73"
+}

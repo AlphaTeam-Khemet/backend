@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nakht_Nile_Boat_Model",
+  "names": {
+    "en": "Wooden Model of Nakht's Nile Boat",
+    "ar": "نموذج قارب نخت الخشبي المجمع",
+    "ru": "Деревянная модель нильской лодки Нахта",
+    "de": "Hölzernes Modell von Nakhts Nilschiff"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Nakht_Nile_Boat_Model.png",
+  "descriptions": {
+    "en": "A detailed wooden model of a Nile boat, complete with crew members, oars, and sails, representing the journey to the afterlife.",
+    "ar": "نموذج خشبي مفصل لقارب النيل، كامل مع أفراد الطاقم والمجداف والأشرعة، يمثل الرحلة إلى الحياة الآخرة.",
+    "ru": "Детальная деревянная модель нильской лодки с членами экипажа, веслами и парусами.",
+    "de": "Ein detailliertes hölzernes Modell eines Nilschiffs mit Besatzungsmitgliedern, Rudern und Segeln."
+  },
+  "priority": "157"
+}

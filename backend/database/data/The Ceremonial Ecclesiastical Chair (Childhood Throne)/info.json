@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Ceremonial_Chair",
+  "names": {
+    "en": "The Ceremonial Ecclesiastical Chair (Childhood Throne)",
+    "ar": "الكرسي الاحتفالي (عرش الطفولة)",
+    "ru": "Церемониальный церковный стул (трон детства)",
+    "de": "Der zeremonielle kirchliche Stuhl (Kindheitsthron)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Ceremonial_Chair.jpg",
+  "descriptions": {
+    "en": "This ceremonial chair, also known as the 'Childhood Throne,' is one of the most elegant pieces of furniture from Tutankhamun's tomb. Made of ebony wood with intricate inlays of ivory, gold, and colored faience, the chair features a curved seat and a high backrest decorated with protective symbols. The chair's compact size suggests it may have been used by the young king during his childhood. The combination of ebony and ivory creates a striking contrast, while the gold and faience inlays add splendor to this remarkable piece of royal furniture.",
+    "ar": "يُعد هذا الكرسي الاحتفالي، المعروف أيضاً بـ 'عرش الطفولة'، واحداً من أرقى قطع الأثاث من مقبرة توت عنخ آمون. مصنوع من خشب الأبنوس مع ترصيعات معقدة من العاج والذهب والفاينس الملون، يتميز الكرسي بمقعد منحنٍ ومسند ظهر عالٍ مزين برموز حماية. يُشير حجم الكرسي المدمج إلى أنه ربما كان يُستخدم من قبل الملك الشاب خلال طفولته. يخلق مزيج الأبنوس والعاج تبايناً مذهلاً، بينما تضيف ترصيعات الذهب والفاينس روعةً لهذه القطعة الاستثنائية من الأثاث الملكي.",
+    "ru": "Этот церемониальный стул, также известный как 'трон детства,' — один из самых элегантных предметов мебели из гробницы Тутанхамона. Изготовленный из эбенового дерева с сложными инкрустациями из слоновой кости, золота и цветного фаянса, стул имеет изогнутое сиденье и высокую спинку, украшенную защитными символами. Компактный размер стула указывает на то, что он, возможно, использовался молодым царем в детстве. Сочетание эбенового дерева и слоновой кости создает поразительный контраст, а инкрустации золота и фаянса добавляют великолепия этой замечательной части царской мебели.",
+    "de": "Dieser zeremonielle Stuhl, auch bekannt als 'Kindheitsthron,' ist eines der elegantesten Möbelstücke aus dem Grab von Tutanchamun. Aus Ebenholz mit komplexen Einlagen aus Elfenbein, Gold und farbigem Fayence gefertigt, verfügt der Stuhl über eine gebogene Sitzfläche und eine hohe Rückenlehne, die mit Schutzsymbolen verziert ist. Die kompakte Größe des Stuhls deutet darauf hin, dass er möglicherweise vom jungen König in seiner Kindheit benutzt wurde. Die Kombination aus Ebenholz und Elfenbein schafft einen beeindruckenden Kontrast, während die Gold- und Fayence-Einlagen Pracht zu diesem bemerkenswerten Stück königlicher Möbel hinzufügen."
+  },
+  "priority": "137"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Seti_II_Statue",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Seti_II_Statue.jpg",
+  "names": {
+    "en": "Granite Statue of Seti II Holding a Shrine",
+    "ar": "تمثال للملك سيتي الثاني يحمل مقصورة",
+    "ru": "Гранитная статуя Сети II, держащего святилище",
+    "de": "Granitsatue von Sethos II. mit einem Schrein"
+  },
+  "descriptions": {
+    "en": "This colossal sandstone statue depicts King Seti II of the 19th Dynasty holding a naos (shrine), a rare pose in which the seated pharaoh presents an offering directly to a deity. The statue was originally placed on the ceremonial path of the sacred boats of the Theban triad (Amun, Mut, and Khonsu). It is among the largest known statues of Seti II, standing over five meters high, and reflects the grandeur of Ramesside royal art. Now displayed on the Grand Staircase of the Grand Egyptian Museum.",
+    "ar": "يُجسِّد هذا التمثال الضخم المصنوع من الحجر الرملي الملكَ سيتي الثاني من الأسرة التاسعة عشرة، وهو يحمل مقصورة (ناووسًا) في وضعية نادرة للفرعون الجالس وهو يُقدِّم قربانًا لأحد الآلهة. كان التمثال يُوضع أصلًا على مسار موكب المراكب المقدسة لثالوث طيبة (آمون ومُت وخونسو)، ويُعدُّ من أضخم التماثيل المعروفة للملك سيتي الثاني، إذ يتجاوز ارتفاعه خمسة أمتار، ويعكس عظمة الفن الملكي في عصر الرعامسة. يُعرض حاليًا على السلم الكبير في المتحف المصري الكبير.",
+    "ru": "Эта колоссальная статуя из песчаника изображает царя Сети II 19-й династии, держащего наос (святилище) — редкая поза, в которой сидящий фараон преподносит дары непосредственно божеству. Статуя была первоначально установлена на церемониальном пути священных лодок Фиванской триады (Амона, Мут и Хонсу). Это одна из крупнейших известных статуй Сети II высотой более пяти метров, отражающая величие рамессидского царского искусства. Ныне экспонируется на Большой лестнице Большого Египетского музея.",
+    "de": "Diese kolossale Sandsteinsatue stellt König Sethos II. der 19. Dynastie dar, der einen Naos (Schrein) hält — eine seltene Haltung, bei der der sitzende Pharao direkt einer Gottheit opfert. Die Statue war ursprünglich auf dem Zeremonialweg der heiligen Boote der thebanischen Triade (Amun, Mut und Chons) aufgestellt. Sie ist eine der größten bekannten Statuen Sethos' II., über fünf Meter hoch, und spiegelt die Pracht der ramessidischen Königskunst wider. Sie wird jetzt auf der Großen Treppe des Großen Ägyptischen Museums ausgestellt."
+  },
+  "priority": "45"
+}

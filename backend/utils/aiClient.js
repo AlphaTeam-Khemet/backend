@@ -2,9 +2,16 @@ const axios = require('axios');
 const FormData = require('form-data');
 const fs = require('fs');
 
+// ── CV Recognition service (artifact identification) ──────────────────────────
 const client = axios.create({
   baseURL: process.env.AI_SERVICE_URL || 'http://localhost:8000',
   timeout: 30000,
+});
+
+// ── Hieroglyph Translator service (YOLO detection + LLM translation) ──────────
+const hieroglyphClient = axios.create({
+  baseURL: process.env.HIEROGLYPH_SERVICE_URL || 'http://localhost:8002',
+  timeout: 120000, // 2 minutes — YOLO + LLM pipeline can be slow
 });
 
 class AIServiceError extends Error {
@@ -48,10 +55,13 @@ exports.recognizeArtifact = async (imagePath) => {
 
 exports.translateHieroglyph = async (imagePath) => {
   try {
-    const form = createImageForm(imagePath);
-    const { data } = await client.post('/translate', form, {
-      headers: form.getHeaders(),
-    });
+    const form = new FormData();
+    form.append('image', fs.createReadStream(imagePath)); // field is "image" not "file"
+    const { data } = await hieroglyphClient.post(
+      '/api/v1/hieroglyph/translate',
+      form,
+      { headers: form.getHeaders() }
+    );
     return data;
   } catch (error) {
     throw toServiceError(error);

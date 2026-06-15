@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nes_Khonsu_Funerary_Stele",
+  "names": {
+    "en": "Funerary Stele of Nes-Khonsu",
+    "ar": "لوحة نس خنسو الخشبية الملونة",
+    "ru": "Погребальная стела Нес-Хонсу",
+    "de": "Grabstele des Nes-Chonsu"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Nes_Khonsu_Funerary_Stele.png",
+  "descriptions": {
+    "en": "A painted wooden funerary stele of Nes-Khonsu, depicting the deceased offering to the gods and requesting eternal sustenance.",
+    "ar": "لوحة جنائزية خشبية ملونة لنس خنسو، تصور المتوفي يقدم القرابين للآلهة ويطلب الإدام الأبدي.",
+    "ru": "Расписанная деревянная погребальная стела Нес-Хонсу.",
+    "de": "Eine bemalte hölzerne Grabstele des Nes-Chonsu."
+  },
+  "priority": "98"
+}

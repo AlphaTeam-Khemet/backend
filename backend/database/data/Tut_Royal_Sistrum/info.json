@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Royal_Sistrum",
+  "names": {
+    "en": "Sistrum (Musical Instrument)",
+    "ar": "الشخشيخة الملكية (السيستروم) المصنوعة من البرونز",
+    "ru": "Систр (музыкальный инструмент)",
+    "de": "Sistrum (Musikinstrument)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Royal_Sistrum.png",
+  "descriptions": {
+    "en": "A ceremonial bronze sistrum used in religious rituals, producing a rattling sound to invoke the goddess Hathor.",
+    "ar": "سيستروم برونزي احتفالي استُخدم في الطقوس الدينية، يصدر صوت خشخشة لاستدعاء الإلهة حتحور.",
+    "ru": "Церемониальный бронзовый систр, использовавшийся в религиозных ритуалах.",
+    "de": "Ein zeremonielles Bronze-Sistrum, das in religiösen Ritualen verwendet wurde."
+  },
+  "priority": "127"
+}

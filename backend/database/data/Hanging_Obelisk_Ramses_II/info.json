@@ -1,0 +1,21 @@
+{
+  "ai_label": "Hanging_Obelisk_Ramses_II",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Hanging_Obelisk_Ramses_II.jpg",
+  "names": {
+    "en": "Hanging Obelisk of Ramses II",
+    "ar": "المسلة المعلقة للملك رمسيس الثاني",
+    "ru": "Подвешенный обелиск Рамсеса II",
+    "de": "Hängender Obelisk von Ramses II"
+  },
+  "descriptions": {
+    "en": "The Hanging Obelisk of King Ramesses II is the first elevated obelisk ever displayed in Egypt. Originally erected at Tanis in the eastern Nile Delta, this massive granite monument stands about 16 meters high and weighs approximately 87 tons. The obelisk bears inscriptions of Ramesses II's royal names and titles on all four sides. At the Grand Egyptian Museum, it is uniquely displayed on a raised structure that allows visitors to view the cartouches carved underneath, an experience never possible before. It serves as the first artifact welcoming visitors to the museum.",
+    "ar": "تُعد المسلة المعلقة للملك رمسيس الثاني أول مسلة مرفوعة ومعلقة في مصر. أُقيمت في الأصل بمدينة تانيس (صان الحجر) بشرق الدلتا، ويبلغ ارتفاعها نحو 16 مترًا ويصل وزنها إلى حوالي 87 طنًا من الجرانيت. تحمل المسلة على جوانبها الأربعة ألقاب وأسماء الملك رمسيس الثاني الملكية. وقد عُرضت في المتحف المصري الكبير على قاعدة مرتفعة تُمكّن الزائرين لأول مرة من مشاهدة الخراطيش الملكية المنقوشة أسفلها، مما يجعلها إحدى أكثر القطع الأثرية تميزًا واستقبالًا لزوار المتحف.",
+    "ru": "Подвешенный обелиск царя Рамсеса II является первым поднятым над землей обелиском в Египте. Первоначально он был установлен в Танисе в восточной части дельты Нила. Высота гранитного памятника составляет около 16 метров, а вес — примерно 87 тонн. На всех четырех сторонах высечены царские титулы и имена Рамсеса II. В Большом Египетском музее обелиск установлен на специальной платформе, позволяющей посетителям впервые увидеть картуши, вырезанные на его основании.",
+    "de": "Der Hängende Obelisk von Ramses II ist der erste erhöhte Obelisk Ägyptens. Ursprünglich stand er in Tanis im östlichen Nildelta. Das Monument aus Granit ist etwa 16 Meter hoch und wiegt rund 87 Tonnen. Auf allen vier Seiten befinden sich Inschriften mit den königlichen Titeln und Namen von Ramses II. Im Grand Egyptian Museum wird der Obelisk auf einer speziellen Konstruktion präsentiert, sodass Besucher erstmals die darunter eingravierten Kartuschen betrachten können."
+  },
+  "priority": "10"
+}

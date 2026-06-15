@@ -1,0 +1,21 @@
+{
+  "ai_label": "Triad_Amun_ThutmoseI_Ahmose",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Triad_Amun_ThutmoseI_Ahmos1.jpg",
+  "names": {
+    "en": "Triad of Amun, Thutmose I and Queen Ahmose",
+    "ar": "تمثال ثلاثي لآمون وتحتمس الأول والملكة أحمس",
+    "ru": "Триада Амона, Тутмоса I и царицы Яхмос",
+    "de": "Triade von Amun, Thutmosis I. und Königin Ahmose"
+  },
+  "descriptions": {
+    "en": "This granite triad depicts the god Amun seated between King Thutmose I and Queen Ahmose. The sculpture highlights the divine relationship between the royal family and the chief deity of Thebes. It is an outstanding example of royal religious art from the early 18th Dynasty.",
+    "ar": "يمثل هذا التمثال الثلاثي المصنوع من الجرانيت الإله آمون جالسًا بين الملك تحتمس الأول والملكة أحمس. ويعكس العمل الفني العلاقة المقدسة بين الأسرة الملكية والإله الرئيسي لمدينة طيبة. ويعد من أروع نماذج الفن الديني الملكي في بداية الأسرة الثامنة عشرة.",
+    "ru": "Гранитная триада изображает бога Амона между фараоном Тутмосом I и царицей Яхмос. Скульптура подчеркивает божественную связь царской семьи с главным богом Фив.",
+    "de": "Diese Granittriade zeigt den Gott Amun zwischen König Thutmosis I. und Königin Ahmose. Sie verdeutlicht die enge religiöse Verbindung zwischen der königlichen Familie und dem Hauptgott von Theben."
+  },
+  "priority": "30"
+}

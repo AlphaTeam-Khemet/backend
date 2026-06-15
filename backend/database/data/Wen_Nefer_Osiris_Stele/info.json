@@ -1,0 +1,21 @@
+{
+  "ai_label": "Wen_Nefer_Osiris_Stele",
+  "names": {
+    "en": "Stele of Wen-Nefer offering to Osiris",
+    "ar": "لوحة ون نفر الملونة",
+    "ru": "Стела Вен-Нефера, приносящего жертву Осирису",
+    "de": "Stele des Wen-Nefer, der Osiris opfert"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Wen_Nefer_Osiris_Stele.png",
+  "descriptions": {
+    "en": "A painted wooden stele of Wen-Nefer showing him offering to Osiris, lord of the afterlife, with vivid colors and detailed hieroglyphic inscriptions.",
+    "ar": "لوحة خشبية ملونة لون نفر تُظهره يقدم القرابين لأوزوريس، إله الحياة الآخرة، بألوان حية ونقوش هيرoglيفية مفصلة.",
+    "ru": "Расписанная деревянная стела Вен-Нефера, показывающая его, приносящего жертву Осирису.",
+    "de": "Eine bemalte hölzerne Stele des Wen-Nefer, die ihn zeigt, wie er Osiris opfert."
+  },
+  "priority": "133"
+}

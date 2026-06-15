@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Canopic_Shrine",
+  "names": {
+    "en": "The Gilded Canopic Shrine (Outer)",
+    "ar": "مقصورة الأواني الكانوبية المذهبة الخارجية",
+    "ru": "Позолоченное святилище каноп (внешнее)",
+    "de": "Das vergoldete Kanopen-Heiligtum (äußeres)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Canopic_Shrine.jpg",
+  "descriptions": {
+    "en": "This magnificent gilded wooden shrine housed the alabaster canopic chest containing the embalmed viscera of Tutankhamun. The outer shrine is decorated with protective scenes and hieroglyphic inscriptions from the Book of the Dead. Four goddesses — Isis, Nephthys, Selket, and Neith — are depicted on the sides, each protecting one of the king's canopic jars. The shrine represents the elaborate protective system designed to preserve the king's organs for his journey to the afterlife.",
+    "ar": "احتوت هذه المقصورة الخشبية المذهبة الرائعة صندوق الأواني الكانوبية المصنوع من الألباستر والذي يحتوي على أحشاء توت عنخ آمون المحنطة. تزين المقصورة الخارجية بمشاهد حماية ونقوش هيرoglيفية من كتاب الموتى. تُصوّر أربع إلهات — إيزيس ونفثيس وسيلكت ونيث — على الجوانب، كل منهما تحمي إحدى جرار الكانوب الخاصة بالملك. تمثل المقصورة نظام الحماية المُفصّل المصمم للحفاظ على أعضاء الملك لرحلته إلى الحياة الآخرة.",
+    "ru": "Это великолепное позолоченное деревянное святилище вмещало алебастровый сундук с канопами, содержащий бальзамированные внутренние органы Тутанхамона. Внешнее святилище украшено защитными сценами и иероглифическими надписями из Книги мертвых. Четыре богини — Исида, Нефтида, Селкет и Нейт — изображены на боковых сторонах, каждая защищает одну из канопических сосудов царя. Святилище представляет собой сложную защитную систему, предназначенную для сохранения органов царя для его путешествия в загробную жизнь.",
+    "de": "Dieses prächtige vergoldete Holzheiligtum beherbergte die alabasterne Kanopenkiste, die die balsamierten Eingeweide von Tutanchamun enthielt. Das äußere Heiligtum ist mit Schutzszenen und hieroglyphischen Inschriften aus dem Totenbuch verziert. Vier Göttinnen — Isis, Nephthys, Selket und Neith — sind an den Seiten dargestellt, jede schützt eines der Kanopengefäße des Königs. Das Heiligtum repräsentiert das aufwendige Schutzsystem, das zum Erhalt der Organe des Königs für seine Reise ins Jenseits entworfen wurde."
+  },
+  "priority": "139"
+}

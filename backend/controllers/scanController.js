@@ -2,6 +2,7 @@ const { ScanSession, Monument, MonumentTranslation, MonumentImage, Language } = 
 const aiClient = require('../utils/aiClient');
 const ragClient = require('../utils/ragClient');
 const { getMonumentNameForClass } = require('../utils/classMapping');
+const logger = require('../utils/logger');
 
 function pickTranslation(translations = [], langCode = 'en') {
   return (
@@ -56,7 +57,7 @@ async function findMonumentByEnglishName(name, langCode = 'en') {
   };
 }
 
-exports.artifact = async (req, res) => {
+exports.artifact = async (req, res, next) => {
   try {
     if (!req.file) return res.status(400).json({ error: 'Image required' });
 
@@ -117,36 +118,93 @@ exports.artifact = async (req, res) => {
           : 'Artifact recognized successfully.',
     });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.translate = async (req, res) => {
+exports.translate = async (req, res, next) => {
   try {
-    if (!req.file) return res.status(400).json({ error: 'Image required' });
+    if (!req.file) {
+      return res.status(400).json({
+        success: false,
+        error: 'IMAGE_REQUIRED',
+        message: 'Image is required for hieroglyph translation.',
+      });
+    }
 
     const scanned_image = `/uploads/${req.file.filename}`;
     let aiResult;
+    let status = 'completed';
+
     try {
+      // Call hieroglyph_translator service (YOLO detection + LLM translation)
       aiResult = await aiClient.translateHieroglyph(req.file.path);
-    } catch {
-      aiResult = { error: 'AI service unavailable', detected_text: null, translation: null };
+    } catch (error) {
+      status = 'failed';
+      aiResult = {
+        error: error.message || 'Hieroglyph translation service unavailable.',
+        detection: null,
+        translation: null,
+      };
     }
 
+    // Save scan session for history
     const session = await ScanSession.create({
       user_id: req.user.id,
       scanned_image,
-      confidence: aiResult.confidence ?? null,
-      status: aiResult.error ? 'failed' : 'completed',
+      confidence: null,
+      status,
     });
 
-    res.status(201).json({ session, ai_result: aiResult });
+    if (status === 'failed') {
+      return res.status(502).json({
+        success: false,
+        error: 'BAD_GATEWAY',
+        message: aiResult.error || 'Hieroglyph translation service unavailable.',
+        error_details: {
+          session_id: session.id,
+          scanned_image,
+        },
+      });
+    }
+
+    return res.status(201).json({
+      success: true,
+      data: {
+        session_id: session.id,
+        scanned_image,
+        image_id: aiResult.image_id || null,
+        // Detection results — symbols found by YOLO
+        detection: aiResult.detection
+          ? {
+              symbols: aiResult.detection.symbols || [],
+              symbol_sequence: aiResult.detection.symbol_sequence || [],
+              total_symbols: aiResult.detection.symbols?.length || 0,
+            }
+          : null,
+        // Translation from LLM
+        translation: aiResult.translation
+          ? {
+              text: aiResult.translation.translation || '',
+              confidence_note: aiResult.translation.confidence_note || '',
+              detected_glyphs: aiResult.translation.detected_glyphs || [],
+              combined_phonetics: aiResult.translation.combined_phonetics || '',
+              cultural_context: aiResult.translation.cultural_context || '',
+              transliteration: aiResult.translation.transliteration || '',
+              type: aiResult.translation.type || '',
+              unknown_codes: aiResult.translation.unknown_codes || [],
+            }
+          : null,
+        status,
+        error: aiResult.error || null,
+      },
+    });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.history = async (req, res) => {
+exports.history = async (req, res, next) => {
   try {
     const sessions = await ScanSession.findAll({
       where: { user_id: req.user.id },
@@ -155,6 +213,6 @@ exports.history = async (req, res) => {
     });
     res.json(sessions);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };

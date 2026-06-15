@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nefertiti_Unfinished_Bust",
+  "names": {
+    "en": "Unfinished Quartzite Bust of Nefertiti",
+    "ar": "رأس غير مكتمل للملكة نفرتيتي",
+    "ru": "Незавершенный бюст Нефертити из кварцита",
+    "de": "Unfertige Quarzitbüste der Nofretete"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Nefertiti_Unfinished_Bust.png",
+  "descriptions": {
+    "en": "An unfinished quartzite bust of Queen Nefertiti, showing the sculptor's work in progress and revealing ancient artistic techniques.",
+    "ar": "رأس غير مكتمل من الكوارتزيت للملكة نفرتيتي، يُظهر عمل النحات أثناء التقدم ويكشف تقنيات فنية قديمة.",
+    "ru": "Незавершенный кварцитовый бюст царицы Нефертити, показывающий работу скульптора в процессе.",
+    "de": "Eine unfertige Quarzitbüste der Königin Nofretete, die die Arbeit des Bildhauers im Gange zeigt."
+  },
+  "priority": "5"
+}

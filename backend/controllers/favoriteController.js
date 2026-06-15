@@ -1,6 +1,6 @@
 const { Favorite, Monument } = require('../models');
 
-exports.getAll = async (req, res) => {
+exports.getAll = async (req, res, next) => {
   try {
     const favorites = await Favorite.findAll({
       where: { user_id: req.user.id },
@@ -9,11 +9,11 @@ exports.getAll = async (req, res) => {
     });
     res.json(favorites);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.add = async (req, res) => {
+exports.add = async (req, res, next) => {
   try {
     const { monument_id } = req.body;
     const monument = await Monument.findByPk(monument_id);
@@ -24,11 +24,11 @@ exports.add = async (req, res) => {
     });
     res.status(created ? 201 : 200).json(fav);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.remove = async (req, res) => {
+exports.remove = async (req, res, next) => {
   try {
     const deleted = await Favorite.destroy({
       where: { id: req.params.id, user_id: req.user.id },
@@ -36,6 +36,6 @@ exports.remove = async (req, res) => {
     if (!deleted) return res.status(404).json({ error: 'Favorite not found' });
     res.json({ message: 'Removed' });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };

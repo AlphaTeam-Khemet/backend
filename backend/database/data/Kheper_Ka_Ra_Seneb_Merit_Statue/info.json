@@ -1,0 +1,21 @@
+{
+  "ai_label": "Kheper_Ka_Ra_Seneb_Merit_Statue",
+  "names": {
+    "en": "Statue of Kheper-Ka-Ra-Seneb & Merit",
+    "ar": "تمثال مزدوج لـ خبر كا رع سنب ومريت",
+    "ru": "Статуя Хепер-ка-ра-Сенеба и Мерит",
+    "de": "Statue des Cheper-ka-re-Seneb und Merit"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Kheper_Ka_Ra_Seneb_Merit_Statue.png",
+  "descriptions": {
+    "en": "A touching double statue of the dwarf Seneb and his wife Merit, showing them seated together in eternal companionship.",
+    "ar": "تمثال مزدوج مؤثر للقزم سنب وزوجته مريت، يُظهرهما جالسين معاً في رفقة أبدية.",
+    "ru": "Трогательная двойная статуя карлика Сенеба и его жены Мерит.",
+    "de": "Eine berührende Doppelstatue des Zwerges Seneb und seiner Frau Merit."
+  },
+  "priority": "53"
+}

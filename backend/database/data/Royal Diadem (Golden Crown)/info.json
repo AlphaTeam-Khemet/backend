@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Royal_Diadem",
+  "names": {
+    "en": "Royal Diadem (Golden Crown)",
+    "ar": "التاج الملكي الذهبي (الإكليل)",
+    "ru": "Королевская диадема (золотая корона)",
+    "de": "Königliche Diadem (goldene Krone)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Royal_Diadem.jpg",
+  "descriptions": {
+    "en": "The royal diadem of Tutankhamun is a magnificent golden crown that was found on the king's mummy head, beneath the golden death mask. The diadem features a golden band adorned with alternating rosettes of gold and carnelian, with a rearing uraeus (cobra) at the front and a vulture at the back, representing the protective goddesses Wadjet and Nekhbet. The long lappets (ribbons) hanging from the diadem are decorated with intricate patterns and terminate in uraeus heads. This crown symbolizes the divine authority and protection bestowed upon the young pharaoh.",
+    "ar": "التاج الملكي لتوت عنخ آمون هو إكليل ذهبي رائع عُثر عليه على رأس مومياء الملك، تحت قناع الموت الذهبي. يتميز الإكليل بحزام ذهبي مزين بزخارف متناوبة من الذهب والعقيق، مع أفعى راكعة (أورايوس) في المقدمة ونسر في المؤخرة، يمثلان الإلهتين الحاميتين وادجيت ونخبيت. تزين الشرائط الطويلة (الأربطة) المعلقة من الإكليل نقوش معقدة وتنتهي برؤوس أفعى. يرمز هذا التاج إلى السلطة الإلهية والحماية المُمنوحة للفرعون الشاب.",
+    "ru": "Королевская диадема Тутанхамона — великолепная золотая корона, которая была найдена на голове мумили царя, под золотой погребальной маской. Диадема имеет золотую ленту, украшенную чередующимися розетками из золота и сердолика, с вставшей уреем (коброй) спереди и грифом сзади, представляющими защитных богинь Ваджит и Нехбет. Длинные лацканы (ленты), свисающие с диадемы, украшены сложными узорами и заканчиваются головами уреев. Эта корона символизирует божественную власть и защиту, дарованные молодому фараону.",
+    "de": "Das königliche Diadem von Tutanchamun ist eine prächtige goldene Krone, die auf dem Kopf der Mumie des Königs gefunden wurde, unter der goldenen Totenmaske. Das Diadem hat ein goldenes Band, verziert mit abwechselnden Rosetten aus Gold und Karneol, mit einer aufgerichteten Uraeus (Kobra) vorne und einem Geier hinten, die die schützenden Göttinnen Wadjet und Nekhbet darstellen. Die langen Lappets (Bänder), die vom Diadem hängen, sind mit komplexen Mustern verziert und enden in Uraeus-Köpfen. Diese Krone symbolisiert die göttliche Autorität und den Schutz, der dem jungen Pharao gewährt wurde."
+  },
+  "priority": "122"
+}

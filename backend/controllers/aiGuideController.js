@@ -1,5 +1,5 @@
 const ragClient = require('../utils/ragClient');
-const { ChatConversation, ChatMessage } = require('../models');
+const { ChatConversation, ChatMessage, sequelize } = require('../models');
 const { generateConversationTitle } = require('../utils/chatTitle');
 
 function sendRagError(res, error) {
@@ -39,20 +39,30 @@ function previewMessage(content) {
 exports.askQuestion = async (req, res) => {
   let conversation = null;
   let createdConversation = false;
+  const transaction = await sequelize.transaction();
 
   try {
     const { question, topic, conversation_id } = req.body;
-    if (!question) return res.status(400).json({ error: 'question is required' });
+    if (!question) {
+      await transaction.rollback();
+      return res.status(400).json({ error: 'question is required' });
+    }
 
     if (conversation_id) {
-      conversation = await findOwnedConversation(conversation_id, req.user.id);
-      if (!conversation) return res.status(404).json({ error: 'Conversation not found' });
+      conversation = await ChatConversation.findOne({
+        where: { id: conversation_id, user_id: req.user.id },
+        transaction
+      });
+      if (!conversation) {
+        await transaction.rollback();
+        return res.status(404).json({ error: 'Conversation not found' });
+      }
     } else {
       const title = await generateConversationTitle(question);
       conversation = await ChatConversation.create({
         user_id: req.user.id,
         title,
-      });
+      }, { transaction });
       createdConversation = true;
     }
 
@@ -61,8 +71,9 @@ exports.askQuestion = async (req, res) => {
       user_id: req.user.id,
       role: 'user',
       content: question,
-    });
+    }, { transaction });
 
+    // Call external AI service - if this fails, we rollback the transaction
     const data = await ragClient.ask({ question, topic });
 
     await ChatMessage.create({
@@ -72,9 +83,10 @@ exports.askQuestion = async (req, res) => {
       content: data.answer || data.response || '',
       sources: data.sources || [],
       latency_ms: data.latency_ms ?? null,
-    });
+    }, { transaction });
 
-    await conversation.update({ updatedAt: new Date() });
+    await conversation.update({ updatedAt: new Date() }, { transaction });
+    await transaction.commit();
 
     res.json({
       ...data,
@@ -82,14 +94,9 @@ exports.askQuestion = async (req, res) => {
       conversation_title: conversation.title,
     });
   } catch (error) {
-    if (createdConversation && conversation) {
-      try {
-        await conversation.destroy();
-      } catch {
-        // Best-effort cleanup only; preserve the original service error.
-      }
+    if (transaction && !transaction.finished) {
+      await transaction.rollback();
     }
-
     sendRagError(res, error);
   }
 };

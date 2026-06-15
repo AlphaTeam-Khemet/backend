@@ -1,0 +1,21 @@
+{
+  "ai_label": "Queen_Nofret_Granite_Statue",
+  "names": {
+    "en": "Statue of Queen Nofret (Granite)",
+    "ar": "تمثال الملكة نفرت زوجة سنوسرت الثاني",
+    "ru": "Статуя царицы Нофрет (гранит)",
+    "de": "Statue der Königin Nofret (Granit)"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Queen_Nofret_Granite_Statue.png",
+  "descriptions": {
+    "en": "A majestic black granite statue of Queen Nofret, wife of Senusret II, showcasing the dignity and beauty of Middle Kingdom royal women.",
+    "ar": "تمثال مهيب من الجرانيت الأسود للملكة نفرت، زوجة سنوسرت الثاني، يُظهر كرامة وجمال النساء الملكيات في الدولة الوسطى.",
+    "ru": "Величественная черная гранитная статуя царицы Нофрет, жены Сенусерта II.",
+    "de": "Eine majestätische schwarze Granitstatue der Königin Nofret, Frau des Sesostris II."
+  },
+  "priority": "57"
+}

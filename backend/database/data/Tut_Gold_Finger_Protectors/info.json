@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gold_Finger_Protectors",
+  "names": {
+    "en": "Gold Finger Protectors (Mummy)",
+    "ar": "أغطية أصابع المومياء المصنوعة من الذهب",
+    "ru": "Золотые накладки на пальцы (мумия)",
+    "de": "Goldene Fingerschützer (Mumie)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gold_Finger_Protectors.png",
+  "descriptions": {
+    "en": "Gold finger stalls placed on the mummy's fingers to protect and sanctify the king's hands in the afterlife.",
+    "ar": "أغطية ذهنية للأصابع وُضعت على أصابع المومياء لحماية وتقديس يدي الملك في الحياة الآخرة.",
+    "ru": "Золотые накладки на пальцы, надетые на пальцы мумили для защиты.",
+    "de": "Goldene Fingerhülsen, die auf die Finger der Mumie gelegt wurden."
+  },
+  "priority": "104"
+}

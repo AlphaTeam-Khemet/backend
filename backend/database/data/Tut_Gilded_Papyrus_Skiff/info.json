@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Papyrus_Skiff",
+  "names": {
+    "en": "Gilded Statue on Papyrus Skiff",
+    "ar": "تمثال مذهب للملك يصطاد فوق قارب بردي",
+    "ru": "Позолоченная статуя на папирусной лодке",
+    "de": "Vergoldete Statue auf Papyrus-Skiff"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Papyrus_Skiff.png",
+  "descriptions": {
+    "en": "A gilded statue of the king standing on a papyrus skiff, depicting him hunting in the marshes — a symbol of royal power and vitality.",
+    "ar": "تمثال مذهب للملك واقفاً على قارب بردي، يُصوره وهو يصطاد في المستنقعات — رمز للقوة الملكية والحيوية.",
+    "ru": "Позолоченная статуя царя, стоящего на папирусной лодке, изображающая его охотящимся в зарослях.",
+    "de": "Eine vergoldete Statue des Königs auf einem Papyrus-Skiff, die ihn bei der Jagd in den Sümpfen zeigt."
+  },
+  "priority": "42"
+}

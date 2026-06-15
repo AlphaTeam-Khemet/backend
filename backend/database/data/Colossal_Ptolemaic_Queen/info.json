@@ -1,0 +1,21 @@
+{
+  "ai_label": "Colossal_Ptolemaic_Queen",
+  "names": {
+    "en": "Colossal Ptolemaic Queen",
+    "ar": "تمثال ضخم لملكة بطلمية من الجرانيت الأسود",
+    "ru": "Колоссальная статуя птолемеевской царицы",
+    "de": "Kolossale ptolemäische Königin"
+  },
+  "era": "Ptolemaic",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Colossal_Ptolemaic_Queen.png",
+  "descriptions": {
+    "en": "A colossal black granite statue of a Ptolemaic queen, possibly Cleopatra VII or her predecessor, showcasing the fusion of Egyptian and Greek artistic traditions.",
+    "ar": "تمثال ضخم من الجرانيت الأسود لملكة بطلمية، ربما كليوباترا السابعة أو سلفتها، يُظهر اندماج التقاليد الفنية المصرية واليونانية.",
+    "ru": "Колоссальная черная гранитная статуя птолемеевской царицы, возможно, Клеопатры VII.",
+    "de": "Eine kolossale schwarze Granitstatue einer ptolemäischen Königin, möglicherweise Kleopatra VII."
+  },
+  "priority": "32"
+}

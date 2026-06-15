@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Painted_War_Chest",
+  "names": {
+    "en": "Painted Wooden War Chest",
+    "ar": "الصندوق الخشبي الملون لتصوير المعارك",
+    "ru": "Расписной деревянный военный сундук",
+    "de": "Bemalte hölzerne Kriegstruhe"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Painted_War_Chest.png",
+  "descriptions": {
+    "en": "A decorated wooden chest painted with vivid battle scenes depicting the king's military campaigns.",
+    "ar": "صندوق خشبي مزخرف مرسوم عليه مشاهد معركة حية تصور الحملات العسكرية للملك.",
+    "ru": "Украшенный деревянный сундук, расписанный яркими сценами битв.",
+    "de": "Eine verzierte Holztruhe, bemalt mit lebhaften Schlachtenszenen."
+  },
+  "priority": "120"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Akhenaten_Aten_Ring",
+  "names": {
+    "en": "Ring of Akhenaten with Aten Sun Disc",
+    "ar": "خاتم الملك أخناتون المحفور بقرص الشمس آتون",
+    "ru": "Кольцо Эхнатона с солнечным диском Атона",
+    "de": "Ring des Echnaton mit Aton-Sonnenscheibe"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Akhenaten_Aten_Ring.png",
+  "descriptions": {
+    "en": "A gold ring of Akhenaten engraved with the Aten sun disc and its life-giving rays, symbolizing the king's devotion to the sun god.",
+    "ar": "خاتم ذهبي لأخناتون محفور عليه قرص الشمس آتون وأشعته المانحة للحياة، يرمز إلى تبجيل الملك للإله الشمس.",
+    "ru": "Золотое кольцо Эхнатона, гравированное солнечным диском Атона и его животворящими лучами.",
+    "de": "Ein Goldring des Echnaton, graviert mit der Aton-Sonnenscheibe und ihren lebensspendenden Strahlen."
+  },
+  "priority": "18"
+}

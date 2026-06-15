@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Third_Hunting_Chariot",
+  "names": {
+    "en": "Third Hunting Chariot",
+    "ar": "عجلة الصيد الملكية الثالثة",
+    "ru": "Третья охотничья колесница",
+    "de": "Dritte Jagdwagen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Third_Hunting_Chariot.png",
+  "descriptions": {
+    "en": "The third chariot from Tutankhamun's tomb, designed specifically for hunting expeditions with a lighter frame and leather fittings.",
+    "ar": "العجلة الثالثة من مقبرة توت عنخ آمون، مصممة خصيصاً للرحلات الصيدية بإطار أخف وتركيبات جلدية.",
+    "ru": "Третья колесница из гробницы Тутанхамона, предназначенная специально для охотничьих экспедиций.",
+    "de": "Der dritte Wagen aus dem Grab von Tutanchamun, speziell für Jagdexpeditionen konzipiert."
+  },
+  "priority": "154"
+}

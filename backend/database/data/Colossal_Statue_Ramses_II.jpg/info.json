@@ -1,0 +1,21 @@
+{
+  "ai_label": "Colossal_Statue_Ramses_II",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Colossal_Statue_Ramses_II.jpg",
+  "names": {
+    "en": "Colossal Statue of Ramses II",
+    "ar": "تمثال رمسيس الثاني العظيم",
+    "ru": "Колоссальная статуя Рамсеса II",
+    "de": "Kolossalstatue von Ramses II"
+  },
+  "descriptions": {
+    "en": "The Colossal Statue of Ramesses II is one of the most iconic monuments of ancient Egypt. Carved from granite during the 19th Dynasty, the statue originally stood before the Temple of Ptah at Memphis. Rising over 11 meters in height, it depicts Ramesses II standing majestically as a symbol of royal authority and divine kingship. Two of his children, Prince Khaemwaset and Princess Bintanath, are shown beside his legs. Today it dominates the Grand Hall of the Grand Egyptian Museum and serves as a centerpiece welcoming visitors.",
+    "ar": "يُعد تمثال رمسيس الثاني العظيم أحد أشهر الآثار المصرية القديمة. نُحت من الجرانيت خلال الأسرة التاسعة عشرة، وكان قائمًا أمام معبد الإله بتاح في مدينة منف القديمة. يبلغ ارتفاعه أكثر من 11 مترًا، ويُظهر الملك رمسيس الثاني واقفًا في هيئة ملكية مهيبة ترمز إلى السلطة والقوة الإلهية. يظهر بجوار ساقيه كل من الأمير خع إم واست والأميرة بنت عنات. ويُعرض اليوم في البهو الرئيسي للمتحف المصري الكبير ليكون أول ما يستقبل الزائرين.",
+    "ru": "Колоссальная статуя Рамсеса II является одним из самых известных памятников Древнего Египта. Высеченная из гранита во времена XIX династии, она первоначально стояла перед храмом бога Птаха в Мемфисе. Высота статуи превышает 11 метров. Фараон изображён стоящим в величественной позе, символизирующей царскую власть и божественное правление. Рядом с его ногами изображены его дети — принц Хаэмвасет и принцесса Бинтанат.",
+    "de": "Die Kolossalstatue von Ramses II gehört zu den bekanntesten Monumenten des alten Ägypten. Sie wurde während der 19. Dynastie aus Granit gefertigt und stand ursprünglich vor dem Ptah-Tempel in Memphis. Mit einer Höhe von über 11 Metern zeigt sie Ramses II in majestätischer Haltung als Symbol königlicher Macht und göttlicher Herrschaft. Neben seinen Beinen sind Prinz Chaemwaset und Prinzessin Bintanath dargestellt."
+  },
+  "priority": "9"
+}

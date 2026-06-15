@@ -10,6 +10,8 @@ The backend exposes REST APIs for authentication, monuments, artifact scanning, 
 frontend -> backend -> PostgreSQL
 frontend -> backend -> CV Recognition service
 frontend -> backend -> Chatbot/RAG service
+frontend -> backend -> Hieroglyph Translator service
+frontend -> backend -> Voice Tour Guide service
 ```
 
 The frontend should call only the backend API at:
@@ -21,8 +23,10 @@ http://localhost:3000/api
 AI services are internal backend dependencies:
 
 ```text
-CV Recognition: http://localhost:8000
-Chatbot/RAG:    http://localhost:8001
+CV Recognition:      http://localhost:8000
+Chatbot/RAG:         http://localhost:8001
+Hieroglyph:          http://localhost:8002
+Voice Tour Guide:    http://localhost:8003 (internal only — not exposed to host)
 ```
 
 ## Tech Stack
@@ -98,6 +102,9 @@ For Docker, the root `docker-compose.yml` overrides internal service URLs:
 DB_HOST=postgres
 AI_SERVICE_URL=http://cv-recognition:8000
 RAG_SERVICE_URL=http://chatbot-llm:8001
+HIEROGLYPH_SERVICE_URL=http://hieroglyph-translator:8002
+VOICE_SERVICE_URL=http://voice-tour-guide:8003
+VOICE_SERVICE_TIMEOUT_MS=60000
 ```
 
 ## Run Locally
@@ -148,8 +155,10 @@ Use separate PowerShell terminals:
 1. PostgreSQL on `localhost:5432`
 2. CV Recognition on `http://localhost:8000`
 3. Chatbot/RAG on `http://localhost:8001`
-4. Backend on `http://localhost:3000`
-5. Frontend on `http://localhost:5173`
+4. Hieroglyph Translator on `http://localhost:8002`
+5. Voice Tour Guide on `http://localhost:8003`
+6. Backend on `http://localhost:3000`
+7. Frontend on `http://localhost:5173`
 
 ## Scripts
 
@@ -385,7 +394,89 @@ Example identify request:
 }
 ```
 
-### Gallery
+## Voice Tour Guide
+
+The `voiceController.js` owns all database operations for narration caching.
+The voice-tour-guide AI service (port 8003) is a pure TTS generator — it has
+no database access.
+
+### Endpoint
+
+```http
+POST /api/voice/artifacts/:artifactId/narrate
+Authorization: Bearer <access_token>
+Content-Type: application/json
+```
+
+### Authentication
+
+Required — JWT token via Authorization header (auth middleware).
+
+### Rate Limiting
+
+20 requests per 15 minutes per IP.
+
+### Request Body
+
+| Field                  | Type   | Description                    |
+|------------------------|--------|--------------------------------|
+| `language`             | string | `"en"` or `"ar"`              |
+| `artifact_name`        | string | Display name of the artifact   |
+| `artifact_description` | string | Text to convert to speech      |
+
+### Response
+
+| Field                   | Type          | Description                          |
+|-------------------------|---------------|--------------------------------------|
+| `success`               | boolean       | `true` on success                    |
+| `data.narration_text`   | string        | The text that was narrated           |
+| `data.audio_url`        | string / null | URL to the generated MP3 file        |
+| `data.cached`           | boolean       | `true` if returned from PostgreSQL cache |
+
+### Three-State Cache Logic
+
+All cache operations run in `voiceController.js` against the `artifact_narrations`
+table (managed by `ArtifactNarration.js` Sequelize model):
+
+| State        | Condition                          | Action                                       |
+|--------------|------------------------------------|----------------------------------------------|
+| Full hit     | Row exists, `audio_url` not null   | Return immediately — no voice service call   |
+| Partial hit  | Row exists, `audio_url` is null    | Call `POST /generate`, update row if OK      |
+| Miss         | No row                             | Call `POST /generate`, insert row, return    |
+
+### Voice Service Call (internal)
+
+On cache miss or partial hit, the backend calls:
+
+```http
+POST http://voice-tour-guide:8003/generate
+Content-Type: application/json
+```
+
+```json
+{
+  "artifact_id": "<uuid>",
+  "language": "en",
+  "text": "<artifact_description>"
+}
+```
+
+Response:
+
+```json
+{ "audio_url": "/static/audio/<uuid>_en.mp3" }
+```
+
+### Environment Variables
+
+| Variable                   | Description                                      |
+|----------------------------|--------------------------------------------------|
+| `VOICE_SERVICE_URL`        | Internal URL of voice service (port 8003)        |
+| `VOICE_SERVICE_TIMEOUT_MS` | Request timeout in ms (default: 60000)           |
+
+---
+
+## Gallery
 
 ```http
 GET    /api/gallery
@@ -549,11 +640,13 @@ curl.exe http://localhost:8001/health
 
 ## Notes
 
-- The backend acts as the gateway for both AI services.
-- Frontend clients should not call `8000` or `8001` directly.
+- The backend acts as the gateway for all AI services.
+- Frontend clients should not call `8000`, `8001`, `8002`, or `8003` directly.
 - `AI_SERVICE_URL` controls the CV Recognition service URL.
 - `RAG_SERVICE_URL` controls the Chatbot/RAG service URL.
-- If either AI service is temporarily down, backend controllers return clean error messages where possible.
+- `HIEROGLYPH_SERVICE_URL` controls the Hieroglyph Translator service URL.
+- `VOICE_SERVICE_URL` controls the Voice Tour Guide service URL.
+- If any AI service is temporarily down, backend controllers return clean error messages where possible.
 - Uploaded files are stored under `backend/uploads/`.
 - Upload size is controlled by `MAX_UPLOAD_SIZE_MB`; the default is `10`.
 - Do not commit real secrets or API keys.

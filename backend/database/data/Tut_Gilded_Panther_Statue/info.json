@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Panther_Statue",
+  "names": {
+    "en": "Gilded Statue Riding a Panther",
+    "ar": "تمثال مذهب للملك فوق فهد أسود",
+    "ru": "Позолоченная статуя верхом на пантере",
+    "de": "Vergoldete Statue auf einem Panther reitend"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Panther_Statue.png",
+  "descriptions": {
+    "en": "A gilded statue showing the king triumphantly riding a black panther, symbolizing his dominance over chaos.",
+    "ar": "تمثال مذهب يُظهر الملك منتصراً وهو يركب فهداً أسود، يرمز إلى سيطرته على الفوضى.",
+    "ru": "Позолоченная статуя, показывающая царя, торжествующе верхом на черной пантере.",
+    "de": "Eine vergoldete Statue, die den König triumphierend auf einem schwarzen Panther reitend zeigt."
+  },
+  "priority": "43"
+}

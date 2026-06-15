@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Second_Gilded_Shrine",
+  "names": {
+    "en": "Second Gilded Wooden Shrine",
+    "ar": "المقصورة الخشبية المذهبة الثانية",
+    "ru": "Второй позолоченный деревянный саркофаг",
+    "de": "Zweiter vergoldeter Holzschrein"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Second_Gilded_Shrine.jpg",
+  "descriptions": {
+    "en": "The second gilded wooden shrine of Tutankhamun was nested inside the first (outer) shrine. Like its larger counterpart, it is made of wood covered in gold leaf and decorated with protective scenes and hieroglyphic inscriptions. The shrine features the four protective goddesses — Isis, Nephthys, Neith, and Serket — at its corners, watching over the king's body. The craftsmanship demonstrates the extraordinary skill of ancient Egyptian woodworkers and gilders.",
+    "ar": "كانت المقصورة الخشبية المذهبة الثانية لتوت عنخ آمون مُحاطة داخل المقصورة الأولى (الخارجية). ومثل نظيرتها الأكبر، صُنعت من الخشب المغطى بالورق الذهبي وزُينت بمشاهد حماية ونقوش هيرoglيفية. تتميز المقصورة بوجود الإلهات الأربع الحاميات — إيزيس ونفثيس ونيث وسيركت — في زواياها، تراقب جسد الملك. تُظهر الحرفية المهارة الاستثنائية لنجاري ودهّاني الخشب المصريين القدماء.",
+    "ru": "Второй позолоченный деревянный саркофаг Тутанхамона был вложен внутрь первого (внешнего) саркофага. Как и его более крупный аналог, он изготовлен из дерева, покрытого сусальным золотом, и украшен защитными сценами и иероглифическими надписями. Саркофаг украшен четырьмя защитными богинями — Исидой, Нефтидай, Нейт и Серкет — в его углах, охраняющими тело царя. Ремесленное мастерство демонстрирует исключительное умение древнеегипетских плотников и позолотчиков.",
+    "de": "Der zweite vergoldete Holzschrein von Tutanchamun war in den ersten (äußeren) Schrein eingeschachtelt. Wie sein größeres Gegenstück ist er aus Holz mit Blattgold überzogen und mit Schutzszenen und hieroglyphischen Inschriften verziert. Der Schrein zeigt die vier schützenden Göttinnen — Isis, Nephthys, Neith und Serket — an seinen Ecken, die über den Körper des Königs wachen. Die Handwerkskunst zeigt die außergewöhnliche Fähigkeit der altägyptischen Holzarbeiter und Vergolder."
+  },
+  "priority": "126"
+}

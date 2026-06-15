@@ -1,0 +1,21 @@
+{
+  "ai_label": "Model_Granary",
+  "names": {
+    "en": "Wooden Model of a Granary",
+    "ar": "نموذج خشبي كامل لصومعة غلال",
+    "ru": "Деревянная модель зернохранилища",
+    "de": "Hölzernes Modell eines Getreidespeichers"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Model_Granary.png",
+  "descriptions": {
+    "en": "A detailed wooden model of a granary with workers measuring and storing grain, ensuring eternal sustenance for the tomb owner.",
+    "ar": "نموذج خشبي مفصل لصومعة غلال مع عمال يقيسون ويخزنون الحبوب، لضمان إدام دائم لصاحب المقبرة.",
+    "ru": "Детальная деревянная модель зернохранилища с рабочими, измеряющими и хранящими зерно.",
+    "de": "Ein detailliertes hölzernes Modell eines Getreidespeichers mit Arbeitern."
+  },
+  "priority": "156"
+}

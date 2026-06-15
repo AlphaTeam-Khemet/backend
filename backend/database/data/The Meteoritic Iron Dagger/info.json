@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Meteoritic_Iron_Dagger",
+  "names": {
+    "en": "The Meteoritic Iron Dagger",
+    "ar": "خنجر حديد النيازك الفضائي بمقبضه المجمع",
+    "ru": "Кинжал из метеоритного железа",
+    "de": "Der Dolch aus Meteoriteneisen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Meteoritic_Iron_Dagger.jpg",
+  "descriptions": {
+    "en": "This extraordinary dagger is one of the most remarkable artifacts from Tutankhamun's tomb. Scientific analysis has confirmed that the blade is made from meteoritic iron — metal that fell from the sky — making it a truly celestial object. The dagger features an ornate handle of gold and rock crystal, decorated with intricate patterns of colored glass and gold. It was found wrapped in the king's mummy bandages, suggesting it was intended for protection in the afterlife. The use of meteoritic iron demonstrates the advanced metallurgical knowledge of ancient Egyptians and their reverence for materials from the heavens.",
+    "ar": "يُعد هذا الخنجر الاستثنائي واحداً من أبرز القطع الأثرية في مقبرة توت عنخ آمون. أكد التحليل العلمي أن النصل مصنوع من حديد النيازك — معدن سقط من السماء — مما يجعله جسمًا سماويًا حقيقيًا. يتميز الخنجر بمقبض مُزخرف من الذهب والكريستال الصخري، مزين بنقوش معقدة من الزجاج الملون والذهب. عُثر عليه ملفوفاً في ضمادات مومياء الملك، مما يُشير إلى أنه كان مخصصاً للحماية في الحياة الآخرة. يُظهر استخدام حديد النيازك المعرفة المتقدمة بالمعادن لدى المصريين القدماء وتبجيلهم للمواد السماوية.",
+    "ru": "Этот необычный кинжал — один из самых замечательных артефактов из гробницы Тутанхамона. Научный анализ подтвердил, что лезвие изготовлено из метеоритного железа — металла, упавшего с неба — делая его поистине небесным объектом. Кинжал имеет богато украшенную рукоятку из золота и горного хрусталя, украшенную сложными узорами из цветного стекла и золота. Он был найден, завернутый в бинты мумили царя, что указывает на то, что он был предназначен для защиты в загробной жизни. Использование метеоритного железа демонстрирует передовые металлургические знания древних египтян и их почтение к материалам с небес.",
+    "de": "Dieser außergewöhnliche Dolch ist eines der bemerkenswertesten Artefakte aus dem Grab von Tutanchamun. Wissenschaftliche Analysen haben bestätigt, dass die Klinge aus Meteoriteneisen besteht — Metall, das vom Himmel fiel — was ihn zu einem wahrhaft himmlischen Objekt macht. Der Dolch verfügt über einen verzierten Griff aus Gold und Bergkristall, verziert mit komplexen Mustern aus farbigem Glas und Gold. Er wurde in die Mumienbinden des Königs gewickelt gefunden, was darauf hindeutet, dass er zum Schutz im Jenseits bestimmt war. Die Verwendung von Meteoriteneisen zeigt das fortgeschrittene metallurgische Wissen der alten Ägypter und ihre Ehrfurcht vor Materialien vom Himmel."
+  },
+  "priority": "147"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Ivory_Ebony_Senet",
+  "names": {
+    "en": "Ivory and Ebony Senet Board",
+    "ar": "لعبة السنت من العاج والأبنوس",
+    "ru": "Игровая доска сенет из слоновой кости и эбенового дерева",
+    "de": "Senet-Brett aus Elfenbein und Ebenholz"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Ivory_Ebony_Senet.png",
+  "descriptions": {
+    "en": "An exquisite senet game board made of ivory and ebony, the most popular board game in ancient Egypt, symbolizing the journey to the afterlife.",
+    "ar": "لوحة لعبة سنت رائعة مصنوعة من العاج والأبنوس، أشهر لعبة لوحية في مصر القديمة، ترمز إلى الرحلة إلى الحياة الآخرة.",
+    "ru": "Изысканная игровая доска сенет из слоновой кости и эбенового дерева.",
+    "de": "Ein exquisites Senet-Spielbrett aus Elfenbein und Ebenholz."
+  },
+  "priority": "109"
+}

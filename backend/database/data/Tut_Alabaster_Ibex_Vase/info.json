@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Alabaster_Ibex_Vase",
+  "names": {
+    "en": "Alabaster Ibex Vase",
+    "ar": "إناء من الألباستر على هيئة وعل",
+    "ru": "Алебастровая ваза в форме козерога",
+    "de": "Alabaster-Vase in Form eines Steinbocks"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Alabaster_Ibex_Vase.png",
+  "descriptions": {
+    "en": "An elegant alabaster vase shaped like an ibex, showcasing the naturalistic art style of the 18th Dynasty.",
+    "ar": "مزهرية ألباستر أنيقة على شكل وعل، تُظهر أسلوب الفن الطبيعي للأسرة الثامنة عشر.",
+    "ru": "Элегантная алебастровая ваза в форме козерога.",
+    "de": "Eine elegante Alabaster-Vase in Form eines Steinbocks."
+  },
+  "priority": "81"
+}

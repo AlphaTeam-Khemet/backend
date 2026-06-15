@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gold_Toe_Protectors",
+  "names": {
+    "en": "Gold Toe Protectors (Mummy)",
+    "ar": "أغطية أصابع القدمين الذهبية للمومياء",
+    "ru": "Золотые накладки на пальцы ног (мумия)",
+    "de": "Goldene Zehenschützer (Mumie)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gold_Toe_Protectors.png",
+  "descriptions": {
+    "en": "Gold toe covers placed on the mummy's toes, ensuring the king's feet remained protected for eternity.",
+    "ar": "أغطية ذهنية لأصابع القدمين وُضعت على أصابع المومياء، لضمان حماية قدمي الملك للأبد.",
+    "ru": "Золотые накладки на пальцы ног, надетые на мумию.",
+    "de": "Goldene Zehenüberzüge, die auf die Mumie gelegt wurden."
+  },
+  "priority": "105"
+}

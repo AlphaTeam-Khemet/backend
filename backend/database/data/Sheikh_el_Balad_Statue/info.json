@@ -1,0 +1,21 @@
+{
+  "ai_label": "Sheikh_el_Balad_Statue",
+  "names": {
+    "en": "Wooden Sheikh el-Balad (Ka-Aper)",
+    "ar": "تمثال شيخ البلد (كاعبر) الخشبي",
+    "ru": "Деревянная статуя Шейх-эль-Балад (Ка-Апер)",
+    "de": "Hölzerne Scheich-el-Balad-Statue (Ka-Aper)"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Sheikh_el_Balad_Statue.png",
+  "descriptions": {
+    "en": "A remarkably lifelike wooden statue of the noble Ka-Aper, nicknamed 'Sheikh el-Balad' by Egyptian workers due to its resemblance to a village elder.",
+    "ar": "تمثال خشبي واقعي بشكل مذهل للنبيل كاعبر، لُقب بـ 'شيخ البلد' من قبل العمال المصريين لشبهه بشيخ القرية.",
+    "ru": "Удивительно реалистичная деревянная статуя знатного Ка-Апера.",
+    "de": "Eine bemerkenswert lebensechte hölzerne Statue des Adligen Ka-Aper."
+  },
+  "priority": "62"
+}

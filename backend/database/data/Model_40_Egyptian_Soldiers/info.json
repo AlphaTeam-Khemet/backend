@@ -1,0 +1,21 @@
+{
+  "ai_label": "Model_40_Egyptian_Soldiers",
+  "names": {
+    "en": "Model of 40 Egyptian Soldiers",
+    "ar": "نموذج الأربعين جندياً مصرياً",
+    "ru": "Модель 40 египетских солдат",
+    "de": "Modell von 40 ägyptischen Soldaten"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Model_40_Egyptian_Soldiers.png",
+  "descriptions": {
+    "en": "A detailed wooden model of 40 Egyptian soldiers marching in formation, painted with lifelike colors and armed with spears and shields.",
+    "ar": "نموذج خشبي مفصل لأربعين جندياً مصرياً يسيرون في تشكيل، مرسوم بألوان واقعية ومسلحين بالرماح والدروع.",
+    "ru": "Детальная деревянная модель 40 египетских солдат, марширующих в строю.",
+    "de": "Ein detailliertes hölzernes Modell von 40 ägyptischen Soldaten, die in Formation marschieren."
+  },
+  "priority": "115"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_First_Gilded_Chariot",
+  "names": {
+    "en": "First Gilded State Chariot",
+    "ar": "العجلة الحربية الاحتفالية الأولى المجمعة",
+    "ru": "Первая позолоченная парадная колесница",
+    "de": "Erste vergoldete Staatswagen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_First_Gilded_Chariot.png",
+  "descriptions": {
+    "en": "This is the first of six chariots found in Tutankhamun's tomb, now fully assembled. A masterpiece of ancient engineering with gilded decoration.",
+    "ar": "هذه هي الأولى من بين ست عجلات حربية عُثر عليها في مقبرة توت عنخ آمون، مجمعة بالكامل.",
+    "ru": "Это первая из шести колесниц, найденных в гробнице Тутанхамона, полностью собранная.",
+    "de": "Dies ist der erste von sechs Wagen, die im Grab von Tutanchamun gefunden wurden, vollständig montiert."
+  },
+  "priority": "93"
+}

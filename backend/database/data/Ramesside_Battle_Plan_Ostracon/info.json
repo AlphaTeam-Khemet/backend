@@ -1,0 +1,21 @@
+{
+  "ai_label": "Ramesside_Battle_Plan_Ostracon",
+  "names": {
+    "en": "Ostracon with Ramesside Battle Plan",
+    "ar": "شقفة فخارية تحمل مخطط معركة حربية",
+    "ru": "Остракон с планом битвы эпохи Рамессидов",
+    "de": "Ostrakon mit Ramseszeitlichem Schlachtplan"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Ramesside_Battle_Plan_Ostracon.png",
+  "descriptions": {
+    "en": "A pottery ostracon with a detailed battle plan from the Ramesside period, showing military strategy and fortification layouts.",
+    "ar": "شقفة فخارية تحمل مخطط معركة مفصل من عصر الرامسيس، تُظهر الاستراتيجية العسكرية وتخطيط التحصينات.",
+    "ru": "Глиняный остракон с подробным планом битвы из рамессидского периода.",
+    "de": "Ein Tonscherben-Ostrakon mit einem detaillierten Schlachtplan aus der Ramseszeit."
+  },
+  "priority": "119"
+}

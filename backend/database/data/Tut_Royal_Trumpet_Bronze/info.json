@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Royal_Trumpet_Bronze",
+  "names": {
+    "en": "The Royal Trumpet (Bronze)",
+    "ar": "بوق توت عنخ آمون المصنوع من البرونز",
+    "ru": "Царская труба (бронза)",
+    "de": "Die königliche Trompete (Bronze)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Royal_Trumpet_Bronze.png",
+  "descriptions": {
+    "en": "One of two trumpets found in the tomb, made of bronze, used to announce the king's presence in ceremonies.",
+    "ar": "أحد بوقين عُثر عليهما في المقبرة، مصنوع من البرونز، استُخدم للإعلان عن حضور الملك في الاحتفالات.",
+    "ru": "Одна из двух труб, найденных в гробнице, изготовленная из бронзы.",
+    "de": "Eine von zwei Trompeten, die im Grab gefunden wurden, aus Bronze."
+  },
+  "priority": "150"
+}

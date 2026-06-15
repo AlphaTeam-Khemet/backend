@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Fifth_War_Chariot",
+  "names": {
+    "en": "Fifth War Chariot",
+    "ar": "العجلة الحربية الخامسة",
+    "ru": "Пятая военная колесница",
+    "de": "Fünfter Kriegswagen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Fifth_War_Chariot.png",
+  "descriptions": {
+    "en": "The fifth chariot, designed for warfare with reinforced structure and battle-ready features.",
+    "ar": "العجلة الخامسة، مصممة للحرب ببنية مُقوّاة وخصائص جاهزة للمعارك.",
+    "ru": "Пятая колесница, предназначенная для войны с усиленной конструкцией.",
+    "de": "Der fünfte Wagen, für den Krieg konzipiert mit verstärkter Struktur."
+  },
+  "priority": "91"
+}

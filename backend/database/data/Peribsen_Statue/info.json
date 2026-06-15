@@ -1,0 +1,21 @@
+{
+  "ai_label": "Peribsen_Statue",
+  "names": {
+    "en": "Statue of King Peribsen",
+    "ar": "لوحة الملك بر إيب سن من الأسرة الثانية",
+    "ru": "Статуя царя Перибсена",
+    "de": "Statue des Königs Peribsen"
+  },
+  "era": "Early Dynastic",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Peribsen_Statue.png",
+  "descriptions": {
+    "en": "A rare statue from the 2nd Dynasty showing King Peribsen, notable for his connection to the god Seth rather than Horus.",
+    "ar": "تمثال نادر من الأسرة الثانية يُظهر الملك بر إيب سن، ملحوظ لارتباطه بالإله ست بدلاً من حورس.",
+    "ru": "Редкая статуя из II династии, изображающая царя Перибсена.",
+    "de": "Eine seltene Statue aus der 2. Dynastie, die König Peribsen zeigt."
+  },
+  "priority": "55"
+}

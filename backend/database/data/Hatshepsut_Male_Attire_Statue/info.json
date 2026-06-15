@@ -1,0 +1,21 @@
+{
+  "ai_label": "Hatshepsut_Male_Attire_Statue",
+  "names": {
+    "en": "Statue of Queen Hatshepsut in male attire",
+    "ar": "تمثال للملكة حتشبسوت بالزي الملكي الذكوري",
+    "ru": "Статуя царицы Хатшепсут в мужском одеянии",
+    "de": "Statue der Königin Hatschepsut in männlicher Kleidung"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Hatshepsut_Male_Attire_Statue.png",
+  "descriptions": {
+    "en": "A granite statue of Queen Hatshepsut wearing the traditional male pharaonic regalia, including the false beard and nemes headdress, asserting her royal authority.",
+    "ar": "تمثال من الجرانيت للملكة حتشبسوت يرتدي الزي الملكي الذكوري التقليدي، بما في ذلك اللحية الصناعية وغطاء الرأس النمس، مؤكداً سلطتها الملكية.",
+    "ru": "Гранитная статуя царицы Хатшепсут в традиционном мужском фараоническом облачении.",
+    "de": "Eine Granitstatue der Königin Hatschepsut in traditioneller männlicher pharaonischer Tracht."
+  },
+  "priority": "7"
+}

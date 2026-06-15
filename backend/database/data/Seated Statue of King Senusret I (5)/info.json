@@ -1,0 +1,21 @@
+{
+  "ai_label": "Senusret_I_Statue_05",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Middle Kingdom — 12th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Senusret_I_Statue_05.jpg",
+  "names": {
+    "en": "Seated Statue of King Senusret I (5)",
+    "ar": "تمثال الملك سنوسرت الأول الجالس (5)",
+    "ru": "Сидящая статуя царя Сенусерта I (5)",
+    "de": "Sitzende Statue des Königs Sesostris I (5)"
+  },
+  "descriptions": {
+    "en": "This is one of ten magnificent limestone seated statues of King Senusret I discovered in 1894 during excavations at his funerary temple in El-Lisht. The king is depicted seated on the throne, wearing the nemes head cloth and the royal kilt. The sides of the throne are decorated with the sema-tawy sign symbolizing the unification of Upper and Lower Egypt. This statue is part of the iconic display on the Grand Staircase of the Grand Egyptian Museum (GEM), arranged in a triangular formation that mirrors the pyramid shape of the museum's facade. The statue is carved from limestone and represents the king in his youthful form, embodying the idealized royal image of the Middle Kingdom.",
+    "ar": "هذا أحد عشر تمثالاً جالساً رائعاً من الحجر الجيري للملك سنوسرت الأول، اكتُشف عام 1894 أثناء حفريات في معبده الجنائزي بالليشت. يُصوّر الملك جالساً على العرش، يرتدي غطاء الرأس الملكي (النمس) والنقبة الملكية. تزين جوانب العرش علامة السما-تاوي التي ترمز إلى توحيد مصر العليا والسفلى. يُعد هذا التمثال جزءاً من العرض الأيقوني على السلالم الكبرى بالمتحف المصري الكبير (GEM)، مرتباً على شكل مثلث يحاكي شكل الهرم في واجهة المتحف. نُحت التمثال من الحجر الجيري ويُمثل الملك في صورة شبابه، مجسداً الصورة الملكية المثالية للدولة الوسطى.",
+    "ru": "Это одна из десяти великолепных известняковых сидящих статуй царя Сенусерта I, обнаруженных в 1894 году во время раскопок в его погребальном храме в Эль-Лиште. Царь изображен сидящим на троне, в головном уборе немес и царской набедренной повязке. Стороны трона украшены знаком сема-тауи, символизирующим объединение Верхнего и Нижнего Египта. Эта статуя является частью знаковой экспозиции на Большой лестнице Большого Египетского музея (GEM), расположенной в треугольной форме, отражающей форму пирамиды фасада музея. Статуя вырезана из известняка и представляет царя в его молодом облике, воплощая идеализированное царское изображение Среднего царства.",
+    "de": "Dies ist eine von zehn prächtigen sitzenden Kalksteinstatuen des Königs Sesostris I., die 1894 bei Ausgrabungen in seinem Totentempel in El-Lischt entdeckt wurden. Der König ist auf dem Thron sitzend dargestellt, mit dem Nemes-Kopftuch und dem königlichen Schurz. Die Seiten des Throns sind mit dem Sema-Tawy-Zeichen verziert, das die Vereinigung von Ober- und Unterägypten symbolisiert. Diese Statue ist Teil der ikonischen Ausstellung auf der Großen Treppe des Großen Ägyptischen Museums (GEM), angeordnet in einer dreieckigen Formation, die die Pyramidenform der Museumsfassade widerspiegelt. Die Statue ist aus Kalkstein geschnitzt und stellt den König in seiner jugendlichen Form dar, verkörpert das idealisierte königliche Bild des Mittleren Reiches."
+  },
+  "priority": "26"
+}

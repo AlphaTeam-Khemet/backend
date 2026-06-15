@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Kings_Boomerang",
+  "names": {
+    "en": "The King's Boomerang",
+    "ar": "عصا الارتداد (البومبرنج) الخاصة بالملك للصيد",
+    "ru": "Бумеранг царя",
+    "de": "Der Bumerang des Königs"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Kings_Boomerang.png",
+  "descriptions": {
+    "en": "A wooden boomerang used by the king for hunting birds in the Nile marshes, a symbol of royal leisure.",
+    "ar": "بومبرنج خشبي استُخدم من قبل الملك لصيد الطيور في مستنقعات النيل، رمز للترفيه الملكي.",
+    "ru": "Деревянный бумеранг, использовавшийся царем для охоты на птиц.",
+    "de": "Ein hölzerner Bumerang, der vom König zur Vogeljagd verwendet wurde."
+  },
+  "priority": "144"
+}

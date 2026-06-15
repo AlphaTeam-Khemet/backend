@@ -110,3 +110,8 @@ CREATE TABLE reviews (
   UNIQUE(user_id, monument_id)
 );
 CREATE INDEX idx_reviews_monument ON reviews(monument_id);
+
+-- 10. Voice narration cache
+-- Managed by Sequelize via backend/backend/models/ArtifactNarration.js.
+-- The table is created/altered automatically by sequelize.sync({ alter: true })
+-- on backend startup. Do not define it here to avoid two sources of truth.

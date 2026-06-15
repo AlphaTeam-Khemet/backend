@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Fourth_Gilded_Shrine",
+  "names": {
+    "en": "Fourth Gilded Wooden Shrine",
+    "ar": "المقصورة الخشبية المذهبة الرابعة (الصغرى)",
+    "ru": "Четвертый позолоченный деревянный саркофаг",
+    "de": "Vierter vergoldeter Holzschrein"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Fourth_Gilded_Shrine.png",
+  "descriptions": {
+    "en": "The fourth and innermost gilded wooden shrine of Tutankhamun was the final protective layer before the stone sarcophagus. This smallest shrine contained the three nested coffins of the king.",
+    "ar": "كانت المقصورة الخشبية المذهبة الرابعة والداخلية لتوت عنخ آمون الطبقة الحماية الأخيرة قبل التابوت الحجري.",
+    "ru": "Четвертый и самый внутренний позолоченный деревянный саркофаг Тутанхамона был последним защитным слоем перед каменным саркофагом.",
+    "de": "Der vierte und innerste vergoldete Holzschrein von Tutanchamun war die letzte Schutzschicht vor dem Steinsarkophag."
+  },
+  "priority": "96"
+}

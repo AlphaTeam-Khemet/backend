@@ -1,0 +1,21 @@
+{
+  "ai_label": "Rahotep_Limestone_Statue",
+  "names": {
+    "en": "Limestone Rahotep Statue",
+    "ar": "تمثال الأمير رع حتب الملون",
+    "ru": "Известняковая статуя Рахотепа",
+    "de": "Kalksteinstatue des Rahotep"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Rahotep_Limestone_Statue.png",
+  "descriptions": {
+    "en": "A remarkably well-preserved painted limestone statue of Prince Rahotep, with lifelike crystal eyes that seem to follow the viewer.",
+    "ar": "تمثال حجر جيري ملون محفوظ بشكل مذهل للأمير رع حتب، بعيون كريستالية واقعية تبدو وكأنها تتبع المشاهد.",
+    "ru": "Удивительно хорошо сохранившаяся расписанная известняковая статуя принца Рахотепа.",
+    "de": "Eine bemerkenswert gut erhaltene bemalte Kalksteinstatue des Prinzen Rahotep."
+  },
+  "priority": "48"
+}

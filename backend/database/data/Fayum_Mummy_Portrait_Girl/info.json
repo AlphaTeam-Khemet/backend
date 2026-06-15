@@ -1,0 +1,21 @@
+{
+  "ai_label": "Fayum_Mummy_Portrait_Girl",
+  "names": {
+    "en": "Fayum Mummy Portrait (Young Girl)",
+    "ar": "بورتريه مومياء من الفيوم (فتاة شابة)",
+    "ru": "Фаюмский портрет мумии (молодая девушка)",
+    "de": "Fayum-Mumienporträt (junges Mädchen)"
+  },
+  "era": "Roman Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Fayum_Mummy_Portrait_Girl.png",
+  "descriptions": {
+    "en": "A delicate encaustic portrait of a young girl from the Fayum, with large expressive eyes and fine jewelry, representing the poignant blend of Egyptian burial customs and Roman portraiture.",
+    "ar": "بورتريه رقيق بالإنكاوستيك لفتاة شابة من الفيوم، بعيون كبيرة معبّرة ومجوهرات رقيقة، يمثل المزيج المؤثر بين عادات الدفن المصرية والبورتريه الروماني.",
+    "ru": "Нежный энкаустический портрет молодой девушки из Файюма.",
+    "de": "Ein zartes Enkaustik-Porträt eines jungen Mädchens aus dem Fayum."
+  },
+  "priority": "90"
+}

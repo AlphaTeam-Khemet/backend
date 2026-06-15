@@ -1,6 +1,6 @@
 const { Gallery, Monument, ScanSession } = require('../models');
 
-exports.getAll = async (req, res) => {
+exports.getAll = async (req, res, next) => {
   try {
     const items = await Gallery.findAll({
       where: { user_id: req.user.id },
@@ -12,11 +12,11 @@ exports.getAll = async (req, res) => {
     });
     res.json(items);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.add = async (req, res) => {
+exports.add = async (req, res, next) => {
   try {
     const { monument_id, session_id, image_url } = req.body;
     const [item, created] = await Gallery.findOrCreate({
@@ -25,11 +25,11 @@ exports.add = async (req, res) => {
     });
     res.status(created ? 201 : 200).json(item);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.remove = async (req, res) => {
+exports.remove = async (req, res, next) => {
   try {
     const deleted = await Gallery.destroy({
       where: { id: req.params.id, user_id: req.user.id },
@@ -37,6 +37,6 @@ exports.remove = async (req, res) => {
     if (!deleted) return res.status(404).json({ error: 'Gallery item not found' });
     res.json({ message: 'Removed' });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };

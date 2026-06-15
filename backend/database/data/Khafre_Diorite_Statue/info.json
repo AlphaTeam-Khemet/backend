@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khafre_Diorite_Statue",
+  "names": {
+    "en": "Seated Diorite Statue of Khafre",
+    "ar": "تمثال الملك خفرع من حجر الديوريت",
+    "ru": "Сидящая диоритовая статуя Хафра",
+    "de": "Sitzende Dioritstatue des Chephren"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khafre_Diorite_Statue.png",
+  "descriptions": {
+    "en": "A magnificent seated statue of King Khafre carved from hard diorite, protected by the Horus falcon behind his head.",
+    "ar": "تمثال جالس رائع للملك خفرع منحوت من حجر الديوريت الصلب، محمي من قبل صقر حورس خلف رأسه.",
+    "ru": "Великолепная сидящая статуя царя Хафра, вырезанная из твердого диорита.",
+    "de": "Eine prächtige sitzende Statue des Königs Chephren, aus hartem Diorit geschnitzt."
+  },
+  "priority": "14"
+}

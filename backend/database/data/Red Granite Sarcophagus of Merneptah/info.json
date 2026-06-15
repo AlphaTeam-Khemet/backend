@@ -1,0 +1,21 @@
+{
+  "ai_label": "Merneptah_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Merneptah_Sarcophagus.jpg",
+  "names": {
+    "en": "Red Granite Sarcophagus of Merneptah",
+    "ar": "تابوت الجرانيت الأحمر للملك مرنبتاح",
+    "ru": "Саркофаг Мернептаха из красного гранита",
+    "de": "Roter Granitsarkophag des Merenptah"
+  },
+  "descriptions": {
+    "en": "This is the outermost of four nested stone sarcophagi that enclosed the mummy of Pharaoh Merneptah, son and successor of Ramesses II. Made of red granite, it is identified as the largest ancient Egyptian sarcophagus ever discovered, measuring more than four metres long, over two metres wide, and standing more than two and a half metres high. Its lid, surmounted by a mummiform effigy of the king, is still intact. Merneptah was a warrior king who repelled Libyan and Sea Peoples invasions, and his name appears in the famous Israel Stele — the earliest known mention of the name 'Israel'.",
+    "ar": "هذا هو الغلاف الخارجي لأربعة توابيت حجرية متداخلة كانت تُحيط بمومياء الفرعون مرنبتاح، نجل الملك رمسيس الثاني وخليفته. مصنوع من الجرانيت الأحمر، ويُعدُّ أكبر تابوت مصري قديم اكتُشف على الإطلاق، إذ يتجاوز طوله أربعة أمتار وعرضه مترين ونصف وارتفاعه مترين ونصف. لا يزال غطاؤه المعلَّى بتمثال المومياء للملك سليمًا. كان مرنبتاح ملكًا محاربًا صدَّ غزوات الليبيين وشعوب البحر، واسمه مُدرج في لوحة إسرائيل الشهيرة — أقدم ذكر معروف لاسم 'إسرائيل'.",
+    "ru": "Это внешняя оболочка из четырёх вложенных каменных саркофагов, которые окружали мумию фараона Мернептаха, сына и преемника Рамсеса II. Изготовленный из красного гранита, он считается крупнейшим из когда-либо обнаруженных древнеегипетских саркофагов: длина более четырёх метров, ширина более двух метров, высота более двух с половиной метров. Его крышка, увенчанная мумиеобразным изображением царя, сохранилась в целости.",
+    "de": "Dies ist die äußerste von vier ineinandergeschachtelten Steinsarkophagen, die die Mumie des Pharao Merenptah, des Sohnes und Nachfolgers von Ramesses II., umschlossen. Aus rotem Granit gefertigt, gilt er als der größte je entdeckte altägyptische Sarkophag: mehr als vier Meter lang, über zwei Meter breit und mehr als zweieinhalb Meter hoch. Sein Deckel, der von einer mumienförmigen Darstellung des Königs bekrönt wird, ist noch intakt."
+  },
+  "priority": "66"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Alabaster_Canopic_Chest",
+  "names": {
+    "en": "Alabaster Canopic Chest",
+    "ar": "صندوق الأواني الكانوبية المصنوع من الألباستر",
+    "ru": "Алебастровый сундук с канопами",
+    "de": "Alabasterne Kanopenkiste"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Alabaster_Canopic_Chest.jpg",
+  "descriptions": {
+    "en": "This exquisite alabaster chest housed the four canopic jars containing the embalmed internal organs of Tutankhamun. Carved from a single block of translucent calcite (Egyptian alabaster), the chest features four protective goddesses carved in high relief at each corner, their arms outstretched in protection. The lid is shaped like a temple roof, and the interior is divided into four compartments. The chest was found inside the gilded canopic shrine, representing the innermost layer of protection for the king's viscera.",
+    "ar": "احتوى هذا الصندوق الرائع من الألباستر الأربع جرار كانوبية تحتوي على الأحشاء الداخلية المحنطة لتوت عنخ آمون. نُحت الصندوق من كتلة واحدة من الكالسيت الشفاف (الألباستر المصري)، ويُميز بأربع إلهات حاميات نُحتت بن relief مرتفع في كل زاوية، بأذرع ممتدة للحماية. يأخذ الغطاء شكل سقف المعبد، ويُقسم الداخل إلى أربع حجرات. عُثر على الصندوق داخل مقصورة الأواني الكانوبية المذهبة، ممثلاً الطبقة الداخلية من الحماية لأحشاء الملك.",
+    "ru": "Этот изысканный алебастровый сундук вмещал четыре канопических сосуда, содержащих бальзамированные внутренние органы Тутанхамона. Вырезанный из единого блока полупрозрачного кальцита (египетского алебастра), сундук украшен четырьмя защитными богинями, вырезанными в высоком рельефе в каждом углу, с протянутыми руками для защиты. Крышка имеет форму храмовой крыши, а внутреннее пространство разделено на четыре отделения. Сундук был найден внутри позолоченного святилища с канопами, представляя самый внутренний слой защиты для внутренних органов царя.",
+    "de": "Diese exquisite Alabastertruhe beherbergte die vier Kanopengefäße, die die balsamierten Eingeweide von Tutanchamun enthielten. Aus einem einzigen Block durchscheinenden Calcits (ägyptischer Alabaster) geschnitzt, zeigt die Truhe vier schützende Göttinnen in hohem Relief an jeder Ecke, mit ausgestreckten Armen zum Schutz. Der Deckel ist wie ein Tempeldach geformt, und das Innere ist in vier Fächer unterteilt. Die Truhe wurde im Inneren des vergoldeten Kanopen-Heiligtums gefunden und repräsentiert die innerste Schutzschicht für die Eingeweide des Königs."
+  },
+  "priority": "79"
+}

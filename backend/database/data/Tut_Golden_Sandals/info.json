@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Golden_Sandals",
+  "names": {
+    "en": "The King's Golden Sandals",
+    "ar": "صندل الملك المصنوع من الذهب الخالص",
+    "ru": "Золотые сандалии царя",
+    "de": "Die goldenen Sandalen des Königs"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Golden_Sandals.png",
+  "descriptions": {
+    "en": "A pair of golden sandals found on the feet of Tutankhamun's mummy, symbolizing the king's divine journey through the afterlife.",
+    "ar": "زوج من الصنادل الذهبية عُثر عليها على قدمي مومياء توت عنخ آمون، ترمز إلى رحلة الملك الإلهية عبر الحياة الآخرة.",
+    "ru": "Пара золотых сандалий, найденных на ногах мумили Тутанхамона.",
+    "de": "Ein Paar goldener Sandalen, die an den Füßen der Mumie von Tutanchamun gefunden wurden."
+  },
+  "priority": "145"
+}

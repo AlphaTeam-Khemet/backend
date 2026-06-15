@@ -1,0 +1,21 @@
+{
+  "ai_label": "Granite_Statue_Goddess_Mut",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Granite_Statue_Goddess_Mut.jpg",
+  "names": {
+    "en": "Granite Statue of Goddess Mut",
+    "ar": "تمثال من الجرانيت للإلهة موت",
+    "ru": "Гранитная статуя богини Мут",
+    "de": "Granitstatue der Göttin Mut"
+  },
+  "descriptions": {
+    "en": "The statue portrays Mut, the mother goddess of Thebes and consort of Amun. Carved from black granite, it reflects the importance of divine motherhood and royal protection in ancient Egyptian religion.",
+    "ar": "يجسد هذا التمثال الإلهة موت، أم الآلهة في طيبة وزوجة الإله آمون. نُحت من الجرانيت الأسود ويعكس أهمية الأمومة الإلهية والحماية الملكية في العقيدة المصرية القديمة.",
+    "ru": "Статуя изображает богиню Мут, супругу Амона и одну из важнейших богинь Фив. Она выполнена из черного гранита.",
+    "de": "Die Statue zeigt die Göttin Mut, Gemahlin des Amun und Muttergöttin von Theben. Sie wurde aus schwarzem Granit gefertigt."
+  },
+  "priority": "44"
+}

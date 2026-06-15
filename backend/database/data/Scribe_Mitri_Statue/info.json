@@ -1,0 +1,21 @@
+{
+  "ai_label": "Scribe_Mitri_Statue",
+  "names": {
+    "en": "Statue of the Scribe Mitri",
+    "ar": "تمثال الكاتب ميتري الخشبي",
+    "ru": "Статуя писца Митри",
+    "de": "Statue des Schreibers Mitri"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Scribe_Mitri_Statue.png",
+  "descriptions": {
+    "en": "A wooden statue of the scribe Mitri, showing him seated with a papyrus scroll on his lap, demonstrating the importance of literacy in ancient Egypt.",
+    "ar": "تمثال خشبي للكاتب ميتري، يُظهره جالساً مع بردية على حضنه، يُظهر أهمية المعرفة بالكتابة في مصر القديمة.",
+    "ru": "Деревянная статуя писца Митри, изображающая его сидящим с папирусом на коленях.",
+    "de": "Eine hölzerne Statue des Schreibers Mitri, die ihn mit einer Papyrusrolle auf dem Schoß zeigt."
+  },
+  "priority": "59"
+}

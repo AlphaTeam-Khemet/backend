@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Bed_Ammit",
+  "names": {
+    "en": "Gilded Bed with Ammit Features",
+    "ar": "السرير المذهب بجسد التمساح وفرس النهر",
+    "ru": "Позолоченная кровать с чертами Аммит",
+    "de": "Vergoldetes Bett mit Ammit-Merkmalen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Bed_Ammit.png",
+  "descriptions": {
+    "en": "A unique gilded bed combining features of a crocodile and hippopotamus, representing the composite deity Ammit.",
+    "ar": "سرير مذهب فريد يجمع بين خصائص التمساح وفرس النهر، يمثل الإلهة المركبة أميت.",
+    "ru": "Уникальная позолоченная кровать, сочетающая черты крокодила и бегемота.",
+    "de": "Ein einzigartiges vergoldetes Bett, das Merkmale eines Krokodils und eines Nilpferds kombiniert."
+  },
+  "priority": "99"
+}

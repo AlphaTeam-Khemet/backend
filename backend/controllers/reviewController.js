@@ -1,6 +1,6 @@
 const { Review, Monument } = require('../models');
 
-exports.getByMonument = async (req, res) => {
+exports.getByMonument = async (req, res, next) => {
   try {
     const reviews = await Review.findAll({
       where: { monument_id: req.params.monumentId },
@@ -8,11 +8,11 @@ exports.getByMonument = async (req, res) => {
     });
     res.json(reviews);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.add = async (req, res) => {
+exports.add = async (req, res, next) => {
   try {
     const { monument_id, rating, comment } = req.body;
     const monument = await Monument.findByPk(monument_id);
@@ -29,11 +29,11 @@ exports.add = async (req, res) => {
 
     res.status(created ? 201 : 200).json(review);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };
 
-exports.remove = async (req, res) => {
+exports.remove = async (req, res, next) => {
   try {
     const deleted = await Review.destroy({
       where: { id: req.params.id, user_id: req.user.id },
@@ -41,6 +41,6 @@ exports.remove = async (req, res) => {
     if (!deleted) return res.status(404).json({ error: 'Review not found' });
     res.json({ message: 'Removed' });
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    next(err);
   }
 };

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Colossal_Statue_Queen_Meritamen",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Colossal_Statue_Queen_Meritamen.jpg",
+  "names": {
+    "en": "Colossal Statue of Queen Meritamen",
+    "ar": "تمثال ضخم للملكة ميريت آمون",
+    "ru": "Колоссальная статуя царицы Меритамон",
+    "de": "Kolossalstatue der Königin Meritamun"
+  },
+  "descriptions": {
+    "en": "This colossal limestone statue represents Queen Meritamen, one of the daughters of Ramesses II. The sculpture demonstrates the elevated status of royal women during the New Kingdom and reflects exceptional artistic craftsmanship.",
+    "ar": "يمثل هذا التمثال الضخم المصنوع من الحجر الجيري الملكة ميريت آمون، إحدى بنات الملك رمسيس الثاني. ويعكس المكانة الرفيعة التي تمتعت بها الأميرات والملكات خلال عصر الدولة الحديثة، كما يُظهر مهارة النحاتين المصريين القدماء.",
+    "ru": "Колоссальная известняковая статуя изображает царицу Меритамон، дочь Рамсеса II. Она подчеркивает высокий статус царских женщин в эпоху Нового царства.",
+    "de": "Diese kolossale Kalksteinstatue stellt Königin Meritamun dar, eine Tochter von Ramses II. Sie zeigt die hohe Stellung königlicher Frauen im Neuen Reich."
+  },
+  "priority": "34"
+}

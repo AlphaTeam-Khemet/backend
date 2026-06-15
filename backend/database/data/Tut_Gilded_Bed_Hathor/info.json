@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Bed_Hathor",
+  "names": {
+    "en": "Gilded Bed with Hathor Heads",
+    "ar": "السرير الجنائزي المذهب برؤوس حتحور",
+    "ru": "Позолоченная кровать с головами Хатхор",
+    "de": "Vergoldetes Bett mit Hathor-Köpfen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Bed_Hathor.png",
+  "descriptions": {
+    "en": "A magnificent gilded funerary bed with headrests shaped like the face of Hathor, the goddess of love and protection.",
+    "ar": "سرير جنائزي مذهب رائع بمساند رأس على شكل وجه حتحور، إلهة الحب والحماية.",
+    "ru": "Великолепная позолоченная погребальная кровать с подголовниками в форме лица Хатхор.",
+    "de": "Ein prächtiges vergoldetes Begräbnisbett mit Kopfstützen in Form des Gesichts von Hathor."
+  },
+  "priority": "100"
+}

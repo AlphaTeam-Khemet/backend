@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_First_Gilded_Shrine",
+  "names": {
+    "en": "First Gilded Wooden Shrine (Outer/Largest)",
+    "ar": "المقصورة الخشبية المذهبة الأولى (الكبرى)",
+    "ru": "Первый позолоченный деревянный саркофаг (внешний/большой)",
+    "de": "Erster vergoldeter Holzschrein (äußerer/größter)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_First_Gilded_Shrine.png",
+  "descriptions": {
+    "en": "This is the largest and outermost of the four gilded wooden shrines that enclosed the sarcophagus of Tutankhamun. Made of wood covered in gold leaf, it is decorated with scenes from the Book of the Dead and other protective spells. The shrine served as the first layer of protection for the king's mummy and coffins. Its massive size and elaborate decoration demonstrate the extraordinary effort invested in ensuring the king's safe passage to the afterlife.",
+    "ar": "هذه هي المقصورة الأكبر والخارجية من بين أربع مقصورات خشبية مذهبة كانت تحيط بتابوت توت عنخ آمون. صُنعت من الخشب المغطى بالورق الذهبي، وزُينت بمشاهد من كتاب الموتى وطلاسم حماية أخرى. كانت المقصورة بمثابة الطبقة الأولى من الحماية لمومياء الملك وتوابيته. يُظهر حجمها الضخم وزخرفتها المُفصّلة الجهد الاستثنائي المبذول لضمان مرور الملك الآمن إلى الحياة الآخرة.",
+    "ru": "Это самый большой и внешний из четырех позолоченных деревянных саркофагов, окружавших саркофаг Тутанхамона. Изготовленный из дерева, покрытого сусальным золотом, он украшен сценами из Книги мертвых и другими защитными заклинаниями. Саркофаг служил первым слоем защиты для мумии царя и гробов. Его огромные размеры и сложное украшение демонстрируют чрезвычайные усилия, приложенные для обеспечения безопасного перехода царя в загробную жизнь.",
+    "de": "Dies ist der größte und äußerste der vier vergoldeten Holzschreine, die den Sarkophag von Tutanchamun umschlossen. Aus Holz mit Blattgold überzogen, ist er mit Szenen aus dem Totenbuch und anderen Schutzzaubern verziert. Der Schrein diente als erste Schutzschicht für die Mumie des Königs und die Särge. Seine enorme Größe und aufwendige Verzierung zeigen die außergewöhnlichen Anstrengungen, die unternommen wurden, um die sichere Reise des Königs ins Jenseits zu gewährleisten."
+  },
+  "priority": "94"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Yuya_Mummy_Mask",
+  "names": {
+    "en": "Mummy Mask of Yuya",
+    "ar": "قناع المومياء المذهب لـ 'يويا'",
+    "ru": "Маска мумии Юйи",
+    "de": "Mumienmaske des Yuya"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Yuya_Mummy_Mask.png",
+  "descriptions": {
+    "en": "A gilded cartonnage mummy mask of Yuya, father-in-law of Amenhotep III, with exquisite painted details and protective symbols.",
+    "ar": "قناع مومياء مذهب من الكرتوناج لـ يويا، حمو أمنحتب الثالث، بتفاصيل ملونة رائعة ورموز حماية.",
+    "ru": "Позолоченная картонажная маска мумии Юйи, тестя Аменхотепа III.",
+    "de": "Eine vergoldete Kartonage-Mumienmaske des Yuya, des Schwiegervaters von Amenhotep III."
+  },
+  "priority": "76"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Fayum_Mummy_Portrait_Man",
+  "names": {
+    "en": "Fayum Mummy Portrait (Man)",
+    "ar": "بورتريه مومياء من الفيوم (رجل ذو لحية)",
+    "ru": "Фаюмский портрет мумии (мужчина)",
+    "de": "Fayum-Mumienporträt (Mann)"
+  },
+  "era": "Roman Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Fayum_Mummy_Portrait_Man.png",
+  "descriptions": {
+    "en": "A realistic encaustic portrait of a bearded man from the Fayum region, painted on wood and placed over the mummy's face, blending Egyptian and Roman artistic traditions.",
+    "ar": "بورتريه واقعي بالإنكاوستيك لرجل ذي لحية من منطقة الفيوم، مرسوم على الخشب وموضوع فوق وجه المومياء، يمزج بين التقاليد الفنية المصرية والرومانية.",
+    "ru": "Реалистичный энкаустический портрет бородатого мужчины из региона Файюм.",
+    "de": "Ein realistisches Enkaustik-Porträt eines bärtigen Mannes aus der Fayum-Region."
+  },
+  "priority": "89"
+}

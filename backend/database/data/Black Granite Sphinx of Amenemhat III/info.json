@@ -1,0 +1,21 @@
+{
+  "ai_label": "Amenemhat_III_Sphinx",
+  "latitude": 29.994375,
+  "longitude": 31.119075,
+  "era": "Middle Kingdom — 12th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/amenemhat_iii_sphinx.jpg",
+  "names": {
+    "en": "Black Granite Sphinx of Amenemhat III",
+    "ar": "تمثال أبو الهول للملك أمنمحات الثالث",
+    "ru": "Сфинкс Аменемхета III из черного гранита",
+    "de": "Sphinx aus schwarzem Granit von Amenemhat III."
+  },
+  "descriptions": {
+    "en": "Discovered in 1861 at Tanis, this magnificent black granite sphinx represents King Amenemhat III of the 12th Dynasty. Unlike typical sphinxes wearing the Nemes headdress, this unique sculpture depicts the king's powerful face framed by a naturalistic lion's mane and large ears, emphasizing the fierce, protective nature of the monarch integrated with the strength of a lion.",
+    "ar": "اُكتشف هذا التمثال الرائع المصنوع من الجرانيت الأسود عام 1861 في صان الحجر (تانيس)، وهو يمثل الملك أمنمحات الثالث من الأسرة الثانية عشرة في الدولة الوسطى. ما يميز هذا التمثال عن تماثيل أبو الهول التقليدية هو أنه لا يرتدي غطاء الرأس 'النمس' المخطط، بل يبرز وجه الملك القوي محاطاً بلبدة أسد طبيعية وأذنين كبيرتين، ليعكس القوة الحمائية الصارمة للملك الممتزجة بجسد الأسد.",
+    "ru": "Великолепный сфинкс из черного гранита, обнаруженный в 1861 году в Танисе, представляет царя Аменемхета III из XII династии Среднего царства. В отличие от типичных сфинксов в головном уборе Немес, это уникальное изваяние изображает волевое лицо царя, обрамленное натуралистичной львиной гривой и большими ушами, что подчеркивает яростную, защитную природу монарха, объединенную с силой льва.",
+    "de": "Diese prächtige Sphinx aus schwarzem Granit wurde 1861 in Tanis entdeckt und stellt König Amenemhat III. aus der 12. Dynastie des Mittleren Reiches dar. Im Gegensatz zu typischen Sphinxen, die das Nemes-Kopftuch tragen, zeigt diese einzigartige Skulptur das kraftvolle Gesicht des Königs, das von einer naturalistischen Löwenmähne und großen Ohren umrahmt wird, was die wilde, schützende Natur des Monarchen in Kombination mit der Stärke eines Löwen betont."
+  },
+  "priority": "85"
+}

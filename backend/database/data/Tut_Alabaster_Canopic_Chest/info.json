@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Alabaster_Canopic_Chest",
+  "names": {
+    "en": "Alabaster Canopic Chest",
+    "ar": "صندوق الأواني الكانوبية المصنوع من الألباستر",
+    "ru": "Алебастровый сундук с канопами",
+    "de": "Alabasterne Kanopenkiste"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Alabaster_Canopic_Chest.png",
+  "descriptions": {
+    "en": "This exquisite alabaster chest housed the four canopic jars containing the embalmed internal organs of Tutankhamun.",
+    "ar": "احتوى هذا الصندوق الرائع من الألباستر الأربع جرار كانوبية تحتوي على الأحشاء الداخلية المحنطة.",
+    "ru": "Этот изысканный алебастровый сундук вмещал четыре канопических сосуда.",
+    "de": "Diese exquisite Alabastertruhe beherbergte die vier Kanopengefäße."
+  },
+  "priority": "80"
+}

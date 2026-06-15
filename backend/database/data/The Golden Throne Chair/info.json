@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Golden_Throne_Chair",
+  "names": {
+    "en": "The Golden Throne Chair",
+    "ar": "كرسي العرش الذهبي الملكي",
+    "ru": "Золотой тронный стул",
+    "de": "Der goldene Thronstuhl"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Golden_Throne_Chair.jpg",
+  "descriptions": {
+    "en": "The golden throne of Tutankhamun is one of the most magnificent pieces of furniture from ancient Egypt. Made of gilded wood with inlays of colored glass, faience, and semi-precious stones, the throne features the famous scene on its backrest depicting the young king seated with his wife Ankhesenamun, beneath the rays of the Aten sun disk. The throne's legs are shaped like lion paws, and the armrests end in lion heads. This masterpiece demonstrates the fusion of Amarna-period artistic style with traditional Egyptian royal iconography, making it one of the most significant artifacts from the tomb.",
+    "ar": "يُعد كرسي العرش الذهبي لتوت عنخ آمون واحداً من أروع قطع الأثاث من مصر القديمة. مصنوع من الخشب المذهب مع ترصيعات من الزجاج الملون والفاينس والأحجار شبه الكريمة، يتميز الكرسي بالمشهد الشهير على مسند ظهره يُصوّر الملك الشاب جالساً مع زوجته عنخس إن آمون، تحت أشعة قرص الشمس آتون. تُشكل أرجل الكرسي على شكل أقدام أسد، وتنتهي مساند الذراعين برؤوس أسد. يُظهر هذا التحفة اندماج أسلوب الفن العمارني مع الأيقونية الملكية المصرية التقليدية، مما يجعلها واحدة من أهم القطع الأثرية من المقبرة.",
+    "ru": "Золотой трон Тутанхамона — один из самых великолепных предметов мебели из древнего Египта. Изготовленный из позолоченного дерева с инкрустациями из цветного стекла, фаянса и полудрагоценных камней, трон украшен знаменитой сценой на спинке, изображающей молодого царя, сидящего с его женой Анхесенамон, под лучами солнечного диска Атона. Ножки трона выполнены в форме львиных лап, а подлокотники заканчиваются львиными головами. Этот шедевр демонстрирует слияние художественного стиля амарнского периода с традиционной египетской царской иконографией, делая его одним из самых значимых артефактов из гробницы.",
+    "de": "Der goldene Thron von Tutanchamun ist eines der prächtigsten Möbelstücke aus dem alten Ägypten. Aus vergoldetem Holz mit Einlagen aus farbigem Glas, Fayence und Halbedelsteinen gefertigt, zeigt der Thron die berühmte Szene auf seiner Rückenlehne, die den jungen König mit seiner Frau Anchschesenamun unter den Strahlen der Sonnenscheibe Aton darstellt. Die Thronbeine sind wie Löwenpfoten geformt, und die Armlehnen enden in Löwenköpfen. Dieses Meisterwerk zeigt die Verschmelzung des Kunststils der Amarna-Periode mit der traditionellen ägyptischen königlichen Ikonographie und macht es zu einem der bedeutendsten Artefakte aus dem Grab."
+  },
+  "priority": "142"
+}

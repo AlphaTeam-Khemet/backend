@@ -1,0 +1,21 @@
+{
+  "ai_label": "Horemheb_Scribe_Statue",
+  "names": {
+    "en": "Statue of General Horemheb as a Scribe",
+    "ar": "تمثال القائد حور محب في هيئة كاتب",
+    "ru": "Статуя генерала Хоремхеба в образе писца",
+    "de": "Statue des Generals Haremhab als Schreiber"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Horemheb_Scribe_Statue.png",
+  "descriptions": {
+    "en": "A granodiorite statue of General Horemheb depicted as a scribe, showing his dual role as military leader and administrator before he became pharaoh.",
+    "ar": "تمثال من الجرانوديوريت للقائد حور محب في هيئة كاتب، يُظهر دوره المزدوج كقائد عسكري وإداري قبل أن يصبح فرعوناً.",
+    "ru": "Гранодиоритовая статуя генерала Хоремхеба, изображенного в образе писца.",
+    "de": "Eine Granodiorit-Statue des Generals Haremhab, dargestellt als Schreiber."
+  },
+  "priority": "51"
+}

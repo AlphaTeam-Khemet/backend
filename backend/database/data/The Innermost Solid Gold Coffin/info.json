@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Innermost_Gold_Coffin",
+  "names": {
+    "en": "The Innermost Solid Gold Coffin",
+    "ar": "التابوت الذهبي الداخلي الخالص",
+    "ru": "Внутренний гроб из чистого золота",
+    "de": "Der innerste Sarkophag aus massivem Gold"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Innermost_Gold_Coffin.jpg",
+  "descriptions": {
+    "en": "This is the innermost of the three nested coffins of Tutankhamun, crafted from approximately 110 kilograms of solid gold. It is the most precious of the three coffins and was the final resting place for the king's mummy, which was covered by the golden death mask. The coffin is anthropoid (human-shaped) and depicts the king as Osiris, with crossed arms holding the crook and flail. The surface is covered with intricate hieroglyphic inscriptions and inlaid decorations of colored glass and semi-precious stones, representing the ultimate expression of royal funerary art.",
+    "ar": "هذا هو التابوت الداخلي من بين التوابيت الثلاثة المتداخلة لتوت عنخ آمون، مصنوع من حوالي 110 كيلوجراماً من الذهب الخالص. إنه الأكثر قيمة من بين التوابيت الثلاثة وكان المكان الأخير لراحة مومياء الملك، التي كانت مغطاة بقناع الموت الذهبي. التابوت آدمي (بشري الشكل) ويُصوّر الملك في هيئة أوزوريس، بيدين متقاطعتين تحملان الصولجان والمِخْلَب. تغطي السطح نقوش هيرoglيفية معقدة وزخارف مرصعة بالزجاج الملون والأحجار شبه الكريمة، ممثلة التعبير النهائي عن فن التحنيط الملكي.",
+    "ru": "Это внутренний из трех вложенных друг в друга гробов Тутанхамона, изготовленный из примерно 110 килограммов чистого золота. Это самый драгоценный из трех гробов и был последним пристанищем для мумили царя, которая была покрыта золотой погребальной маской. Гроб антропоидный (человекообразный) и изображает царя в образе Осириса со скрещенными руками, держащими посох и цеп. Поверхность покрыта сложными иероглифическими надписями и инкрустированными украшениями из цветного стекла и полудрагоценных камней, представляя высшее выражение царского погребального искусства.",
+    "de": "Dies ist der innerste der drei ineinander verschachtelten Särge von Tutanchamun, gefertigt aus etwa 110 Kilogramm massivem Gold. Er ist der wertvollste der drei Särge und war die letzte Ruhestätte für die Mumie des Königs, die mit der goldenen Totenmaske bedeckt war. Der Sarg ist anthropoid (menschenförmig) und stellt den König als Osiris dar, mit verschränkten Armen, die Krummstab und Geißel halten. Die Oberfläche ist mit komplexen hieroglyphischen Inschriften und eingelegten Verzierungen aus farbigem Glas und Halbedelsteinen bedeckt und repräsentiert den ultimativen Ausdruck königlicher Begräbniskunst."
+  },
+  "priority": "143"
+}

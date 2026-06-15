@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Second_Ka_Statue",
+  "names": {
+    "en": "Second Guardian 'Ka' Statue",
+    "ar": "تمثال الـ 'كا' الحارس الملكي الثاني",
+    "ru": "Вторая стражающая статуя 'Ка'",
+    "de": "Zweite Wächter-'Ka'-Statue"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Second_Ka_Statue.png",
+  "descriptions": {
+    "en": "The second Ka statue, identical to the first, providing dual protection for the king's eternal rest.",
+    "ar": "التمثال الثاني لكا، مطابق للأول، يوفر حماية مزدوجة لراحة الملك الأبدية.",
+    "ru": "Вторая статуя Ка, идентичная первой, обеспечивающая двойную защиту.",
+    "de": "Die zweite Ka-Statue, identisch mit der ersten, für doppelten Schutz."
+  },
+  "priority": "49"
+}

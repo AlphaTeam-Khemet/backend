@@ -5,9 +5,11 @@ Backend gateway for the Grand Egyptian Museum tourist guide app.
 Current services:
 
 - `backend/`: Node.js/Express API, PostgreSQL models, JWT auth, uploads, and EJS pages.
-- `ai_services/CV_Recognition/`: FastAPI computer-vision artifact recognition service on port `8000`.
-- `ai_services/chatbot_LLM/`: FastAPI Groq + ChromaDB historical guide service on port `8001`.
-- `frontend/`: React/Vite web app on port `5173`.
+- `AI_services/CV_Recognition/`: FastAPI computer-vision artifact recognition service on port `8000`.
+- `AI_services/chatbot_LLM/`: FastAPI Groq + ChromaDB historical guide service on port `8001`.
+- `AI_services/hieroglyph_translator/`: FastAPI YOLO + LLM translation service on port `8002`.
+- `AI_services/voice_tour_guide/`: FastAPI ElevenLabs TTS narration service on port `8003`.
+- `web-frontend/`: React/Vite web app on port `5173`.
 
 ## Environment
 
@@ -269,3 +271,10 @@ Content-Type: application/json
 The backend mapping is in `backend/utils/classMapping.js` and should match `ai_services/CV_Recognition/model/class_names.json`.
 
 `Amenhotep_III_Tiye` is present in the AI class file but is not currently seeded in the database, so predictions for it return a clean `not_found` scan status until that monument is added.
+
+## Voice Tour Guide
+
+- **Standalone Microservice:** `AI_services/voice_tour_guide/` (Port 8003)
+- **AI Flow:** Receives requests from the backend (`voiceController.js`), generates a narrative via Groq LLM, injects emotional cue tags (`[sighs]`, etc.), and synthesizes audio via ElevenLabs API.
+- **Resilience:** Integrates offline fallback TTS using Coqui if ElevenLabs is unreachable or rate-limited.
+- **Persistence:** Generated narrations are cached in the PostgreSQL `ArtifactNarration` table, linking the artifact ID, language, and the physical `/audio` path.

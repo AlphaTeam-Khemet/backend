@@ -1,0 +1,21 @@
+{
+  "ai_label": "Sekhmet_Black_Granite_Statue",
+  "names": {
+    "en": "Black Granite Statue of Sekhmet",
+    "ar": "تمثال الإلهة سخمت برأس لبؤة",
+    "ru": "Черная гранитная статуя Сехмет",
+    "de": "Schwarze Granitstatue der Sekhmet"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Sekhmet_Black_Granite_Statue.png",
+  "descriptions": {
+    "en": "A powerful black granite statue of the lioness-headed goddess Sekhmet, embodying divine wrath and protective strength.",
+    "ar": "تمثال قوي من الجرانيت الأسود للإلهة سخمت ذات رأس اللبؤة، يجسد الغضب الإلهي والقوة الحامية.",
+    "ru": "Мощная черная гранитная статуя богини Сехмет с головой львицы.",
+    "de": "Eine mächtige schwarze Granitstatue der löwenköpfigen Göttin Sekhmet."
+  },
+  "priority": "35"
+}

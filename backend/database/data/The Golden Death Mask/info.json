@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Golden_Death_Mask",
+  "names": {
+    "en": "The Golden Death Mask",
+    "ar": "قناع الموت الذهبي المرصع",
+    "ru": "Золотая погребальная маска",
+    "de": "Die goldene Totenmaske"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Golden_Death_Mask.jpg",
+  "descriptions": {
+    "en": "The iconic golden death mask of Tutankhamun is one of the most famous artifacts in the world. Weighing approximately 11 kilograms of solid gold, it was placed directly on the king's mummy inside the innermost coffin. The mask features the nemes headdress with blue and gold stripes, a false beard, and inlaid eyes of obsidian and quartz. The back of the mask is inscribed with protective spells from the Book of the Dead. The craftsmanship represents the pinnacle of New Kingdom goldsmithing and has become the symbol of ancient Egyptian civilization.",
+    "ar": "يُعد قناع الموت الذهبي الأيقوني لتوت عنخ آمون واحداً من أشهر القطع الأثرية في العالم. يزن حوالي 11 كيلوجراماً من الذهب الخالص، ووُضع مباشرة على مومياء الملك داخل التابوت الداخلي. يتميز القناع بغطاء الرأس الملكي (النمس) بخطوط زرقاء وذهبية، وذقن صناعي، وعيون مرصعة بالأوبسيديان والكوارتز. يحمل ظهر القناع طلاسم حماية من كتاب الموتى. تمثل الحرفية قمة صياغة الذهب في الدولة الحديثة، وقد أصبح رمزاً للحضارة المصرية القديمة.",
+    "ru": "Знаменитая золотая погребальная маска Тутанхамона — один из самых известных артефактов в мире. Весом около 11 килограммов чистого золота, она была помещена прямо на мумию царя внутри внутреннего гроба. Маска имеет головной убор немес с синими и золотыми полосами, ложную бороду и инкрустированные глаза из обсидиана и кварца. На задней стороне маски выгравированы защитные заклинания из Книги мертвых. Ремесленное мастерство представляет вершину золотых дел мастерства Нового царства и стало символом древнеегипетской цивилизации.",
+    "de": "Die ikonische goldene Totenmaske von Tutanchamun ist eines der berühmtesten Artefakte der Welt. Mit einem Gewicht von etwa 11 Kilogramm massivem Gold wurde sie direkt auf die Mumie des Königs im innersten Sarg gelegt. Die Maske zeigt den Nemes-Kopfschmuck mit blauen und goldenen Streifen, einen falschen Bart und eingelegte Augen aus Obsidian und Quarz. Die Rückseite der Maske ist mit Schutzzaubern aus dem Totenbuch beschriftet. Die Handwerkskunst repräsentiert den Höhepunkt der Goldschmiedekunst des Neuen Reiches und ist zum Symbol der altägyptischen Zivilisation geworden."
+  },
+  "priority": "77"
+}

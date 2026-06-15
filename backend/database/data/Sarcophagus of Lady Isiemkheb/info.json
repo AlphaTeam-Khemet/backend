@@ -1,0 +1,21 @@
+{
+  "ai_label": "Lady_Isiemkheb_Sarcophagus",
+  "names": {
+    "en": "Sarcophagus of Lady Isiemkheb",
+    "ar": "تابوت السيدة إيزيس إم خب",
+    "ru": "Саркофаг леди Исиемхеб",
+    "de": "Sarkophag der Dame Isiemkheb"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Lady_Isiemkheb_Sarcophagus.png",
+  "descriptions": {
+    "en": "This wooden sarcophagus belongs to Lady Isiemkheb, a noblewoman of the Late Period. The sarcophagus is decorated with painted scenes and hieroglyphic inscriptions from the Book of the Dead, featuring protective deities and funerary symbols. It was discovered in the famous royal mummy cache at Deir el-Bahari (DB320), where it was found alongside the remains of many New Kingdom pharaohs. The sarcophagus demonstrates the continued tradition of elaborate funerary preparations even during the Late Period of ancient Egypt.",
+    "ar": "ينتمي هذا التابوت الخشبي إلى السيدة إيزيس إم خب، سيدة نبيلة من العصر المتأخر. يزين التابوت مشاهد مرسومة ونقوش هيرoglيفية من كتاب الموتى، تضم آلهة حماية ورموز جنائزية. اكتُشف في خبيئة المومياوات الملكية الشهيرة بدير البحاري (DB320)، حيث عُثر عليه إلى جانب بقايا العديد من الفراعنة من الدولة الحديثة. يُظهر التابوت استمرار تقاليد التحضيرات الجنائزية المُفصّلة حتى خلال العصر المتأخر من مصر القديمة.",
+    "ru": "Этот деревянный саркофаг принадлежит леди Исиемхеб, знатной женщине Позднего периода. Саркофаг украшен расписными сценами и иероглифическими надписями из Книги мертвых, с изображениями защитных божеств и погребальных символов. Он был обнаружен в знаменитом тайнике царских мумий в Дейр-эль-Бахри (DB320), где был найден рядом с останками многих фараонов Нового царства. Саркофаг демонстрирует продолжение традиции сложных погребальных приготовлений даже в Поздний период древнего Египта.",
+    "de": "Dieser hölzerne Sarkophag gehört der Dame Isiemkheb, einer Adligen der Spätzeit. Der Sarkophag ist mit bemalten Szenen und hieroglyphischen Inschriften aus dem Totenbuch verziert, mit Schutzgottheiten und Begräbnissymbolen. Er wurde in der berühmten königlichen Mumienkammer in Deir el-Bahari (DB320) entdeckt, wo er neben den Überresten vieler Könige des Neuen Reiches gefunden wurde. Der Sarkophag zeigt die Fortsetzung der Tradition aufwendiger Begräbnisvorbereitungen auch während der Spätzeit des alten Ägyptens."
+  },
+  "priority": "68"
+}

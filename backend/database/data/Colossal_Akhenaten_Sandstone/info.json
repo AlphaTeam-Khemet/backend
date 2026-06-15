@@ -1,0 +1,21 @@
+{
+  "ai_label": "Colossal_Akhenaten_Sandstone",
+  "names": {
+    "en": "Colossal Sandstone Akhenaten",
+    "ar": "تمثال ضخم للملك أخناتون من الحجر الرملي",
+    "ru": "Колоссальный песчаниковый Эхнатон",
+    "de": "Kolossaler Sandstein-Echnaton"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Colossal_Akhenaten_Sandstone.png",
+  "descriptions": {
+    "en": "A colossal sandstone statue of King Akhenaten, showcasing the distinctive Amarna artistic style with elongated features and a serene expression.",
+    "ar": "تمثال ضخم من الحجر الرملي للملك أخناتون، يُظهر الأسلوب الفني العمارني المميز بملامح ممدودة وتعبير هادئ.",
+    "ru": "Колоссальная песчаниковая статуя царя Эхнатона, демонстрирующая характерный амарнский художественный стиль.",
+    "de": "Eine kolossale Sandsteinstatue des Königs Echnaton, die den charakteristischen Amarna-Kunststil zeigt."
+  },
+  "priority": "17"
+}

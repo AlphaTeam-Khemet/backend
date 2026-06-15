@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Small_Toy_Senet",
+  "names": {
+    "en": "Small Toy Senet Board",
+    "ar": "لعبة سنت صغيرة إضافية خاصة بالطفولة",
+    "ru": "Маленькая игрушечная доска сенет",
+    "de": "Kleines Spielzeug-Senet-Brett"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Small_Toy_Senet.png",
+  "descriptions": {
+    "en": "A smaller, simpler senet board likely used by the young king during his childhood, reflecting his early years.",
+    "ar": "لوحة سنت أصغر وأبسط ربما استُخدمت من قبل الملك الشاب خلال طفولته.",
+    "ru": "Меньшая, более простая доска сенет, вероятно, использовавшаяся молодым царем в детстве.",
+    "de": "Ein kleineres, einfacheres Senet-Brett, das wahrscheinlich vom jungen König in seiner Kindheit benutzt wurde."
+  },
+  "priority": "129"
+}

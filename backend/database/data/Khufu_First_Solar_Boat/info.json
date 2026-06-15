@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khufu_First_Solar_Boat",
+  "names": {
+    "en": "The First Solar Boat of Khufu",
+    "ar": "مركب خوفو الأولى (سفينة الشمس المعروضة مجمعة)",
+    "ru": "Первая солнечная ладья Хуфу",
+    "de": "Das erste Sonnenschiff des Cheops"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khufu_First_Solar_Boat.png",
+  "descriptions": {
+    "en": "The first reconstructed solar boat of King Khufu, a masterpiece of ancient shipbuilding, assembled from 1,224 original cedar wood pieces discovered in a sealed pit near the Great Pyramid.",
+    "ar": "مركب الشمس الأولى المُعاد تركيبها للملك خوفو، تحفة في بناء السفن القديمة، مجمعة من 1224 قطعة خشب أرز أصلية اكتُشفت في خبيئة محكمة الإغلاق قرب الهرم الأكبر.",
+    "ru": "Первая реконструированная солнечная ладья царя Хуфу, шедевр древнего кораблестроения.",
+    "de": "Das erste rekonstruierte Sonnenschiff des Königs Cheops, ein Meisterwerk des antiken Schiffbaus."
+  },
+  "priority": "138"
+}

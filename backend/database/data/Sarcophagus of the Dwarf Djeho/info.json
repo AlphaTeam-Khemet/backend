@@ -1,0 +1,21 @@
+{
+  "ai_label": "Djeho_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Late Period — 30th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Djeho_Sarcophagus.png",
+  "names": {
+    "en": "Sarcophagus of the Dwarf Djeho",
+    "ar": "تابوت القزم جيهو بنقوشه الفلكية المكتملة",
+    "ru": "Саркофаг карлика Джехо с полными астрономическими надписями",
+    "de": "Sarkophag des Zwerges Djeho mit vollständigen astronomischen Inschriften"
+  },
+  "descriptions": {
+    "en": "This remarkable basalt sarcophagus belonged to Djeho, a dwarf who served as a sacred dancer at the funerary ceremonies of the Apis and Mnevis bulls during the reign of Nectanebo II (346–343 BCE). Discovered at Saqqara by James Quibell in 1911, the lid bears a life-sized profile image of Djeho (approximately 120 cm), carved with exceptional skill. The interior of the lid is unique: instead of the usual solar symbols, it features a complete astronomical composition — a winged serpent (Wadjet) flanked by twelve seated figures, representing the hours of the day and night. The sarcophagus is considered a masterpiece of Late Period stone carving.",
+    "ar": "ينتمي هذا التابوت البازلتي الاستثنائي إلى جيهو، القزم الذي اضطلع بمهام الرقص المقدس في مراسم دفن ثيران أبيس ومنيفيس إبان عهد الملك نخت نبو الثاني (346–343 ق.م.). اكتشفه جيمس كويبل في سقارة عام 1911م، ويحمل غطاؤه صورة جانبية بحجم الطبيعي لجيهو (نحو 120 سم)، نُحتت بمهارة بالغة. أما الجزء الداخلي من الغطاء فمتفرد بين التوابيت المعروفة: إذ يتضمن بدلًا من الرموز الشمسية المعتادة تركيبًا فلكيًا متكاملًا — أفعى مجنحة (واجيت) تحفُّها اثنتا عشرة شخصية جالسة، رمزًا لساعات النهار والليل. يُعدُّ هذا التابوت تحفة فنية فريدة من روائع نحت الحجر في العصر المتأخر.",
+    "ru": "Этот замечательный базальтовый саркофаг принадлежал Джехо — карлику, служившему священным танцором на похоронных церемониях быков Аписа и Мневиса во время правления Нектанеба II (346–343 до н. э.). Обнаруженный в Саккаре Джеймсом Квибеллом в 1911 году, крышка несёт профильное изображение Джехо в натуральную величину (около 120 см), вырезанное с исключительным мастерством. Внутренняя часть крышки уникальна: вместо обычных солнечных символов здесь представлена полная астрономическая композиция — крылатая змея (Уаджит), окружённая двенадцатью сидящими фигурами, символизирующими часы дня и ночи.",
+    "de": "Dieser bemerkenswerte Basaltsarkophag gehörte Djeho, einem Zwerg, der als heiliger Tänzer bei den Begräbniszeremonien der Apis- und Mnevis-Stiere während der Herrschaft Nektanebos II. (346–343 v. Chr.) diente. 1911 von James Quibell in Saqqara entdeckt, trägt der Deckel ein lebensgroßes Profilbild von Djeho (etwa 120 cm), mit außergewöhnlichem Können gearbeitet. Das Innere des Deckels ist einzigartig: Anstelle der üblichen Sonnensymbole zeigt es eine vollständige astronomische Komposition — eine geflügelte Schlange (Wadjet), flankiert von zwölf sitzenden Figuren, die die Stunden des Tages und der Nacht symbolisieren."
+  },
+  "priority": "72"
+}

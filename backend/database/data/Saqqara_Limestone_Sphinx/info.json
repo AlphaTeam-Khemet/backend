@@ -1,0 +1,21 @@
+{
+  "ai_label": "Saqqara_Limestone_Sphinx",
+  "names": {
+    "en": "Limestone Sphinx of Saqqara",
+    "ar": "تمثال أبو الهول الصغير المكتشف في سقارة",
+    "ru": "Известняковый сфинкс Саккары",
+    "de": "Kalkstein-Sphinx von Sakkara"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Saqqara_Limestone_Sphinx.png",
+  "descriptions": {
+    "en": "A small limestone sphinx discovered in the Saqqara necropolis, combining the body of a lion with the head of a pharaoh, symbolizing royal power and divine protection.",
+    "ar": "تمثال أبو الهول الصغير من الحجر الجيري اكتُشف في مقابر سقارة، يجمع بين جسم الأسد ورأس الفرعون، رمزاً للقوة الملكية والحماية الإلهية.",
+    "ru": "Маленький известняковый сфинкс, обнаруженный в некрополе Саккара.",
+    "de": "Eine kleine Kalkstein-Sphinx, die in der Nekropole von Sakkara entdeckt wurde."
+  },
+  "priority": "112"
+}

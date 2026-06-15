@@ -1,0 +1,21 @@
+{
+  "ai_label": "Psamtik_II_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Late Period — 26th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Psamtik_II_Sarcophagus.png",
+  "names": {
+    "en": "Basalt Sarcophagus of Psamtik II",
+    "ar": "تابوت البازلت للملك إبسماتيك الثاني",
+    "ru": "Базальтовый саркофаг Псамтека II",
+    "de": "Basaltsarkophag des Psamtik II."
+  },
+  "descriptions": {
+    "en": "This anthropoid basalt sarcophagus is associated with Psamtik II, a pharaoh of the 26th (Saite) Dynasty who reigned circa 595–589 BCE. The sarcophagus is characterised by a broad squared face, large ears, and a smooth unarticulated body — hallmarks of a distinctive Memphis workshop active during the reigns of Psamtik II and Amasis. Its hieroglyphic inscriptions incorporate spells from the Pyramid Texts, Coffin Texts, and Book of the Dead, while speeches of protective gods advocate for the deceased. The piece stands as a masterpiece of Late Period hard-stone carving.",
+    "ar": "يُنسب هذا التابوت البازلتي الآدمي إلى الفرعون إبسماتيك الثاني من الأسرة السادسة والعشرين (السائية)، الذي حكم نحو 595–589 ق.م. يتميز التابوت بوجه مربع الشكل واسع، وأذنين كبيرتين، وجسم أملس غير مفصَّل — وهي سمات مميزة لورشة منفية نشطت في عهد إبسماتيك الثاني وأحمس الثاني. تتضمن نقوشه الهيروغليفية تعاويذ من نصوص الأهرام والتوابيت وكتاب الموتى، فيما تُنادي الآلهة الحامية بصوت واحد للدفاع عن الميت. تُعدُّ هذه القطعة تحفة فريدة في نحت الأحجار الصلبة خلال العصر المتأخر.",
+    "ru": "Этот антропоидный базальтовый саркофаг связан с фараоном Псамтеком II 26-й (Саисской) династии, правившим приблизительно в 595–589 до н. э. Саркофаг отличается широким квадратным лицом, большими ушами и гладким неартикулированным телом — характерными чертами отдельной Мемфисской мастерской, активной в период правления Псамтека II и Амасиса. Иероглифические надписи включают заклинания из Текстов пирамид, Текстов саркофагов и Книги мёртвых.",
+    "de": "Dieser anthropoide Basaltsarkophag wird Pharao Psamtik II. der 26. (Saitischen) Dynastie zugeschrieben, der etwa 595–589 v. Chr. regierte. Der Sarkophag zeichnet sich durch ein breites, eckiges Gesicht, große Ohren und einen glatten, ungegliederten Körper aus — Merkmale einer charakteristischen Memphitischen Werkstatt, die während der Herrschaft von Psamtik II. und Amasis aktiv war. Die hieroglyphischen Inschriften umfassen Sprüche aus den Pyramidentexten, Sargtexten und dem Totenbuch."
+  },
+  "priority": "64"
+}

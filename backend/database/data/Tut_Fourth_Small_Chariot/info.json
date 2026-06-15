@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Fourth_Small_Chariot",
+  "names": {
+    "en": "Fourth Small Chariot",
+    "ar": "العجلة الملكية الصغيرة الرابعة",
+    "ru": "Четвертая маленькая колесница",
+    "de": "Vierter kleiner Wagen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Fourth_Small_Chariot.png",
+  "descriptions": {
+    "en": "The fourth and smallest chariot from Tutankhamun's collection, likely used for quick transport or ceremonial purposes.",
+    "ar": "العجلة الرابعة والأصغر من مجموعة توت عنخ آمون، ربما استُخدمت للنقل السريع أو الأغراض الاحتفالية.",
+    "ru": "Четвертая и самая маленькая колесница из коллекции Тутанхамона.",
+    "de": "Der vierte und kleinste Wagen aus der Sammlung von Tutanchamun."
+  },
+  "priority": "97"
+}

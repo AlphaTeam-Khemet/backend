@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nespamedu_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Ptolemaic Period",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Nespamedu_Sarcophagus.png",
+  "names": {
+    "en": "Sarcophagus of Priest Nespamedu",
+    "ar": "تابوت الكاهن نسيباميدو",
+    "ru": "Саркофаг жреца Неспамеду",
+    "de": "Sarkophag des Priesters Nespamedu"
+  },
+  "descriptions": {
+    "en": "Nespamedu — meaning 'He who belongs to the sceptre' — was a priest and royal physician who lived during the Ptolemaic Period (approximately 300–200 BCE). His limestone sarcophagus is richly decorated with funerary texts and divine imagery. Excavated at Saqqara, the necropolis of the ancient Memphite elite, his burial reflected both his religious standing and his privileged role as personal physician to the pharaoh. The amulets found with his mummy, including images of Thoth (god of medicine) and the wedjat eye of Horus, attest to his dual identity as a healer and a servant of the gods.",
+    "ar": "نسيباميدو — ومعناه 'من ينتمي إلى الصولجان' — كان كاهنًا وطبيبًا ملكيًا عاش في عصر البطالمة (نحو 300–200 ق.م.). تابوته الجيري مزدان بالنصوص الجنائزية والرموز الإلهية. اكتُشف في سقارة، مقبرة النخبة المنفية القديمة، وكانت جنازته تعكس مكانته الدينية الرفيعة ودوره المميز طبيبًا خاصًا للفرعون. والتمائم التي وُجدت مع مومياه — من بينها رمز تحوت (إله الطب) وعين حورس الصحية (الواجيت) — تشهد على هويته المزدوجة كمعالج وخادم للآلهة.",
+    "ru": "Неспамеду — что означает 'тот, кто принадлежит скипетру' — был жрецом и царским врачом, жившим в Птолемеевский период (приблизительно 300–200 до н. э.). Его известняковый саркофаг богато украшен погребальными текстами и божественными образами. Обнаруженный в Саккаре — некрополе древней Мемфисской элиты, его захоронение отражало как его религиозное положение, так и привилегированную роль личного врача фараона.",
+    "de": "Nespamedu — was 'der dem Szepter Gehörende' bedeutet — war ein Priester und königlicher Arzt, der in der Ptolemäerzeit (ca. 300–200 v. Chr.) lebte. Sein Kalksteinsarkophag ist reich mit Funeraltexten und göttlichen Bildmotiven verziert. In Saqqara, der Nekropole der altmemphitischen Elite, ausgegraben, spiegelte seine Bestattung sowohl seinen religiösen Rang als auch seine privilegierte Rolle als Leibarzt des Pharaos wider."
+  },
+  "priority": "69"
+}

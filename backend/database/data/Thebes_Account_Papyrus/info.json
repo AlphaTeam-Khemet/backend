@@ -1,0 +1,21 @@
+{
+  "ai_label": "Thebes_Account_Papyrus",
+  "names": {
+    "en": "Account Papyrus of Thebes",
+    "ar": "برديات الحسابات والإدارة من طيبة",
+    "ru": "Бухгалтерский папирус Фив",
+    "de": "Rechnungspapyrus von Theben"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Thebes_Account_Papyrus.png",
+  "descriptions": {
+    "en": "Administrative papyri from Thebes showing detailed accounts of grain, labor, and resources, providing insight into ancient Egyptian bureaucracy.",
+    "ar": "برديات إدارية من طيبة تُظهر حسابات مفصلة للحبوب والعمالة والموارد، تقدم نظرة على البيروقراطية المصرية القديمة.",
+    "ru": "Административные папирусы из Фив с подробными учетами зерна, рабочей силы и ресурсов.",
+    "de": "Verwaltungspapyri aus Theben mit detaillierten Aufzeichnungen über Getreide, Arbeit und Ressourcen."
+  },
+  "priority": "78"
+}

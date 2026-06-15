@@ -1,0 +1,21 @@
+{
+  "ai_label": "Hornakht_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Third Intermediate Period — 22nd Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Hornakht_Sarcophagus.png",
+  "names": {
+    "en": "Sarcophagus of Prince Hornakht",
+    "ar": "تابوت الأمير هورناخت من الجرانيت",
+    "ru": "Саркофаг принца Хорнахта",
+    "de": "Granitsarkophag des Prinzen Hornakht"
+  },
+  "descriptions": {
+    "en": "Prince Hornakht was the son of Pharaoh Osorkon II of the 22nd Dynasty and was appointed High Priest of Amun at Tanis to consolidate royal authority in Lower Egypt. He died before the age of ten, and his father ensured he was buried within his own royal tomb at Tanis. Although tomb robbers penetrated the burial in antiquity, a large granite block placed over the sarcophagus prevented them from fully lifting its lid, preserving parts of the prince's funerary treasures still resting atop his mummy.",
+    "ar": "كان الأمير هورناخت ابن الفرعون أوسركون الثاني من الأسرة الثانية والعشرين، وقد عُيِّن كبيرًا لكهنة آمون في تانيس لتعزيز السلطة الملكية في مصر السفلى. توفي قبل سن العاشرة، فحرص والده على دفنه داخل مقبرته الملكية بتانيس. وعلى الرغم من اختراق لصوص القبور لمكان الدفن في العصور القديمة، فإن كتلة جرانيتية ضخمة وُضعت فوق التابوت حالت دون رفع غطائه بالكامل، مما أدى إلى الحفاظ على جزء من كنوزه الجنائزية فوق مومياه.",
+    "ru": "Принц Хорнахт был сыном фараона Осоркона II 22-й династии и был назначен Верховным жрецом Амона в Танисе для укрепления царской власти в Нижнем Египте. Он умер в возрасте до десяти лет, и его отец позаботился о том, чтобы похоронить его в своей собственной царской гробнице в Танисе. Хотя грабители гробниц проникли в захоронение в древности, большой гранитный блок, положенный на саркофаг, не позволил им полностью приподнять его крышку, сохранив часть погребальных сокровищ принца.",
+    "de": "Prinz Hornakht war der Sohn von Pharao Osorkon II. der 22. Dynastie und wurde zum Hohenpriester des Amun in Tanis ernannt, um die königliche Autorität in Unterägypten zu festigen. Er starb vor dem zehnten Lebensjahr, und sein Vater sorgte dafür, dass er in seiner eigenen Königsgruft in Tanis beigesetzt wurde. Obwohl Grabräuber in der Antike in die Grabkammer eindrangen, verhinderte ein großer Granitblock auf dem Sarkophag das vollständige Anheben des Deckels und bewahrte Teile des Grabschatzes des Prinzen."
+  },
+  "priority": "70"
+}

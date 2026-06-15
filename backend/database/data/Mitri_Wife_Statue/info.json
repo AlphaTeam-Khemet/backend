@@ -1,0 +1,21 @@
+{
+  "ai_label": "Mitri_Wife_Statue",
+  "names": {
+    "en": "Statue of Mitri's Wife",
+    "ar": "تمثال زوجة الكاتب ميتري",
+    "ru": "Статуя жены Митри",
+    "de": "Statue der Frau des Mitri"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Mitri_Wife_Statue.png",
+  "descriptions": {
+    "en": "The companion statue of Mitri's wife, carved from wood with delicate painted details, showing her in a traditional pose of dignity.",
+    "ar": "التمثال المرافق لزوجة ميتري، منحوت من الخشب بتفاصيل ملونة رقيقة، يُظهرها في وضعية تقليدية من الكرامة.",
+    "ru": "Парная статуя жены Митри, вырезанная из дерева с нежными расписными деталями.",
+    "de": "Die Begleitstatue der Frau des Mitri, aus Holz geschnitzt mit zarten bemalten Details."
+  },
+  "priority": "56"
+}

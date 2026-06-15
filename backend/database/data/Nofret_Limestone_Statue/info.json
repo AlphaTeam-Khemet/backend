@@ -1,0 +1,21 @@
+{
+  "ai_label": "Nofret_Limestone_Statue",
+  "names": {
+    "en": "Limestone Nofret Statue",
+    "ar": "تمثال الأميرة نفرت الملون",
+    "ru": "Известняковая статуя Нофрет",
+    "de": "Kalksteinstatue der Nofret"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Nofret_Limestone_Statue.png",
+  "descriptions": {
+    "en": "The companion statue of Princess Nofret, equally well-preserved with stunning painted details and crystal eyes.",
+    "ar": "التمثال المرافق للأميرة نفرت، محفوظ بشكل مذهل بنفس القدر مع تفاصيل ملونة مذهلة وعيون كريستالية.",
+    "ru": "Парная статуя принцессы Нофрет, одинаково хорошо сохранившаяся.",
+    "de": "Die Begleitstatue der Prinzessin Nofret, ebenso gut erhalten."
+  },
+  "priority": "47"
+}

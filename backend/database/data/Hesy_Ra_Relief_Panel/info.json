@@ -1,0 +1,21 @@
+{
+  "ai_label": "Hesy_Ra_Relief_Panel",
+  "names": {
+    "en": "Relief Panel of Hesy-Ra",
+    "ar": "لوحة حسي رع الخشبية المحفورة",
+    "ru": "Рельефная панель Хеси-Ра",
+    "de": "Reliefplatte des Hesy-Ra"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Hesy_Ra_Relief_Panel.png",
+  "descriptions": {
+    "en": "Carved wooden panels from the tomb of Hesy-Ra, one of the earliest known physicians and dentists in history.",
+    "ar": "لوحات خشبية محفورة من مقبرة حسي رع، أحد أقدم الأطباء وطب الأسنان المعروفين في التاريخ.",
+    "ru": "Резные деревянные панели из гробницы Хеси-Ра, одного из первых известных врачей.",
+    "de": "Geschnitzte Holztafeln aus dem Grab des Hesy-Ra, einer der frühesten bekannten Ärzte."
+  },
+  "priority": "121"
+}

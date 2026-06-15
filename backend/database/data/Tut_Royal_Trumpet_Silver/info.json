@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Royal_Trumpet_Silver",
+  "names": {
+    "en": "The Royal Trumpet (Silver)",
+    "ar": "بوق توت عنخ آمون المصنوع من الفضة",
+    "ru": "Царская труба (серебро)",
+    "de": "Die königliche Trompete (Silber)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Royal_Trumpet_Silver.png",
+  "descriptions": {
+    "en": "The second royal trumpet, made of silver with gold details, a masterpiece of ancient metallurgy.",
+    "ar": "البوق الملكي الثاني، مصنوع من الفضة مع تفاصيل ذهبية، تحفة في علم المعادن القديم.",
+    "ru": "Вторая царская труба, изготовленная из серебра с золотыми деталями.",
+    "de": "Die zweite königliche Trompete, aus Silber mit goldenen Details."
+  },
+  "priority": "151"
+}

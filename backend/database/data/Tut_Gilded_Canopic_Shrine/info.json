@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Canopic_Shrine",
+  "names": {
+    "en": "The Gilded Canopic Shrine",
+    "ar": "مقصورة الأواني الكانوبية المذهبة الخارجية",
+    "ru": "Позолоченное святилище каноп",
+    "de": "Das vergoldete Kanopen-Heiligtum"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Canopic_Shrine.png",
+  "descriptions": {
+    "en": "This magnificent gilded wooden shrine housed the alabaster canopic chest containing the embalmed viscera of Tutankhamun.",
+    "ar": "احتوت هذه المقصورة الخشبية المذهبة الرائعة صندوق الأواني الكانوبية المصنوع من الألباستر.",
+    "ru": "Это великолепное позолоченное деревянное святилище вмещало алебастровый сундук с канопами.",
+    "de": "Dieses prächtige vergoldete Holzheiligtum beherbergte die alabasterne Kanopenkiste."
+  },
+  "priority": "140"
+}

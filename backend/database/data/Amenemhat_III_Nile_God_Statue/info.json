@@ -1,0 +1,21 @@
+{
+  "ai_label": "Amenemhat_III_Nile_God_Statue",
+  "names": {
+    "en": "Statue of Amenemhat III as a Nile God",
+    "ar": "تمثال الملك أمنمحات الثالث في هيئة إله النيل",
+    "ru": "Статуя Аменемхета III в образе бога Нила",
+    "de": "Statue des Amenemhet III. als Nilgott"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Amenemhat_III_Nile_God_Statue.png",
+  "descriptions": {
+    "en": "A granite statue depicting King Amenemhat III as a Nile god, symbolizing his divine connection to the river that sustained Egypt.",
+    "ar": "تمثال من الجرانيت يُصور الملك أمنمحات الثالث في هيئة إله النيل، يرمز إلى ارتباطه الإلهي بالنهر الذي أدام مصر.",
+    "ru": "Гранитная статуя, изображающая царя Аменемхета III в образе бога Нила.",
+    "de": "Eine Granitstatue, die König Amenemhet III. als Nilgott darstellt."
+  },
+  "priority": "50"
+}

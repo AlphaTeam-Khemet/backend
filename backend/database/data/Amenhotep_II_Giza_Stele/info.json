@@ -1,0 +1,21 @@
+{
+  "ai_label": "Amenhotep_II_Giza_Stele",
+  "names": {
+    "en": "Stele of Amenhotep II at Giza",
+    "ar": "لوحة الملك أمنحتب الثاني المكتشفة قرب أبو الهل",
+    "ru": "Стела Аменхотепа II в Гизе",
+    "de": "Stele des Amenhotep II. in Gizeh"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Amenhotep_II_Giza_Stele.png",
+  "descriptions": {
+    "en": "A limestone stele of Amenhotep II discovered near the Sphinx, depicting the king in a chariot shooting arrows at a target, showcasing his athletic prowess.",
+    "ar": "لوحة حجر جيري لأمنحتب الثاني اكتُشفت قرب أبو الهول، تصور الملك في عجلة حربية يطلق السهام على هدف، تُظهر قدراته الرياضية.",
+    "ru": "Известняковая стела Аменхотепа II, обнаруженная рядом со Сфинксом.",
+    "de": "Eine Kalkstein-Stele des Amenhotep II., die in der Nähe der Sphinx entdeckt wurde."
+  },
+  "priority": "20"
+}

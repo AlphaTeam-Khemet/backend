@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Alabaster_Perfume_Vase",
+  "names": {
+    "en": "Alabaster Perfume Vase",
+    "ar": "إناء العطور من الألباستر برمز توحيد القطرين",
+    "ru": "Алебастровый флакон для духов",
+    "de": "Alabasterne Parfümflasche"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Alabaster_Perfume_Vase.png",
+  "descriptions": {
+    "en": "An elegant alabaster vase for perfumes, decorated with the sema-tawy symbol of unification, representing the union of Upper and Lower Egypt.",
+    "ar": "مزهرية ألباستر أنيقة للعطور، مزينة برمز السما-تاوي للتوحيد، يمثل اتحاد مصر العليا والسفلى.",
+    "ru": "Элегантная алебастровая ваза для духов, украшенная символом сема-тауи объединения.",
+    "de": "Eine elegante Alabastervase für Parfüm, verziert mit dem Sema-Tawy-Symbol der Vereinigung."
+  },
+  "priority": "83"
+}

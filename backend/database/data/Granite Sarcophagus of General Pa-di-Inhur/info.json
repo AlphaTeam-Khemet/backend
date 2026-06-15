@@ -1,0 +1,21 @@
+{
+  "ai_label": "Pa_di_Inhur_Sarcophagus",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "Late Period",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Pa_di_Inhur_Sarcophagus.png",
+  "names": {
+    "en": "Granite Sarcophagus of General Pa-di-Inhur",
+    "ar": "تابوت القائد العسكري با دي أنحور",
+    "ru": "Гранитный саркофаг генерала Па-ди-Инхура",
+    "de": "Granitsarkophag des Generals Pa-di-Inhur"
+  },
+  "descriptions": {
+    "en": "This granite sarcophagus belonged to Pa-di-Inhur, a high-ranking military general of the Late Period. The piece exemplifies the tradition of elite non-royal burials during this era, when powerful military commanders were accorded funerary honours comparable to those of royalty. The sarcophagus is decorated with protective hieroglyphic inscriptions and divine imagery drawn from the Pyramid Texts and the Book of the Dead, ensuring the general's successful transition to the afterlife. It is currently displayed on the Grand Staircase of the Grand Egyptian Museum.",
+    "ar": "ينتمي هذا التابوت الجرانيتي إلى با دي أنحور، أحد كبار القادة العسكريين في العصر المتأخر. تُجسِّد هذه القطعة تقليدَ الدفن الرفيع لغير الملوك في تلك الحقبة، حين كان للقادة العسكريين النافذين حصةٌ من التكريم الجنائزي تعادل ما يُخصَّص للملوك. يُزيِّن التابوتَ نقوشٌ هيروغليفية حمائية ورموز إلهية مستقاة من نصوص الأهرام وكتاب الموتى، لتُكفل للقائد عبوره بسلام إلى العالم الآخر. يُعرض التابوت حاليًا على السلم الكبير في المتحف المصري الكبير.",
+    "ru": "Этот гранитный саркофаг принадлежал Па-ди-Инхуру — высокопоставленному военному генералу Позднего периода. Предмет воплощает традицию элитных нецарских захоронений той эпохи, когда влиятельные военачальники удостаивались погребальных почестей, сравнимых с царскими. Саркофаг украшен защитными иероглифическими надписями и божественными образами из Текстов пирамид и Книги мёртвых.",
+    "de": "Dieser Granitsarkophag gehörte Pa-di-Inhur, einem hochrangigen Militärgeneral der Spätzeit. Das Stück verkörpert die Tradition der elitären Nicht-Königsbegräbnisse jener Ära, als mächtigen Militärkommandeuren Bestattungsehren zukamen, die denen des Königtums vergleichbar waren. Der Sarkophag ist mit schützenden Hieroglypheninschriften und göttlichen Bildmotiven aus den Pyramidentexten und dem Totenbuch verziert."
+  },
+  "priority": "65"
+}

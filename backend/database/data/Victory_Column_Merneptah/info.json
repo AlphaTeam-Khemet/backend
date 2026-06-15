@@ -1,0 +1,21 @@
+{
+  "ai_label": "Victory_Column_Merneptah",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "era": "New Kingdom — 19th Dynasty",
+  "category": "Artifact",
+  "cover_image": "/uploads/monuments/Victory_Column_Merneptah.jpg",
+  "names": {
+    "en": "Victory Column of King Merneptah",
+    "ar": "عمود النصر للملك مرنبتاح",
+    "ru": "Колонна Победы Мернептаха",
+    "de": "Siegessäule des Königs Merenptah"
+  },
+  "descriptions": {
+    "en": "This monumental granite column was erected during the reign of King Merneptah, the son and successor of Ramesses II. It commemorates royal victories and demonstrates the strength and authority of the Egyptian state during the late 19th Dynasty. The column bears finely carved hieroglyphic inscriptions praising the king and recording important achievements.",
+    "ar": "أُقيم هذا العمود الضخم من الجرانيت خلال عهد الملك مرنبتاح، ابن وخليفة رمسيس الثاني. يخلد العمود انتصارات الملك العسكرية ويعكس قوة الدولة المصرية خلال أواخر الأسرة التاسعة عشرة. وتحمل جوانبه نقوشًا هيروغليفية دقيقة تمجد الملك وتوثق إنجازاته المهمة.",
+    "ru": "Монументальная гранитная колонна была возведена во времена царя Мернептаха, сына и преемника Рамсеса II. Она прославляет военные победы фараона и могущество Египетского государства.",
+    "de": "Diese monumentale Granitsäule wurde unter König Merenptah errichtet. Sie erinnert an seine militärischen Siege und symbolisiert die Stärke des ägyptischen Reiches während der 19. Dynastie."
+  },
+  "priority": "155"
+}

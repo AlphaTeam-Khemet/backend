@@ -31,8 +31,8 @@ function handleImageUpload(req, res, next) {
   });
 }
 
-router.post('/artifact', auth, lang, handleImageUpload, ctrl.artifact);
-router.post('/translate', auth, lang, handleImageUpload, ctrl.translate);
+router.post('/artifact', auth, lang, handleImageUpload, upload.validateMagicNumber, ctrl.artifact);
+router.post('/translate', auth, lang, handleImageUpload, upload.validateMagicNumber, ctrl.translate);
 router.get('/history', auth, lang, ctrl.history);
 
 module.exports = router;

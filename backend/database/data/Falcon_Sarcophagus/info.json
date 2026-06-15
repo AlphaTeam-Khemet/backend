@@ -1,0 +1,21 @@
+{
+  "ai_label": "Falcon_Sarcophagus",
+  "names": {
+    "en": "Sarcophagus of Falcon (Mummified)",
+    "ar": "تابوت صغير مخصص لمومياء صقر مقدس",
+    "ru": "Саркофаг сокола (мумифицированного)",
+    "de": "Sarkophag eines Falken (Mumie)"
+  },
+  "era": "Late Period",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Falcon_Sarcophagus.png",
+  "descriptions": {
+    "en": "A small bronze sarcophagus designed to hold a mummified sacred falcon, representing the god Horus, with intricate hieroglyphic inscriptions.",
+    "ar": "تابوت صغير من البرونز مصمم لحمل صقر مقدس محنط، يمثل الإله حورس، بنقوش هيرoglيفية معقدة.",
+    "ru": "Маленький бронзовый саркофаг, предназначенный для мумифицированного священного сокола.",
+    "de": "Ein kleiner Bronzesarkophag, der für einen mumifizierten heiligen Falken bestimmt war."
+  },
+  "priority": "67"
+}

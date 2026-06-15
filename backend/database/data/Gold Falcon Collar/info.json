@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gold_Falcon_Collar",
+  "names": {
+    "en": "Gold Falcon Collar",
+    "ar": "قلادة الصقر الذهبية الواسعة",
+    "ru": "Золотой воротник с головами соколов",
+    "de": "Goldener Falkenkragen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gold_Falcon_Collar.png",
+  "descriptions": {
+    "en": "This magnificent broad collar is one of the most iconic pieces of jewelry from Tutankhamun's tomb. Crafted from solid gold, it features the outstretched wings of a falcon, symbolizing the protective embrace of the sun god Horus. The collar was found among the king's burial treasures and represents the pinnacle of New Kingdom goldsmithing artistry. Its intricate feather details and the use of precious materials demonstrate the extraordinary craftsmanship of ancient Egyptian artisans.",
+    "ar": "تُعد هذه القلادة الواسعة الرائعة واحدة من أشهر قطع المجوهرات من مقبرة توت عنخ آمون. صُنعت من الذهب الخالص وتتميز بأجنحة الصقر الممتدة، رمزاً للعناية الإلهية للإله حورس. عُثر على القلادة بين كنوز الملك الجنائزية، وتمثل قمة فن صياغة الذهب في الدولة الحديثة. تُظهر تفاصيل الريش الدقيقة واستخدام المواد الثمينة المهارة الاستثنائية للحرفيين المصريين القدماء.",
+    "ru": "Этот великолепный широкий воротник является одним из самых узнаваемых ювелирных изделий из гробницы Тутанхамона. Изготовленный из чистого золота, он украшен распростертыми крыльями сокола, символизирующими защитные объятия солнечного бога Гора. Воротник был найден среди погребальных сокровищ царя и представляет вершину золотых дел мастерства Нового царства. Его сложные детали перьев и использование драгоценных материалов демонстрируют исключительное мастерство древнеегипетских ремесленников.",
+    "de": "Dieser prächtige breite Kragen ist eines der bekanntesten Schmuckstücke aus dem Grab von Tutanchamun. Aus massivem Gold gefertigt, zeigt er die ausgebreiteten Flügel eines Falken, die den schützenden Umarmung des Sonnengottes Horus symbolisieren. Der Kragen wurde unter den Grabbeigaben des Königs gefunden und repräsentiert den Höhepunkt der Goldschmiedekunst des Neuen Reiches. Seine komplexen Federdetails und der Einsatz wertvoller Materialien demonstrieren die außergewöhnliche Handwerkskunst der altägyptischen Kunsthandwerker."
+  },
+  "priority": "103"
+}

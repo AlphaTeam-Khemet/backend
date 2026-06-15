@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_First_Gilded_Chariot",
+  "names": {
+    "en": "First Gilded State Chariot (Assembled)",
+    "ar": "العجلة الحربية الاحتفالية الأولى المجمعة",
+    "ru": "Первая позолоченная парадная колесница (собранная)",
+    "de": "Erste vergoldete Staatswagen (montiert)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_First_Gilded_Chariot.jpg",
+  "descriptions": {
+    "en": "This is the first of six chariots found in Tutankhamun's tomb, now fully assembled and displayed in the Grand Egyptian Museum. The chariot is a masterpiece of ancient engineering, featuring a lightweight wooden frame covered in gilded plaster and leather. The wheels have six spokes and are reinforced with rawhide. The chariot was designed for ceremonial use and hunting, demonstrating the advanced technological capabilities of the 18th Dynasty. The gilded decoration includes scenes of the king in battle and religious symbols.",
+    "ar": "هذه هي الأولى من بين ست عجلات حربية عُثر عليها في مقبرة توت عنخ آمون، مجمعة الآن بالكامل ومعروضة في المتحف المصري الكبير. العجلة تحفة في الهندسة القديمة، تتميز بإطار خشبي خفيف الوزن مغطى بالجص المذهب والجلد. تملك العجلات ست أضلاع ومُقوّاة بالجلد الخام. صُممت العجلة للاستخدام الاحتفالي والصيد، مما يُظهر القدرات التكنولوجية المتقدمة للأسرة الثامنة عشر. تتضمن الزخرفة المذهبة مشاهد للملك في المعركة والرموز الدينية.",
+    "ru": "Это первая из шести колесниц, найденных в гробнице Тутанхамона, теперь полностью собранная и выставленная в Большом Египетском музее. Колесница — шедевр древней инженерии, с легкой деревянной рамой, покрытой позолоченной штукатуркой и кожей. Колеса имеют шесть спиц и усилены сырой кожей. Колесница была предназначена для церемониального использования и охоты, демонстрируя передовые технологические возможности XVIII династии. Позолоченное украшение включает сцены царя в бою и религиозные символы.",
+    "de": "Dies ist der erste von sechs Wagen, die im Grab von Tutanchamun gefunden wurden, jetzt vollständig montiert und im Großen Ägyptischen Museum ausgestellt. Der Wagen ist ein Meisterwerk antiker Ingenieurskunst mit einem leichten Holzrahmen, der mit vergoldetem Putz und Leder überzogen ist. Die Räder haben sechs Speichen und sind mit Rohleder verstärkt. Der Wagen wurde für zeremonielle Zwecke und die Jagd konzipiert und demonstriert die fortschrittlichen technologischen Fähigkeiten der 18. Dynastie. Die vergoldete Verzierung zeigt Szenen des Königs im Kampf und religiöse Symbole."
+  },
+  "priority": "92"
+}

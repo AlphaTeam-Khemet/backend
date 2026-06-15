@@ -1,0 +1,21 @@
+{
+  "ai_label": "Thuya_Mummy_Mask",
+  "names": {
+    "en": "Mummy Mask of Thuya",
+    "ar": "قناع المومياء المذهب لـ 'تويا'",
+    "ru": "Маска мумии Туи",
+    "de": "Mumienmaske der Thuya"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Thuya_Mummy_Mask.png",
+  "descriptions": {
+    "en": "A gilded cartonnage mummy mask of Thuya, mother-in-law of Amenhotep III, matching the style of Yuya's mask with elegant feminine features.",
+    "ar": "قناع مومياء مذهب من الكرتوناج لـ تويا، حماة أمنحتب الثالث، يطابق أسلوب قناع يويا بملامح أنثوية أنيقة.",
+    "ru": "Позолоченная картонажная маска мумии Туи, тещи Аменхотепа III.",
+    "de": "Eine vergoldete Kartonage-Mumienmaske der Thuya, der Schwiegermutter von Amenhotep III."
+  },
+  "priority": "75"
+}

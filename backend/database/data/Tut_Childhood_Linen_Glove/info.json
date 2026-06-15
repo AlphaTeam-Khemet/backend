@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Childhood_Linen_Glove",
+  "names": {
+    "en": "Childhood Linen Glove",
+    "ar": "قفاز الملك المصنوع من الكتان أثناء طفولته",
+    "ru": "Льняная перчатка детства",
+    "de": "Leinenhandschuh aus der Kindheit"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Childhood_Linen_Glove.png",
+  "descriptions": {
+    "en": "A small linen glove belonging to the young king, providing a rare glimpse into Tutankhamun's childhood.",
+    "ar": "قفاز كتان صغير يعود للملك الشاب، يقدم لمحة نادرة إلى طفولة توت عنخ آمون.",
+    "ru": "Маленькая льняная перчатка, принадлежавшая юному царю.",
+    "de": "Ein kleiner Leinenhandschuh, der dem jungen König gehörte."
+  },
+  "priority": "87"
+}

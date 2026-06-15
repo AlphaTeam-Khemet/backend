@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khufu_Steering_Oars",
+  "names": {
+    "en": "Steering Oars of the First Solar Boat",
+    "ar": "مجاديف التوجيه الضخمة التابعة للمركب الأولى",
+    "ru": "Рулевые весла первой солнечной ладьи",
+    "de": "Steuerruder des ersten Sonnenschiffs"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khufu_Steering_Oars.png",
+  "descriptions": {
+    "en": "Massive cedar wood steering oars from Khufu's solar boat, essential for navigating the celestial journey of the sun god Ra.",
+    "ar": "مجاديف توجيه ضخمة من خشب الأرز من مركب خوفو الشمسي، ضرورية للإبحار في الرحلة السماوية لإله الشمس رع.",
+    "ru": "Массивные кедровые рулевые весла из солнечной ладьи Хуфу.",
+    "de": "Massive Zedernholz-Steuerruder aus dem Sonnenschiff des Cheops."
+  },
+  "priority": "130"
+}

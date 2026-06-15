@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gold_Dagger_Sheath",
+  "names": {
+    "en": "The Gold Sheath of the Dagger",
+    "ar": "الغمد الذهبي الخاص بخنجر النيازك",
+    "ru": "Золотые ножны для кинжала",
+    "de": "Die goldene Dolchscheide"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gold_Dagger_Sheath.jpg",
+  "descriptions": {
+    "en": "This exquisite gold sheath was designed to protect and display the meteoritic iron dagger of Tutankhamun. Crafted from pure gold, the sheath is decorated with intricate floral patterns and hieroglyphic inscriptions invoking protection for the king. The sheath was found alongside the dagger, wrapped in the king's mummy bandages. Its perfect fit and elaborate decoration demonstrate the exceptional skill of ancient Egyptian goldsmiths and the importance placed on even the smallest details of royal burial equipment.",
+    "ar": "صُمم هذا الغمد الذهبي الرائع لحماية وعرض خنجر حديد النيازك لتوت عنخ آمون. مصنوع من الذهب الخالص، يزين الغمد نقوشاً زهرية معقدة ونقوش هيرoglيفية تستدعي الحماية للملك. عُثر على الغمد إلى جانب الخنجر، ملفوفاً في ضمادات مومياء الملك. يُظهر مقاسه المثالي وزخرفته المُفصّلة المهارة الاستثنائية لصائغي الذهب المصريين القدماء والأهمية المُمنوحة لأصغر تفاصيل معدات الدفن الملكية.",
+    "ru": "Эти изысканные золотые ножны были предназначены для защиты и демонстрации метеоритного железного кинжала Тутанхамона. Изготовленные из чистого золота, ножны украшены сложными цветочными узорами и иероглифическими надписями, призывающими защиту для царя. Ножны были найдены рядом с кинжалом, завернутые в бинты мумили царя. Их идеальная посадка и сложное украшение демонстрируют исключительное мастерство древнеегипетских золотых дел мастеров и важность, придаваемую даже мельчайшим деталям царского погребального инвентаря.",
+    "de": "Diese exquisite goldene Scheide wurde zum Schutz und zur Präsentation des Meteoriteneisen-Dolchs von Tutanchamun entworfen. Aus reinem Gold gefertigt, ist die Scheide mit komplexen Blumenmustern und hieroglyphischen Inschriften verziert, die Schutz für den König anrufen. Die Scheide wurde neben dem Dolch gefunden, in die Mumienbinden des Königs gewickelt. Ihre perfekte Passform und aufwendige Verzierung zeigen die außergewöhnliche Fähigkeit der altägyptischen Goldschmiede und die Bedeutung, die selbst den kleinsten Details der königlichen Begräbnisausrüstung beigemessen wurde."
+  },
+  "priority": "141"
+}

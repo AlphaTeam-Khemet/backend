@@ -25,7 +25,7 @@ function readJson(filePath) {
 function getArtifactFolders() {
   return fs
     .readdirSync(DATA_DIR, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
+    .filter((entry) => entry.isDirectory() && entry.name !== 'audio')
     .map((entry) => entry.name)
     .sort();
 }
@@ -108,6 +108,7 @@ async function seed() {
         category: info.category || null,
         cover_image: coverImage,
         ai_label: info.ai_label,
+        priority: info.priority || 'mid',
       });
 
       for (const { code } of LANGS) {

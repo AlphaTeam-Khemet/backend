@@ -1,0 +1,21 @@
+{
+  "ai_label": "Mereret_Djed_Amulet",
+  "names": {
+    "en": "Djed Pillar Amulet of Princess Mereret",
+    "ar": "تميمة عمود الجد الذهبية للأميرة ميريريت",
+    "ru": "Амулет Джед-столба принцессы Меререт",
+    "de": "Djed-Säulen-Amulett der Prinzessin Mereret"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Mereret_Djed_Amulet.png",
+  "descriptions": {
+    "en": "A gold Djed pillar amulet symbolizing stability and eternal life, belonging to Princess Mereret, daughter of Senusret III.",
+    "ar": "تميمة عمود الجد الذهبية ترمز إلى الاستقرار والحياة الأبدية، تعود للأميرة ميريريت، ابنة سنوسرت الثالث.",
+    "ru": "Золотой амулет Джед-столба, символизирующий стабильность и вечную жизнь.",
+    "de": "Ein goldenes Djed-Säulen-Amulett, das Stabilität und ewiges Leben symbolisiert."
+  },
+  "priority": "88"
+}

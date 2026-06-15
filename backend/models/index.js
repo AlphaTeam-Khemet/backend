@@ -1,3 +1,4 @@
+const sequelize = require('../config/database');
 const Language = require('./Language');
 const User = require('./User');
 const RefreshToken = require('./RefreshToken');
@@ -10,6 +11,7 @@ const Favorite = require('./Favorite');
 const Review = require('./Review');
 const ChatConversation = require('./ChatConversation');
 const ChatMessage = require('./ChatMessage');
+const ArtifactNarration = require('./ArtifactNarration');
 
 // User <-> Language
 User.belongsTo(Language, { foreignKey: 'preferred_language', as: 'language' });
@@ -74,4 +76,6 @@ module.exports = {
   Review,
   ChatConversation,
   ChatMessage,
+  ArtifactNarration,
+  sequelize,
 };

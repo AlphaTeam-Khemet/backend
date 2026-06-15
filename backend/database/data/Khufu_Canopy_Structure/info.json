@@ -1,0 +1,21 @@
+{
+  "ai_label": "Khufu_Canopy_Structure",
+  "names": {
+    "en": "The Canopy Structure of the First Boat",
+    "ar": "هيكل المظلة الخشبية الملكية المثبتة فوق المركب الأولى",
+    "ru": "Навесная конструкция первой ладьи",
+    "de": "Die Baldachinstruktur des ersten Schiffs"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Khufu_Canopy_Structure.png",
+  "descriptions": {
+    "en": "The reconstructed royal canopy structure mounted above Khufu's solar boat, providing shade and symbolizing the divine pavilion of the sun god.",
+    "ar": "هيكل المظلة الملكية المُعاد تركيبها فوق مركب خوفو الشمسي، يوفر الظل ويرمز إلى المجن الإلهي لإله الشمس.",
+    "ru": "Реконструированная королевская навесная конструкция, установленная над солнечной ладьей Хуфу.",
+    "de": "Die rekonstruierte königliche Baldachinstruktur, die über dem Sonnenschiff des Cheops montiert ist."
+  },
+  "priority": "136"
+}

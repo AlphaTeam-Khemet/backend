@@ -1,0 +1,21 @@
+{
+  "ai_label": "Mentuhotep_II_Heb_Sed",
+  "names": {
+    "en": "Seated Mentuhotep II (Heb Sed)",
+    "ar": "تمثال منتوحتب الثاني برداء العيد الجنائزي",
+    "ru": "Сидящий Ментухотеп II (Хеб-Сед)",
+    "de": "Sitzender Mentuhotep II. (Heb-Sed)"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Mentuhotep_II_Heb_Sed.png",
+  "descriptions": {
+    "en": "A painted sandstone statue of King Mentuhotep II wearing the Heb-Sed festival robe, celebrating his jubilee and divine renewal.",
+    "ar": "تمثال من الحجر الرملي الملون للملك منتوحتب الثاني يرتدي رداء عيد الحب-سيد، يحتفل بيوبيله وتجديده الإلهي.",
+    "ru": "Статуя царя Ментухотепа II в одеянии праздника Хеб-Сед.",
+    "de": "Eine bemalte Sandsteinstatue des Königs Mentuhotep II. im Heb-Sed-Festgewand."
+  },
+  "priority": "123"
+}

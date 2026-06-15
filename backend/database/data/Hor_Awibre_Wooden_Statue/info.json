@@ -1,0 +1,21 @@
+{
+  "ai_label": "Hor_Awibre_Wooden_Statue",
+  "names": {
+    "en": "Wooden Statue of King Hor Awibre",
+    "ar": "تمثال الـ 'كا' الخشبي للملك حور أو إيب رع",
+    "ru": "Деревянная статуя царя Хор Ауибре",
+    "de": "Hölzerne Statue des Königs Hor Awibre"
+  },
+  "era": "Middle Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Hor_Awibre_Wooden_Statue.png",
+  "descriptions": {
+    "en": "A wooden Ka statue of King Hor Awibre, representing the king's spiritual essence and ensuring his eternal existence.",
+    "ar": "تمثال كا خشبي للملك حور أو إيب رع، يمثل جوهر الملك الروحي ويضمن وجوده الأبدي.",
+    "ru": "Деревянная статуя Ка царя Хор Ауибре.",
+    "de": "Eine hölzerne Ka-Statue des Königs Hor Awibre."
+  },
+  "priority": "63"
+}

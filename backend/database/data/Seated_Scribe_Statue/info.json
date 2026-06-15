@@ -1,0 +1,21 @@
+{
+  "ai_label": "Seated_Scribe_Statue",
+  "names": {
+    "en": "The Seated Scribe Statue",
+    "ar": "تمثال الكاتب الجالس ذو العيون المطعمة",
+    "ru": "Статуя сидящего писца",
+    "de": "Die Statue des sitzenden Schreibers"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Seated_Scribe_Statue.png",
+  "descriptions": {
+    "en": "A famous seated scribe with inlaid eyes of rock crystal and magnesite, capturing the intelligence and alertness of a royal official.",
+    "ar": "كاتب جالس مشهور بعيون مرصعة من الكريستال الصخري والمغنيسيت، يُظهر ذكاء ويقظة مسؤول ملكي.",
+    "ru": "Знаменитая статуя сидящего писца с инкрустированными глазами.",
+    "de": "Eine berühmte sitzende Schreiberstatue mit eingelegten Augen."
+  },
+  "priority": "61"
+}

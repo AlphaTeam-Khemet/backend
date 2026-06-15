@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Third_Gilded_Shrine",
+  "names": {
+    "en": "Third Gilded Wooden Shrine",
+    "ar": "المقصورة الخشبية المذهبة الثالثة",
+    "ru": "Третий позолоченный деревянный саркофаг",
+    "de": "Dritter vergoldeter Holzschrein"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Third_Gilded_Shrine.jpg",
+  "descriptions": {
+    "en": "The third gilded wooden shrine of Tutankhamun was nested inside the second shrine. It continues the protective theme with elaborate scenes from Egyptian funerary texts. The shrine's walls are adorned with depictions of deities and protective symbols, ensuring the king's safe journey through the underworld. The quality of the gilding and the precision of the woodwork reflect the highest standards of royal craftsmanship in the 18th Dynasty.",
+    "ar": "كانت المقصورة الخشبية المذهبة الثالثة لتوت عنخ آمون مُحاطة داخل المقصورة الثانية. تستمر في موضوع الحماية بمشاهد مُفصّلة من النصوص الجنائزية المصرية. تزين جدران المقصورة بصور للآلهة ورموز حماية، لضمان رحلة الملك الآمنة عبر العالم السفلي. تعكس جودة التذهيب ودقة النجارة أعلى معايير الحرف الملكية في الأسرة الثامنة عشر.",
+    "ru": "Третий позолоченный деревянный саркофаг Тутанхамона был вложен внутрь второго саркофага. Он продолжает защитную тему с подробными сценами из египетских погребальных текстов. Стены саркофага украшены изображениями божеств и защитных символов, обеспечивающих безопасное путешествие царя через подземный мир. Качество позолоты и точность деревообработки отражают высочайшие стандарты царского ремесла в XVIII династии.",
+    "de": "Der dritte vergoldete Holzschrein von Tutanchamun war in den zweiten Schrein eingeschachtelt. Er setzt das Schutzthema mit aufwendigen Szenen aus ägyptischen Totentexten fort. Die Wände des Schreins sind mit Darstellungen von Gottheiten und Schutzsymbolen verziert, die die sichere Reise des Königs durch die Unterwelt gewährleisten. Die Qualität der Vergoldung und die Präzision der Holzarbeit spiegeln die höchsten Standards der königlichen Handwerkskunst in der 18. Dynastie wider."
+  },
+  "priority": "153"
+}

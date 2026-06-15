@@ -1,0 +1,21 @@
+{
+  "ai_label": "Thutmose_III_Young_Statue",
+  "names": {
+    "en": "Statue of Thutmose III as a young man",
+    "ar": "تمثال الملك تحتمس الثالث في شبابه",
+    "ru": "Статуя Тутмоса III в молодости",
+    "de": "Statue des Thutmosis III. als junger Mann"
+  },
+  "era": "New Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Thutmose_III_Young_Statue.png",
+  "descriptions": {
+    "en": "A slate statue depicting Thutmose III as a young man, before his legendary military campaigns, showing his youthful vigor and royal bearing.",
+    "ar": "تمثال من الحجر الأردوازي يُصور تحتمس الثالث في شبابه، قبل حملاته العسكرية الأسطورية، يُظهر حيويته الشابة وهيبته الملكية.",
+    "ru": "Сланцевая статуя, изображающая Тутмоса III в молодости, до его легендарных военных кампаний.",
+    "de": "Eine Schieferstatue, die Thutmosis III. als jungen Mann zeigt, vor seinen legendären militärischen Feldzügen."
+  },
+  "priority": "29"
+}

@@ -1,0 +1,21 @@
+{
+  "ai_label": "Menkaure_Triad_2",
+  "names": {
+    "en": "Greywacke Triad of Menkaure (2)",
+    "ar": "ثلاثية الملك منكاورع الثانية",
+    "ru": "Триада Менкаура из грейвака (2)",
+    "de": "Grauwacke-Triade des Mykerinos (2)"
+  },
+  "era": "Old Kingdom",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Menkaure_Triad_2.png",
+  "descriptions": {
+    "en": "The second triad statue of King Menkaure with a different nome deity, showcasing the king's divine connections.",
+    "ar": "التمثال الثلاثي الثاني للملك منكاورع مع إله إقليم مختلف، يُظهر الروابط الإلهية للملك.",
+    "ru": "Вторая триадная статуя царя Менкаура с другим божеством нома.",
+    "de": "Die zweite Triadenstatue des Königs Mykerinos mit einem anderen Gau-Gott."
+  },
+  "priority": "107"
+}

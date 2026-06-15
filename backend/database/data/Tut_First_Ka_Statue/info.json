@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_First_Ka_Statue",
+  "names": {
+    "en": "First Guardian 'Ka' Statue",
+    "ar": "تمثال الـ 'كا' الحارس الملكي الأول",
+    "ru": "Первая стражающая статуя 'Ка'",
+    "de": "Erste Wächter-'Ka'-Statue"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_First_Ka_Statue.png",
+  "descriptions": {
+    "en": "A life-sized wooden statue of the king's Ka (spiritual double), covered in gold leaf, standing guard at the tomb entrance.",
+    "ar": "تمثال خشبي بحجم طبيعي لكا الملك (النسخة الروحية)، مغطى بالورق الذهبي، يقف حارساً عند مدخل المقبرة.",
+    "ru": "Деревянная статуя в натуральную величину Ка царя, покрытая сусальным золотом.",
+    "de": "Eine lebensgroße hölzerne Statue des Ka des Königs, mit Blattgold überzogen."
+  },
+  "priority": "41"
+}

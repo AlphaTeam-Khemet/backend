@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Gilded_Bed_Sekhmet",
+  "names": {
+    "en": "Gilded Bed with Sekhmet Heads",
+    "ar": "السرير الجنائزي المذهب برؤوس سخمت",
+    "ru": "Позолоченная кровать с головами Сехмет",
+    "de": "Vergoldetes Bett mit Sekhmet-Köpfen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Gilded_Bed_Sekhmet.png",
+  "descriptions": {
+    "en": "A gilded funerary bed featuring the fierce lioness-headed goddess Sekhmet at the headrests, symbolizing protection.",
+    "ar": "سرير جنائزي مذهب يضم الإلهة سخمت ذات رأس الأسدة في مساند الرأس، رمزاً للحماية.",
+    "ru": "Позолоченная погребальная кровать с головами богини Сехмет на подголовниках.",
+    "de": "Ein vergoldetes Begräbnisbett mit der löwenköpfigen Göttin Sekhmet an den Kopfstützen."
+  },
+  "priority": "101"
+}

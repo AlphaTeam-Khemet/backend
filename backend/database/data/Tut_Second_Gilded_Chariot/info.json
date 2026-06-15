@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Second_Gilded_Chariot",
+  "names": {
+    "en": "Second Gilded State Chariot",
+    "ar": "العجلة الحربية الاحتفالية الثانية المجمعة",
+    "ru": "Вторая позолоченная парадная колесница",
+    "de": "Zweite vergoldete Staatswagen"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Second_Gilded_Chariot.png",
+  "descriptions": {
+    "en": "The second of six chariots discovered in Tutankhamun's tomb, now fully assembled for display.",
+    "ar": "الثانية من بين ست عجلات حربية اكتُشفت في مقبرة توت عنخ آمون، مجمعة بالكامل للعرض.",
+    "ru": "Вторая из шести колесниц, обнаруженных в гробнице Тутанхамона.",
+    "de": "Der zweite von sechs Wagen, die im Grab von Tutanchamun entdeckt wurden."
+  },
+  "priority": "125"
+}

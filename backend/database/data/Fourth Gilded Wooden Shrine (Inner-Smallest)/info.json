@@ -1,0 +1,21 @@
+{
+  "ai_label": "Tut_Fourth_Gilded_Shrine",
+  "names": {
+    "en": "Fourth Gilded Wooden Shrine (Inner/Smallest)",
+    "ar": "المقصورة الخشبية المذهبة الرابعة (الصغرى)",
+    "ru": "Четвертый позолоченный деревянный саркофаг (внутренний/маленький)",
+    "de": "Vierter vergoldeter Holzschrein (innerer/kleinster)"
+  },
+  "era": "New Kingdom — 18th Dynasty",
+  "category": "Artifact",
+  "latitude": 29.9947,
+  "longitude": 31.1189,
+  "cover_image": "/uploads/monuments/Tut_Fourth_Gilded_Shrine.png",
+  "descriptions": {
+    "en": "The fourth and innermost gilded wooden shrine of Tutankhamun was the final protective layer before the stone sarcophagus. This smallest shrine contained the three nested coffins of the king. Its walls are decorated with the most intimate and protective scenes, including the goddesses Isis, Nephthys, Neith, and Serket spreading their wings in protection. The shrine represents the culmination of the protective system designed to safeguard the king's eternal rest.",
+    "ar": "كانت المقصورة الخشبية المذهبة الرابعة والداخلية لتوت عنخ آمون الطبقة الحماية الأخيرة قبل التابوت الحجري. احتوت هذه المقصورة الصغرى التوابيت الثلاثة المتداخلة للملك. تزين جدرانها المشاهد الأكثر حميمية وحماية، بما في ذلك الإلهات إيزيس ونفثيس ونيث وسيركت تبسط أجنحتها للحماية. تمثل المقصورة ذروة نظام الحماية المصمم لحماية راحة الملك الأبدية.",
+    "ru": "Четвертый и самый внутренний позолоченный деревянный саркофаг Тутанхамона был последним защитным слоем перед каменным саркофагом. Этот самый маленький саркофаг содержал три вложенных друг в друга гроба царя. Его стены украшены самыми интимными и защитными сценами, включая богинь Исиду, Нефтидай, Нейт и Серкет, распростирающих свои крылья для защиты. Саркофаг представляет собой кульминацию защитной системы, предназначенной для охраны вечного покоя царя.",
+    "de": "Der vierte und innerste vergoldete Holzschrein von Tutanchamun war die letzte Schutzschicht vor dem Steinsarkophag. Dieser kleinste Schrein enthielt die drei ineinander verschachtelten Särge des Königs. Seine Wände sind mit den intimsten und schützendsten Szenen verziert, darunter die Göttinnen Isis, Nephthys, Neith und Serket, die ihre Flügel zum Schutz ausbreiten. Der Schrein repräsentiert den Höhepunkt des Schutzsystems, das zum Schutz der ewigen Ruhe des Königs entworfen wurde."
+  },
+  "priority": "95"
+}
