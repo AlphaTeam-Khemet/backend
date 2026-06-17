@@ -20,6 +20,10 @@ CREATE TABLE users (
   password_hash       TEXT          NOT NULL,
   full_name           VARCHAR(100),
   preferred_language  INTEGER       REFERENCES languages(id) ON DELETE SET NULL,
+  email_verified      BOOLEAN       NOT NULL DEFAULT FALSE,
+  email_otp_hash      TEXT,
+  email_otp_expires_at TIMESTAMPTZ,
+  email_otp_attempts  INTEGER       NOT NULL DEFAULT 0,
   reset_password_otp_hash        TEXT,
   reset_password_otp_expires_at  TIMESTAMPTZ,
   created_at          TIMESTAMPTZ   DEFAULT NOW(),
@@ -45,6 +49,7 @@ CREATE TABLE monuments (
   category     VARCHAR(100),
   cover_image  TEXT,
   ai_label     VARCHAR(150),
+  priority     VARCHAR(20) DEFAULT 'mid',
   created_at   TIMESTAMPTZ    DEFAULT NOW(),
   updated_at   TIMESTAMPTZ    DEFAULT NOW()
 );
