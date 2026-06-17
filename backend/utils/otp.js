@@ -7,6 +7,10 @@ function generateOtp() {
   return crypto.randomInt(100000, 1000000).toString();
 }
 
+function generateChoiceOtp() {
+  return crypto.randomInt(10, 100).toString();
+}
+
 function getOtpExpiry() {
   return new Date(Date.now() + OTP_TTL_MINUTES * 60 * 1000);
 }
@@ -23,6 +27,7 @@ function verifyOtp(otp, hash) {
 module.exports = {
   OTP_TTL_MINUTES,
   generateOtp,
+  generateChoiceOtp,
   getOtpExpiry,
   hashOtp,
   verifyOtp,
