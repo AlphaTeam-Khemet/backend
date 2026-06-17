@@ -48,37 +48,6 @@ async function sendPasswordResetOtp({ to, otp }) {
   return { skipped: false };
 }
 
-async function sendEmailVerificationOtp({ to, otp }) {
-  if (!emailConfigReady()) {
-    // Development fallback: keep registration usable when SMTP is absent.
-    // Never log OTPs in production. Configure Gmail using an App Password:
-    // EMAIL_HOST=smtp.gmail.com, EMAIL_PORT=465, EMAIL_SECURE=true.
-    if (process.env.NODE_ENV !== 'production') {
-      console.info(`[dev] Email verification OTP for ${to}: ${otp}`);
-    }
-    return { skipped: true };
-  }
-
-  const transporter = createTransporter();
-  const from = process.env.EMAIL_FROM || 'Grand Egyptian Museum Tourist Guide <no-reply@gem-guide.com>';
-
-  await transporter.sendMail({
-    from,
-    to,
-    subject: 'Verify your KHEMET account',
-    text: `Your KHEMET email verification number is ${otp}. It expires in ${OTP_TTL_MINUTES} minutes.`,
-    html: `
-      <p>Your KHEMET email verification number is:</p>
-      <h2 style="letter-spacing: 4px;">${otp}</h2>
-      <p>This number expires in ${OTP_TTL_MINUTES} minutes.</p>
-      <p>If you did not create a KHEMET account, you can ignore this email.</p>
-    `,
-  });
-
-  return { skipped: false };
-}
-
 module.exports = {
-  sendEmailVerificationOtp,
   sendPasswordResetOtp,
 };
