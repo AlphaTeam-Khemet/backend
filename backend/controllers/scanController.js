@@ -86,16 +86,9 @@ exports.artifact = async (req, res, next) => {
       };
     }
 
-    if (status === 'completed' && mappedMonumentName) {
-      try {
-        // chatbot-llm adds optional Groq + ChromaDB historical guide text.
-        // It must never block the core scan/artifact-recognition flow.
-        const guideResult = await ragClient.describe({ monument_name: mappedMonumentName }, { timeout: 8000 });
-        aiGuideDescription = guideResult.description || null;
-      } catch {
-        aiGuideDescription = null;
-      }
-    }
+    // The LLM description call was removed here because we already have 
+    // high-quality pre-written descriptions in the database, and we want 
+    // the scan to be as fast as possible.
 
     const session = await ScanSession.create({
       user_id: req.user.id,

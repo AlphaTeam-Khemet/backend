@@ -37,6 +37,6 @@ router.post(
   ctrl.narrateArtifact
 );
 
-router.get('/audio/:filename', auth, ctrl.streamNarrationAudio);
+router.get('/audio/:filename', ctrl.streamNarrationAudio);
 
 module.exports = router;
