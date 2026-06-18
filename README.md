@@ -26,6 +26,8 @@ JWT_SECRET=change_me_in_production
 AI_SERVICE_URL=http://localhost:8000
 RAG_SERVICE_URL=http://localhost:8001
 RAG_SERVICE_TIMEOUT_MS=180000
+VOICE_SERVICE_URL=http://localhost:8003
+HIEROGLYPH_SERVICE_URL=http://localhost:8002
 GROQ_API_KEY=
 EMAIL_HOST=
 EMAIL_PORT=
@@ -100,9 +102,11 @@ curl http://localhost:3000/api/monuments
 Docker networking:
 
 ```text
-backend -> postgres       DB_HOST=postgres
-backend -> cv-recognition AI_SERVICE_URL=http://cv-recognition:8000
-backend -> chatbot-llm    RAG_SERVICE_URL=http://chatbot-llm:8001
+backend -> postgres               DB_HOST=postgres
+backend -> cv-recognition         AI_SERVICE_URL=http://cv-recognition:8000
+backend -> chatbot-llm            RAG_SERVICE_URL=http://chatbot-llm:8001
+backend -> hieroglyph-translator  HIEROGLYPH_SERVICE_URL=http://hieroglyph-translator:8002
+backend -> voice-tour-guide       VOICE_SERVICE_URL=http://voice-tour-guide:8003
 ```
 
 Common Docker fixes:
@@ -202,6 +206,8 @@ All AI Guide routes except `/health` require `Authorization: Bearer <access_toke
 ```text
 Frontend/Mobile -> backend /api/scan/artifact -> cv-recognition /predict
 Frontend/Mobile -> backend /api/ai-guide/* -> chatbot-llm
+Frontend/Mobile -> backend /api/hieroglyphs/translate -> hieroglyph-translator
+Frontend/Mobile -> backend /api/voice/artifacts/:id/narrate -> chatbot-llm (story) + voice-tour-guide (tts)
 ```
 
 The backend remains the only service the frontend/mobile app should call directly.
@@ -275,6 +281,6 @@ The backend mapping is in `backend/utils/classMapping.js` and should match `ai_s
 ## Voice Tour Guide
 
 - **Standalone Microservice:** `AI_services/voice_tour_guide/` (Port 8003)
-- **AI Flow:** Receives requests from the backend (`voiceController.js`), generates a narrative via Groq LLM, injects emotional cue tags (`[sighs]`, etc.), and synthesizes audio via ElevenLabs API.
-- **Resilience:** Integrates offline fallback TTS using Coqui if ElevenLabs is unreachable or rate-limited.
-- **Persistence:** Generated narrations are cached in the PostgreSQL `ArtifactNarration` table, linking the artifact ID, language, and the physical `/audio` path.
+- **AI Flow:** The backend (`voiceController.js`) requests the `chatbot_LLM` to generate an engaging tour guide narrative via Groq. The backend then proxies this text to `voice_tour_guide` which synthesizes the audio via the ElevenLabs API.
+- **Resilience:** The TTS returns `null` safely if ElevenLabs is unreachable, allowing the frontend to still read the generated text.
+- **Persistence:** Generated narrations are cached in the PostgreSQL `ArtifactNarration` table, linking the artifact ID, language, and the internal `/audio` path, avoiding unnecessary LLM and TTS calls on subsequent requests.
