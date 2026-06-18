@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { body } = require('express-validator');
 const rateLimit = require('express-rate-limit');
 const validate = require('../middleware/validate');
+const auth = require('../middleware/auth');
 const ctrl = require('../controllers/authController');
 
 const passwordResetLimiter = rateLimit({
@@ -10,6 +11,14 @@ const passwordResetLimiter = rateLimit({
   standardHeaders: true,
   legacyHeaders: false,
   message: { error: 'Too many password reset attempts. Please try again later.' },
+});
+
+const emailVerificationLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 10,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many email verification attempts. Please try again later.' },
 });
 
 router.post('/register', [
@@ -25,6 +34,14 @@ router.post('/login', [
 
 router.post('/refresh', ctrl.refresh);
 router.post('/logout', ctrl.logout);
+
+router.post('/send-email-verification', auth, emailVerificationLimiter, ctrl.sendEmailVerification);
+
+router.post('/verify-email', auth, emailVerificationLimiter, [
+  body('otp').isLength({ min: 2, max: 6 }).isNumeric().withMessage('A valid verification code is required'),
+], validate, ctrl.verifyEmail);
+
+router.post('/resend-email-verification', auth, emailVerificationLimiter, ctrl.resendEmailVerification);
 
 router.post('/forgot-password', passwordResetLimiter, [
   body('email').isEmail().normalizeEmail().withMessage('Valid email is required'),

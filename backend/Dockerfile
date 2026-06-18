@@ -1,7 +1,9 @@
 FROM node:20-alpine
 
 # Run as non-root user for security
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+RUN addgroup -S appgroup \
+    && adduser -S appuser -G appgroup \
+    && apk add --no-cache su-exec
 
 WORKDIR /app
 
@@ -16,9 +18,9 @@ COPY . .
 # Create uploads directory with correct permissions
 RUN mkdir -p uploads && chown -R appuser:appgroup /app
 
-# Switch to non-root user
-USER appuser
+RUN chmod +x /app/docker-entrypoint.sh
 
 EXPOSE 3000
 
+ENTRYPOINT ["/app/docker-entrypoint.sh"]
 CMD ["node", "server.js"]

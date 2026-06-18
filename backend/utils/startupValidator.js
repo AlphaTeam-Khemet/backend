@@ -18,9 +18,12 @@ const REQUIRED_ENV_VARS = [
   'DB_HOST',
   'DB_PORT',
   'JWT_SECRET',
-  'VOICE_SERVICE_URL',
   'AI_SERVICE_URL',
   'RAG_SERVICE_URL',
+];
+
+const OPTIONAL_ENV_VARS = [
+  'VOICE_SERVICE_URL',
   'HIEROGLYPH_SERVICE_URL',
 ];
 
@@ -35,4 +38,11 @@ module.exports = function validateEnv() {
   logger.info('Environment validation passed', {
     vars: REQUIRED_ENV_VARS.length,
   });
+
+  const missingOptional = OPTIONAL_ENV_VARS.filter(key => !process.env[key]);
+  if (missingOptional.length > 0) {
+    logger.warn('Optional integration environment variables are not configured', {
+      missing: missingOptional,
+    });
+  }
 };

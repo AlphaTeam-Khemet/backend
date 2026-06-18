@@ -4,7 +4,7 @@
  * Voice Tour Guide route — proxies narration requests to the
  * voice-tour-guide AI service (port 8003).
  *
- * All requests require authentication via the auth middleware.
+ * Narration requests require authentication via the auth middleware.
  * Rate limited to 20 requests per 15 minutes per user to protect
  * ElevenLabs API quota.
  *
@@ -29,6 +29,15 @@ const voiceRateLimiter = rateLimit({
     message: 'Too many narration requests. Please wait a few minutes.',
   },
 });
+
+router.get('/health', ctrl.health);
+
+router.post(
+  '/narrate',
+  auth,
+  voiceRateLimiter,
+  ctrl.narrate
+);
 
 router.post(
   '/artifacts/:artifactId/narrate',

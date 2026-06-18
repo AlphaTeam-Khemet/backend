@@ -1,0 +1,57 @@
+
+> gem-backend@1.0.0 dev
+> nodemon server.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+{"timestamp":"2026-06-17T16:11:21.454Z","level":"info","service":"khemet-backend","message":"Environment validation passed","vars":8}
+{"timestamp":"2026-06-17T16:11:21.548Z","level":"info","service":"khemet-backend","message":"PostgreSQL connected successfully"}
+{"timestamp":"2026-06-17T16:11:21.592Z","level":"info","service":"khemet-backend","message":"Sequelize models synced (dev mode)"}
+{"timestamp":"2026-06-17T16:11:21.597Z","level":"info","service":"khemet-backend","message":"KHEMET backend started","port":"3010","env":"development"}
+[0mGET / [32m200[0m 12.416 ms - 517[0m
+[0mGET / [32m200[0m 3.706 ms - 517[0m
+[dev] Email verification OTP for audit_1781712749870@example.com: 85
+[0mPOST /api/auth/register [32m201[0m 185.856 ms - 595[0m
+[0mPOST /api/auth/register [33m409[0m 4.627 ms - 36[0m
+[dev] Email verification OTP for audit_1781712749870@example.com: 92
+[0mPOST /api/auth/send-email-verification [32m200[0m 79.373 ms - 77[0m
+[0mPOST /api/auth/verify-email [33m400[0m 79.074 ms - 54[0m
+[0mPOST /api/auth/verify-email [32m200[0m 76.268 ms - 206[0m
+[0mPOST /api/auth/resend-email-verification [33m409[0m 2.603 ms - 37[0m
+[0mPOST /api/auth/login [32m200[0m 70.251 ms - 518[0m
+[0mPOST /api/auth/refresh [32m200[0m 4.802 ms - 206[0m
+[dev] Password reset OTP for audit_1781712749870@example.com: 716127
+[0mPOST /api/auth/forgot-password [32m200[0m 71.393 ms - 72[0m
+[0mPOST /api/auth/verify-reset-otp [33m400[0m 71.398 ms - 50[0m
+[0mPOST /api/auth/verify-reset-otp [32m200[0m 69.670 ms - 42[0m
+[0mPOST /api/auth/reset-password [32m200[0m 138.443 ms - 50[0m
+[0mPOST /api/auth/login [33m401[0m 68.746 ms - 31[0m
+[0mPOST /api/auth/login [32m200[0m 66.307 ms - 518[0m
+[0mGET /api/monuments?lang=en [32m200[0m 13.494 ms - 14749[0m
+[0mGET /api/monuments/79e3cd0a-f217-47b1-a4fa-d432382d5288?lang=ar [32m200[0m 6.050 ms - 1091[0m
+[0mGET /api/reviews/monument/79e3cd0a-f217-47b1-a4fa-d432382d5288 [32m200[0m 2.078 ms - 2[0m
+[0mPOST /api/favorites [32m201[0m 25.003 ms - 188[0m
+[0mGET /api/favorites [32m200[0m 3.544 ms - 519[0m
+[0mPOST /api/reviews [32m201[0m 6.623 ms - 222[0m
+[0mGET /api/reviews/monument/79e3cd0a-f217-47b1-a4fa-d432382d5288 [32m200[0m 1.521 ms - 224[0m
+[0mPOST /api/gallery [32m201[0m 6.691 ms - 246[0m
+[0mGET /api/gallery [32m200[0m 4.729 ms - 417[0m
+[0mGET /api/users/profile [32m200[0m 3.199 ms - 481[0m
+[0mPUT /api/users/profile [32m200[0m 4.290 ms - 489[0m
+[0mGET /api/ai-guide/health [32m200[0m 17.219 ms - 77[0m
+[0mPOST /api/ai-guide/ask [32m200[0m 1167.754 ms - 1033[0m
+[0mGET /api/ai-guide/conversations [32m200[0m 5.733 ms - 215[0m
+[0mGET /api/ai-guide/conversations/5ed0cdba-a47c-4dc0-901e-42778770cfe4/messages [32m200[0m 2.988 ms - 1229[0m
+[0mPATCH /api/ai-guide/conversations/5ed0cdba-a47c-4dc0-901e-42778770cfe4/title [32m200[0m 3.186 ms - 66[0m
+[0mPOST /api/ai-guide/describe [32m200[0m 1980.954 ms - 2514[0m
+[0mPOST /api/ai-guide/identify [32m200[0m 460.558 ms - 129[0m
+[0mPOST /api/scan/artifact?lang=en [32m201[0m 5908.155 ms - 4199[0m
+[0mGET /api/scan/history?lang=en [32m200[0m 3.483 ms - 437[0m
+[0mDELETE /api/ai-guide/conversations/5ed0cdba-a47c-4dc0-901e-42778770cfe4 [32m200[0m 3.978 ms - 34[0m
+[0mDELETE /api/reviews/fd26bbdb-c9e0-40f0-a83a-37c14549a9de [32m200[0m 3.297 ms - 21[0m
+[0mDELETE /api/favorites/1 [32m200[0m 3.101 ms - 21[0m
+[0mDELETE /api/gallery/e2e33a27-9058-4e58-8df8-bf18dba9e2b2 [32m200[0m 2.283 ms - 21[0m
+[0mPOST /api/auth/logout [32m200[0m 2.532 ms - 24[0m

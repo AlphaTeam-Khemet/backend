@@ -78,6 +78,7 @@ app.use('/api/gallery',   require('./routes/gallery'));
 app.use('/api/reviews',   require('./routes/reviews'));
 app.use('/api/scan',      require('./routes/scan'));
 app.use('/api/ai-guide',  require('./routes/aiGuideRoutes'));
+app.use('/api/hieroglyph', require('./routes/hieroglyph'));
 app.use('/api/voice',     require('./routes/voice'));
 app.use('/',              require('./routes/web'));
 
