@@ -5,6 +5,7 @@ const { User, RefreshToken } = require('../models');
 const { generateOtp, generateChoiceOtp, getOtpExpiry, hashOtp, verifyOtp } = require('../utils/otp');
 const { sendPasswordResetOtp, sendEmailVerificationOtp } = require('../utils/emailClient');
 const logger = require('../utils/logger');
+const { resolveLanguageId } = require('../utils/language');
 
 const RESET_SAFE_MESSAGE = 'If this email exists, a password reset code has been sent.';
 const RESET_INVALID_MESSAGE = 'Invalid or expired password reset code';
@@ -89,13 +90,17 @@ exports.register = async (req, res, next) => {
     const { full_name, email, password, preferred_language } = req.body;
     const exists = await User.findOne({ where: { email } });
     if (exists) return res.status(409).json({ error: 'Email already registered' });
+    const preferredLanguageId = await resolveLanguageId(preferred_language, 'en');
+    if (!preferredLanguageId) {
+      return res.status(400).json({ error: 'Unsupported preferred language' });
+    }
 
     const password_hash = await bcrypt.hash(password, 10);
     const user = await User.create({
       full_name,
       email,
       password_hash,
-      preferred_language,
+      preferred_language: preferredLanguageId,
       email_verified: false,
     });
     const verification = await issueEmailVerificationOtp(user);

@@ -634,8 +634,12 @@ http://localhost:3000
 curl.exe http://localhost:3000
 curl.exe http://localhost:3000/api/monuments
 curl.exe http://localhost:3000/api/ai-guide/health
+curl.exe http://localhost:3000/api/hieroglyph/health
+curl.exe http://localhost:3000/api/voice/health
 curl.exe http://localhost:8000/health
 curl.exe http://localhost:8001/health
+curl.exe http://localhost:8002/health
+curl.exe http://localhost:8003/health
 ```
 
 ## Notes
@@ -650,3 +654,34 @@ curl.exe http://localhost:8001/health
 - Uploaded files are stored under `backend/uploads/`.
 - Upload size is controlled by `MAX_UPLOAD_SIZE_MB`; the default is `10`.
 - Do not commit real secrets or API keys.
+
+## Hieroglyph And Voice Gateway APIs
+
+The frontend must send its JWT in `Authorization: Bearer <access_token>` and call the backend only.
+
+```http
+POST /api/hieroglyph/translate
+Content-Type: multipart/form-data
+image: <image file>
+```
+
+```http
+POST /api/hieroglyph/detect-only
+Content-Type: multipart/form-data
+image: <image file>
+```
+
+```http
+POST /api/voice/narrate
+Content-Type: application/json
+```
+
+```json
+{
+  "monument_name": "Pyramid of Khafre",
+  "description": "A Fourth Dynasty royal pyramid at Giza.",
+  "language": "en"
+}
+```
+
+`GET /api/hieroglyph/health` and `GET /api/voice/health` are public diagnostic endpoints.

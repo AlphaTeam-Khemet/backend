@@ -17,15 +17,56 @@
 const axios = require('axios');
 const path = require('path');
 const { ArtifactNarration } = require('../models');
+const voiceClient = require('../utils/voiceClient');
 
 const VOICE_SERVICE_URL = (
-  process.env.VOICE_SERVICE_URL || 'http://voice-tour-guide:8003'
+  process.env.VOICE_SERVICE_URL || 'http://localhost:8003'
 ).replace(/\/$/, '');
 
 const VOICE_SERVICE_TIMEOUT = parseInt(
   process.env.VOICE_SERVICE_TIMEOUT_MS || '60000',
   10
 );
+
+function sendVoiceServiceError(res, error) {
+  return res.status(error.statusCode || 502).json({
+    success: false,
+    error: error.name || 'VoiceServiceError',
+    message: error.message || 'Voice tour guide service failed.',
+  });
+}
+
+exports.health = async (req, res) => {
+  try {
+    const data = await voiceClient.health();
+    return res.json(data);
+  } catch (error) {
+    return sendVoiceServiceError(res, error);
+  }
+};
+
+exports.narrate = async (req, res) => {
+  const { monument_name, description, language = 'en' } = req.body;
+
+  if (!monument_name || !description) {
+    return res.status(400).json({
+      success: false,
+      error: 'MISSING_FIELDS',
+      message: 'monument_name and description are required.',
+    });
+  }
+
+  try {
+    const data = await voiceClient.narrate({
+      monument_name,
+      description,
+      language,
+    });
+    return res.json(data);
+  } catch (error) {
+    return sendVoiceServiceError(res, error);
+  }
+};
 
 /**
  * POST /api/voice/artifacts/:artifactId/narrate
@@ -215,7 +256,7 @@ exports.streamNarrationAudio = async (req, res, next) => {
 
   try {
     const audioResponse = await axios.get(
-      `${VOICE_SERVICE_URL}/static/audio/${safeFilename}`,
+      `${VOICE_SERVICE_URL}/audio/${safeFilename}`,
       {
         responseType: 'stream',
         timeout: VOICE_SERVICE_TIMEOUT,

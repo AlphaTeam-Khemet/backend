@@ -1,4 +1,5 @@
 const { User, Language } = require('../models');
+const { resolveLanguageId } = require('../utils/language');
 
 exports.getProfile = async (req, res, next) => {
   try {
@@ -16,7 +17,15 @@ exports.getProfile = async (req, res, next) => {
 exports.updateProfile = async (req, res, next) => {
   try {
     const { full_name, preferred_language } = req.body;
-    await User.update({ full_name, preferred_language }, { where: { id: req.user.id } });
+    const updates = { full_name };
+    if (preferred_language !== undefined) {
+      const preferredLanguageId = await resolveLanguageId(preferred_language);
+      if (!preferredLanguageId) {
+        return res.status(400).json({ error: 'Unsupported preferred language' });
+      }
+      updates.preferred_language = preferredLanguageId;
+    }
+    await User.update(updates, { where: { id: req.user.id } });
     const user = await User.findByPk(req.user.id, {
       attributes: { exclude: ['password_hash'] },
       include: [{ model: Language, as: 'language' }],
