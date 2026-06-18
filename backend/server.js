@@ -75,6 +75,10 @@ async function start() {
       });
     });
 
+    // Fix Keep-Alive race condition with Dart/Flutter HTTP clients
+    server.keepAliveTimeout = 120000; // 120 seconds
+    server.headersTimeout = 121000; // 121 seconds
+
     // ── Step 4: Graceful shutdown ───────────────────────────────────────
     // Allows in-flight requests to complete before closing
     async function shutdown(signal) {

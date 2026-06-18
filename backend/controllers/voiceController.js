@@ -258,17 +258,24 @@ exports.streamNarrationAudio = async (req, res, next) => {
     const audioResponse = await axios.get(
       `${VOICE_SERVICE_URL}/audio/${safeFilename}`,
       {
-        responseType: 'stream',
+        responseType: 'arraybuffer',
         timeout: VOICE_SERVICE_TIMEOUT,
       }
     );
 
-    res.setHeader('Content-Type', audioResponse.headers['content-type'] || 'audio/mpeg');
-    if (audioResponse.headers['content-length']) {
-      res.setHeader('Content-Length', audioResponse.headers['content-length']);
-    }
-
-    return audioResponse.data.pipe(res);
+    const fs = require('fs');
+    const os = require('os');
+    const tempPath = path.join(os.tmpdir(), safeFilename);
+    
+    // Save to temp file to allow Express to handle byte-range requests natively
+    fs.writeFileSync(tempPath, audioResponse.data);
+    
+    return res.sendFile(tempPath, (err) => {
+      // Clean up temp file after sending
+      if (fs.existsSync(tempPath)) {
+        fs.unlinkSync(tempPath);
+      }
+    });
   } catch (err) {
     if (err.response?.status === 404) {
       return res.status(404).json({
